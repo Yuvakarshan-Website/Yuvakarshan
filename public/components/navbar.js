@@ -1,4 +1,4 @@
-// public/components/navbar.js
+// navbar.js
 
 export function Navbar() {
   const nav = document.createElement('nav');
@@ -6,11 +6,11 @@ export function Navbar() {
 
   nav.innerHTML = `
     <ul class="nav-list">
-      <li><a href="#/">Home</a></li>
-      <li><a href="#/about">About</a></li>
-      <li><a href="#/contact">Contact</a></li>
+      <li><a class="nav-link" href="/">Home</a></li>
+      <li><a class="nav-link" href="/about">About</a></li>
+      <li><a class="nav-link" href="/contact">Contact</a></li>
     </ul>
   `;
-  
+
   return nav;
 }
