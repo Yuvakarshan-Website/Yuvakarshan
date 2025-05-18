@@ -8,6 +8,7 @@ import { Navbar } from './components/navbar.js';
 const appContainer = document.getElementById('app');
 const navbarContainer = document.getElementById('navbar');
 
+
 // Inject navbar once
 navbarContainer.appendChild(Navbar());
 
