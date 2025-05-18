@@ -1,9 +1,14 @@
-// public/pages/gallery.js
-export function Gallery() {
-  const div = document.createElement('div');
-  div.innerHTML = `
-    <h1>Gallery</h1>
-    <p>Take a look at our best moments!</p>
+export default function Gallery() {
+  const container = document.createElement('div');
+  container.className = 'gallery-page';
+
+  container.innerHTML = `
+    <section class="gallery-grid">
+      <h1 class="page-title">Gallery</h1>
+      <div class="images">
+      </div>
+    </section>
   `;
-  return div;
+
+  return container;
 }
