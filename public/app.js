@@ -1,38 +1,51 @@
-// app.js
-
+// public/app.js
+import { Home } from './pages/home.js';
+import { Events } from './pages/events.js';
+import { Gallery } from './pages/gallery.js';
+import { Team } from './pages/team.js';
 import { Navbar } from './components/navbar.js';
 
-const navbarContainer = document.getElementById('navbar');
 const appContainer = document.getElementById('app');
+const navbarContainer = document.getElementById('navbar');
 
+// Inject navbar once
 navbarContainer.appendChild(Navbar());
 
-window.addEventListener('popstate', renderPage);
+const routes = {
+  '/': Home,
+  '/home': Home,
+  '/events': Events,
+  '/gallery': Gallery,
+  '/team': Team
+};
 
-document.addEventListener('click', function (e) {
+function renderRoute(path) {
+  const PageComponent = routes[path] || (() => {
+    const div = document.createElement('div');
+    div.innerHTML = '<h1>404 - Page Not Found</h1>';
+    return div;
+  });
+
+  appContainer.innerHTML = '';
+  appContainer.appendChild(PageComponent());
+}
+
+// Handle initial load
+window.addEventListener('DOMContentLoaded', () => {
+  renderRoute(window.location.pathname);
+});
+
+// Handle history navigation
+window.addEventListener('popstate', () => {
+  renderRoute(window.location.pathname);
+});
+
+// Handle nav link clicks
+document.addEventListener('click', (e) => {
   if (e.target.matches('a.nav-link')) {
     e.preventDefault();
     const href = e.target.getAttribute('href');
     history.pushState(null, '', href);
-    renderPage();
+    renderRoute(href);
   }
 });
-
-function renderPage() {
-  const route = window.location.pathname;
-  appContainer.innerHTML = '';
-
-  switch (route) {
-    case '/':
-      appContainer.innerHTML = '<h1>Welcome to Yuvakarshan</h1>';
-      break;
-    case '/about':
-      appContainer.innerHTML = '<h1>About Us</h1>';
-      break;
-    case '/contact':
-      appContainer.innerHTML = '<h1>Contact Page</h1>';
-      break;
-    default:
-      appContainer.innerHTML = '<h1>404 - Page Not Found</h1>';
-  }
-}
