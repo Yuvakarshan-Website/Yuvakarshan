@@ -4,6 +4,8 @@ import Gallery from './pages/gallery.js';
 import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
 
+//check
+
 const routes = {
   '/': Home,
   '/home': Home,
