@@ -8,12 +8,8 @@ body {
 
 
 
-@font-face {
-  font-family: 'Kaivalya Ikiiko';
-  src: url('\assets\fonts\KAIVALYADEMO.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
+@font-face { font-family: Kaivalya; src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf'); } 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 /*Pages*/
@@ -37,7 +33,6 @@ body {
 }
 /* public/styles.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 .navbar {
   position: fixed;
   top: 0;
@@ -56,6 +51,13 @@ body {
 }
 
 .nav-left {
+  padding-right: 5%;
+  background-image: 
+    radial-gradient(
+      ellipse at center center,
+      rgba(255, 255, 255, 0.22) 0%,
+      rgba(255, 255, 255, 0) 70%
+    );
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -66,20 +68,35 @@ body {
   width: auto
 }
 
+.nav-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .nav-title {
-  font-family: 'Kaivalya Ikiiko', serif;
+  text-decoration: none;
+  font-family: 'Kaivalya', sans-serif;
   font-size: 1.5rem;
   color: white;
   letter-spacing: 2px;
 }
 
+.nav-subtitle {
+  text-decoration: none;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1rem;
+  color: #ffd700;
+  letter-spacing: 0.8rem;
+}
+
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 2.5rem;
+  gap: 3rem;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .nav-list li {
@@ -88,9 +105,12 @@ body {
 
 .nav-link {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  font-style: normal;
   color: white;
-  font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1rem;
   text-transform: uppercase;
   position: relative;
   transition: color 0.3s ease;

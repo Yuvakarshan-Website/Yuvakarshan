@@ -4,8 +4,11 @@ export default function Navbar() {
 
   nav.innerHTML = `
     <div class="nav-left">
-      <img class="nav-image" src="/favicon.ico" alt="Logo" />
-      <div class="nav-title">YUVAKARSHAN</div>
+      <img class="nav-image" src="/assets/images/navbarImage.png" alt="Logo" />
+      <div class="nav-title-container">
+        <a href="/" class="nav-title" data-link>YUVAKARSHAN</a>
+        <a href="/" class="nav-subtitle" data-link>2K25</a>
+      </div>
     </div>
     <ul class="nav-list">
       <li><a href="/" class="nav-link" data-link>Home</a></li>
