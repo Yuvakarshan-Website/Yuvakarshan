@@ -1,4 +1,4 @@
-
+/*genera*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,14 +7,16 @@ body {
 }
 
 
-
+/*fonts*/
 @font-face { font-family: Kaivalya; src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf'); } 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-/*Pages*/
-/*home*/
 
+
+/*Pages*/
+
+/*home*/
 .home {
   background-image: 
     radial-gradient(
@@ -31,8 +33,12 @@ body {
   color: rgb(0, 0, 0);
   padding: 2rem;
 }
-/* public/styles.css */
 
+
+
+/*components*/
+
+/*navbar*/
 .navbar {
   position: fixed;
   top: 0;
@@ -91,10 +97,33 @@ body {
   letter-spacing: 0.8rem;
 }
 
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.nav-hamburger {
+  cursor: pointer;
+  display: none;
+  width: 1.875rem;
+  height: 1.5rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-hamburger-bar {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #ffd700; /* bright yellow */
+  border-radius: 0.625rem;
+  transition: all ease-in-out 0.2s;
+}
+
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: clamp(1rem, 3vw, 3rem);
   margin: 0;
   padding: 0;
 }
@@ -135,4 +164,23 @@ body {
 
 .nav-link:hover::after {
   transform: scaleX(1);
+}
+
+@media (max-aspect-ratio: 1.3/1) {
+  .nav-hamburger {
+    display: flex;
+  }
+
+  .nav-right {
+    padding: 1rem;
+    right: 1rem;
+    background-color: rgba(255, 189, 122, 0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    top: 7rem;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+  }
 }

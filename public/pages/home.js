@@ -3,8 +3,6 @@ export default function Home() {
   container.className = 'home';
 
   container.innerHTML = `
-    <h1>Welcome to Yuvakarshan</h1>
-    <p>This is the home page content.</p>
   `;
 
   return container;
