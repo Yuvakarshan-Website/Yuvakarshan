@@ -9,7 +9,7 @@ export default function Events() {
             <!-- Repeat this block for each card -->
               <div class="card-row">
                 <div class="card">
-                  <img src="https://i.pinimg.com/564x/18/39/15/183915d24b8fbcdaf77cdb0c40526f3d.jpg" alt="Moot Court">
+                  <img src="../assets/images/logo.jpeg" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
 
