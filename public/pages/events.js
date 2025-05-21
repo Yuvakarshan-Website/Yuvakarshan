@@ -8,7 +8,7 @@ export default function Events() {
       <ul>
         <li>Hackathon 2025</li>
         <li>Science Expo</li>
-        <li>Literary Debate</li>
+        <li>Literary Debate is gay</li>
       </ul>
     </section>
   `;
