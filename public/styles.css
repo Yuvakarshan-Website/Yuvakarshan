@@ -6,17 +6,16 @@ body {
   background: #f4f4f4;
 }
 
-div::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
 }
 
 /*fonts*/
 @font-face { font-family: Kaivalya; src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf'); } 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-div::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
 
 
 /*Pages*/
@@ -34,13 +33,14 @@ div::-webkit-scrollbar {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
   color: rgb(0, 0, 0);
-  padding: 2rem;
 }
 
+.home {height: 300vh;}
+.events-page {height: 100vh;}
+
 @media (max-aspect-ratio: 1/1) {
-  .home {
+  .home, .events-page {
     background-size: auto 100lvh;
     background-position: center 0;
   }
@@ -51,19 +51,18 @@ div::-webkit-scrollbar {
 /* EVENTS PAGE */
 
 .events-list{
-  height: 100vh;
+  max-height: 60lvh;
+  overflow: none;
+  padding: 2rem;
 }
 
 .card-container{
   width: 100%;
-  min-height: 100vh;
   display: flex;
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Fit the full viewport height */
   overflow-y: auto; /* Optional: makes inner content scroll if it overflows */
-  padding: 2rem;
   box-sizing: border-box;
 }
 
@@ -73,18 +72,24 @@ div::-webkit-scrollbar {
 }
 
 .card-grid {
+  height: 76vh;
+  margin-top: 4.6rem;
   justify-items: center;
-  margin-top: 20px;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
   position: relative;
   width: 95%;
-  padding: 80px;
+  padding: 1.6rem 5rem;
   background: rgba(0, 0, 0, 0.433);
   backdrop-filter: blur(1px);
   border-radius: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+  scrollbar-width: 0.8rem; /* Firefox */
+  scrollbar-color: rgb(255, 217, 0) rgba(0 0 0 / 0.1); /* thumb and track */
 }
+
 
 /* Individual card style */
 .card {

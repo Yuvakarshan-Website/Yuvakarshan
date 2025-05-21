@@ -39,6 +39,72 @@ export default function Events() {
                   <div class="card-title">MOOT COURT</div>
                 </div>
               </div>
+
+                          <div class="card-row">
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+              </div>
+
+                          <div class="card-row">
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+
+                <div class="card">
+                  <img src="../assets/images/logo.png" alt="Moot Court">
+                  <div class="card-title">MOOT COURT</div>
+                </div>
+              </div>
           </div>
         </div>
 
