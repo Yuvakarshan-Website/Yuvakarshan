@@ -42,3 +42,25 @@ function setupRouter() {
 }
 
 setupRouter();
+
+
+const hamburger = document.querySelector('.nav-hamburger');
+const navRight = document.querySelector('.nav-right');
+const links = document.querySelectorAll('.nav-link');
+
+hamburger.addEventListener("click", () =>{
+    navRight.classList.toggle("active");
+    hamburger.classList.toggle("active");
+});
+
+
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    navRight.classList.toggle("active");
+    hamburger.classList.toggle("active");
+  });
+});
+
+
+
+
