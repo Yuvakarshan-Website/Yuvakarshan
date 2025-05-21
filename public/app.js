@@ -61,6 +61,23 @@ links.forEach(link => {
   });
 });
 
+  window.addEventListener("scroll", () => {
+    const yuva = document.querySelector(".Yuva");
+    const scrollY = window.scrollY || window.pageYOffset;
+
+    if (scrollY >= (window.innerHeight*0.25) && scrollY <= (window.innerHeight*0.75)) {
+      yuva.classList.add("scrolled1");
+    } else {
+      yuva.classList.remove("scrolled1"); // Optional: keep or remove based on whether you want it to reverse
+    }
+
+    if (scrollY >= (window.innerHeight*0.75)) {
+      yuva.classList.add("scrolled");
+    } else {
+      yuva.classList.remove("scrolled"); // Optional: keep or remove based on whether you want it to reverse
+    }
+  });
+
 
 
 
