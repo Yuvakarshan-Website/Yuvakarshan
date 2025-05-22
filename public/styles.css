@@ -15,6 +15,7 @@ body {
 /*fonts*/
 @font-face { font-family: Kaivalya; src: url('/assets/fonts/KaivalyaIkiikocom-0Wy9r.otf'); } 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 
 
@@ -136,7 +137,6 @@ body {
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out;
-
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   width: 50vw;
@@ -149,14 +149,15 @@ body {
   z-index: 1;
   
   /* Golden border */
-  border: 2px solid #ff9900;
+  /* border: 2px solid #ff9900; */
 
   /* Glowing effect */
   box-shadow: 
-    0 0 8px rgba(255, 215, 0, 0.3),
+    0 0 8px rgba(255, 187, 1, 0.852),
     0 0 16px rgba(255, 215, 0, 0.2),
     0 0 24px rgba(255, 215, 0, 0.1);
 }
+
 
 .YuvaHist.visible {
   opacity: 1;

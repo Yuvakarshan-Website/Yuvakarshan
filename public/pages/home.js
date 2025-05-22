@@ -7,7 +7,7 @@ export default function Home() {
       <div class="welcome">WELCOME TO</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K25</div>
-      <div class="tagline">TAGLINE</div>
+      <div class="tagline">TAGILNE</div>
     </div>
     <img class="Yuva" src="/assets/images/Yuva.png"></img>
     <div class="YuvaHistContainer">
