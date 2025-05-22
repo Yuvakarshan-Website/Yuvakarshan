@@ -24,6 +24,7 @@ export default function Home() {
         We welcome you to the celebration of the infectious energy that inspires innovation, activism and relentless pursuit of dreams, at Yuvakarshan 2K25 on the 23rd and 24th of July, 2025.
       </div>
     </div>
+    <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
   `;
 
   return container;

@@ -66,17 +66,42 @@ links.forEach(link => {
     const scrollY = window.scrollY || window.pageYOffset;
 
     if (scrollY >= (window.innerHeight*0.1) && scrollY <= (window.innerHeight*0.75)) {
-      yuva.classList.add("scrolled1");
-    } else {
-      yuva.classList.remove("scrolled1"); // Optional: keep or remove based on whether you want it to reverse
-    }
-
-    if (scrollY >= (window.innerHeight*0.75)) {
       yuva.classList.add("scrolled");
     } else {
-      yuva.classList.remove("scrolled"); // Optional: keep or remove based on whether you want it to reverse
+      yuva.classList.remove("scrolled"); 
+    }
+
+    if (scrollY >= (window.innerHeight*0.75) && scrollY <= (window.innerHeight*2)) {
+      yuva.classList.add("scrolled1");
+    } else {
+      yuva.classList.remove("scrolled1");
+    }
+
+    if (scrollY >= (window.innerHeight*2)) {
+      yuva.classList.add("scrolled2");
+    } else {
+      yuva.classList.remove("scrolled2");
     }
   });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const targets = document.querySelectorAll('.YuvaHist');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
+        }
+      });
+    }, {
+      threshold: 0.2
+    });
+
+    targets.forEach(target => observer.observe(target));
+  });
+
 
 
 

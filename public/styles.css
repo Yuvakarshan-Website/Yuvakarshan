@@ -36,7 +36,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.home {height: 300vh; padding: 2rem;}
+.home {height: 400vh; padding: 2rem;}
 .events-page {height: 100vh;}
 
 
@@ -110,12 +110,16 @@ body {
   z-index: 2;
 }
 
-.Yuva.scrolled1 {
+.Yuva.scrolled {
   transform: scaleX(-0.3) scale(0.5) translate(-100vw, 1rem);
 }
 
-.Yuva.scrolled {
+.Yuva.scrolled1 {
   transform: scaleX(1) translate(-15vw, 1rem);
+}
+
+.Yuva.scrolled2 {
+  transform: scaleX(-1) scale(0.4) translate(-140vw, -100vh);
 }
 
 .YuvaHistContainer {
@@ -128,6 +132,11 @@ body {
 }
 
 .YuvaHist {
+  
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   width: 50vw;
@@ -147,6 +156,26 @@ body {
     0 0 8px rgba(255, 215, 0, 0.3),
     0 0 16px rgba(255, 215, 0, 0.2),
     0 0 24px rgba(255, 215, 0, 0.1);
+}
+
+.YuvaHist.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.YuvaVid {
+  position: absolute;
+  top: 280vh;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 80%;
+  width: 80%;
+  color: white;
+  background: rgba(0, 0, 0, 0.433);
+  backdrop-filter: blur(1px);
+  border-radius: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 
@@ -198,12 +227,16 @@ body {
     transition: transform 1.2s ease-out;
   }
 
-  .Yuva.scrolled1 {
+  .Yuva.scrolled {
     transform: scaleX(1) translate(-35vw, 10vh);
   }
 
-  .Yuva.scrolled {
-    transform: scaleX(-1) scale(1) translate(-10vw, 20vh);
+  .Yuva.scrolled1 {
+    transform: scaleX(-1) scale(1) translate(-15vw, 20vh);
+  }
+
+  .Yuva.scrolled2 {
+    transform: scaleX(-1) scale(0.4) translate(0vw, -10vh);
   }
 
   .YuvaHist {
