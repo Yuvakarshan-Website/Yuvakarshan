@@ -39,12 +39,6 @@ body {
 .home {height: 300vh; padding: 2rem;}
 .events-page {height: 100vh;}
 
-@media (max-aspect-ratio: 1/1) {
-  .home, .events-page {
-    background-size: auto 100lvh;
-    background-position: center 0;
-  }
-}
 
 .home-banner {
   position: absolute;
@@ -111,24 +105,111 @@ body {
 .Yuva {
   position: fixed;
   height: 60rem;
-  transform: scaleX(-1) translateX(-50vw);
+  transform: scaleX(-1) translate(-50vw, 1rem);
   transition: transform 1.2s ease-out;
+  z-index: 2;
 }
 
 .Yuva.scrolled1 {
-  transform: scaleX(-0.3) scale(0.5) translateX(-100vw);
+  transform: scaleX(-0.3) scale(0.5) translate(-100vw, 1rem);
 }
 
 .Yuva.scrolled {
-  transform: scaleX(1) translateX(-15vw);
+  transform: scaleX(1) translate(-15vw, 1rem);
 }
 
-.test {
+.YuvaHistContainer {
   position: absolute;
   top: 150vh;
+  display: flex;
+  flex-direction: column;
+  right: 5rem;
+  gap: 1rem;
+}
+
+.YuvaHist {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  width: 50vw;
+  color: white;
+  background-color: rgba(255, 189, 122, 0.05);
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  position: relative;
+  z-index: 1;
+  
+  /* Golden border */
+  border: 2px solid #ff9900;
+
+  /* Glowing effect */
+  box-shadow: 
+    0 0 8px rgba(255, 215, 0, 0.3),
+    0 0 16px rgba(255, 215, 0, 0.2),
+    0 0 24px rgba(255, 215, 0, 0.1);
 }
 
 
+@media (max-aspect-ratio: 1/1) {
+  .home, .events-page {
+    background-size: auto 100lvh;
+    background-position: center 0;
+  }
+
+  .home {
+    height: 400lvh
+  }
+
+  .home-banner {
+  top: 10lvh;
+  padding: 16px;
+  width: 80%;
+  }
+
+  .welcome {
+    font-size: 1.2rem; /* 1.8rem × 1.2 */
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    margin-top: -0.6rem; 
+  }
+
+  .subtitle::before {
+    right: 35vw;
+    top: 25vw; /* 9.7rem × 1.2 */
+    width: 50vw; /* 24vw × 1.2 */
+  }
+
+  .tagline {
+    margin-top: 0;
+    font-size: 1rem;
+    letter-spacing: 2.2rem;
+  }
+
+  .Yuva {
+    position: fixed;
+    height: 35rem;
+    transform: scaleX(-1) translate(35vw, 25vh);
+    transition: transform 1.2s ease-out;
+  }
+
+  .Yuva.scrolled1 {
+    transform: scaleX(1) translate(-35vw, 10vh);
+  }
+
+  .Yuva.scrolled {
+    transform: scaleX(-1) scale(1) translate(-10vw, 20vh);
+  }
+
+  .YuvaHist {
+    font-size: 1rem;
+  }
+}
 
 /* EVENTS PAGE */
 
