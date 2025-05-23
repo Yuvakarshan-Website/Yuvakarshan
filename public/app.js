@@ -71,16 +71,22 @@ links.forEach(link => {
       yuva.classList.remove("scrolled"); 
     }
 
-    if (scrollY >= (window.innerHeight*0.75) && scrollY <= (window.innerHeight*2)) {
+    if (scrollY >= (window.innerHeight*0.75) && scrollY <= (window.innerHeight*2.5)) {
       yuva.classList.add("scrolled1");
     } else {
       yuva.classList.remove("scrolled1");
     }
 
-    if (scrollY >= (window.innerHeight*2)) {
+    if (scrollY >= (window.innerHeight*2.5) && scrollY <= (window.innerHeight*3)) {
       yuva.classList.add("scrolled2");
     } else {
       yuva.classList.remove("scrolled2");
+    }
+
+    if (scrollY >= (window.innerHeight*3)) {
+      yuva.classList.add("scrolled3");
+    } else {
+      yuva.classList.remove("scrolled3");
     }
   });
 

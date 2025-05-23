@@ -11,20 +11,50 @@ export default function Home() {
     </div>
     <img class="Yuva" src="/assets/images/Yuva.png"></img>
     <div class="YuvaHistContainer">
+      <div class="YuvaHist Title">
+        From the Yuvakarshan Directors' Desk
+      </div>
       <div class="YuvaHist">
-        Excitement mounts and fills the air as we eagerly await the vibrant beats of live performances, the kaleidoscope of colours and the fiesta of innovations that are ushered in by ‘Yuvakarshan’- Delhi Public School Newtown’s very own fest. As we count down the days, the hallways, classrooms and auditorium of DPS Newtown will be a repository of unforgettable memories, unparalleled experiences and newfound connections. 
+        Derived from the Sanskrit word “Yuvakarshan,” meaning “the magnetic pull of the youth,” our fest stands as a celebration of youthful energy, intellect, artistry, and unyielding spirit. What distinguishes Yuvakarshan 2025 is not just its scale or spirit but the soul of its theme, Indian Mythology.
       </div>
       <div class="YuvaHist">  
-        ‘Yuvakarshan’, in consonance with its name, rightfully encapsulates the unassailable spirit of the youth fuelled by enthusiasm, curiosity and an unquenchable thirst for change. Yuvakarshan aims to harness the various talents of the youth, provide them with a platform to showcase their fiery determination and their adeptness in different domains. It not only challenges their involvement and exploitation of the world of creativity to its fullest, immersing oneself in cultural abundance and exploring their talents in the field of sports but also the level of artistry they can employ to effectively steer through practical situations in life. 
+        This year, we immerse our fest in the timeless wisdom, valor, and mystique of ancient Indian mythology not as a nod to the past, but as a bridge to the future. The epics and legends that shaped civilizations, forged moral codes, and inspired generations now take center stage, reminding us of the power of stories rooted in culture, values, and spiritual depth.
       </div>
       <div class="YuvaHist">
-        Each event of Yuvakarshan embeds within itself a certain skill that an individual requires to imbibe in order to be successful in the long run. By seamlessly amalgamating solidarity, mutual support and positive competitiveness, Yuvakarshan will not only boost your confidence but also enhance your interpersonal skills and prepare you for the world at large and help you stride towards achieving higher goals. 
+        In an age driven by algorithms and ambition, revisiting these narratives is more than homage it is a reclamation of identity. It is our tribute to the richness of Indian heritage, a celebration of symbolism, archetypes, and cosmic battles that still echo in our collective consciousness. It is through these stories that we hope to awaken in every participant a deeper understanding of leadership, strategy, art, justice, and most of all purpose.
       </div>
       <div class="YuvaHist">
-        We welcome you to the celebration of the infectious energy that inspires innovation, activism and relentless pursuit of dreams, at Yuvakarshan 2K25 on the 23rd and 24th of July, 2025.
+        But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
+          <br><br>
+          1.	Kartekya’s Combat <br>
+          2.	Chanakaya’s council <br>
+          3.	Kalpana <br>
+          4.	Shastra Byte <br>
+          5.	Karigari Hub <br>
+          6.	Vikram Vision<br><br>
+        Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
+      </div>
+      <div class="YuvaHist">
+      Yuvakarshan is not just a fest it is an experience. A confluence of intellect and imagination. A platform where legends are not just remembered, but reimagined. And in this convergence, we invite schools from across the country to participate, to create, and to carve their own legacy in the grand tapestry of Yuvakarshan on the 24th and 25th of July.
       </div>
     </div>
     <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
+    <div class="HomeNav">
+      <div class="HomeNavGrid">
+        <div class="grid-item left"><a href="/events" data-link>Events</a></div>
+        <div class="grid-item right"><a href="/gallery" data-link>Gallery</a></div>
+        <div class="grid-item left"><a href="/team" data-link>Team</a></div>
+        <div class="grid-item right"><a href="/lottery" data-link>LOTTERY RESULTS</a></div>
+        <div class="grid-item left"><a href="https://dpsnewtownkolkata.com/" >About DPSN</a></div>
+        <div class="grid-item right"><a href="/rep-meet" data-link>reps' meet</a></div>
+      </div>
+      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"></img>
+    </div>
+    <div class="dpsnHist">
+      <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>
+      Since its inception on 25th April 2005, the school has striven to provide a holistic education experience that ensures high standards of academic excellence complemented by a kaleidoscope of co-curricular activities. The focus is on nurturing well-rounded personalities with the skills to excel in the world they will inherit in time.</div>
+      <div class="dpsnHistTitle">ABOUT OUR SCHOOL</div>
+    </div>
   `;
 
   return container;
