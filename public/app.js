@@ -1,15 +1,19 @@
 import Home from './pages/home.js';
-import Events from './pages/events.js';
+import Events from './pages/events/day1.js';
 import Gallery from './pages/gallery.js';
 import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
+import EventsDay2 from './pages/events/day2.js'
+import EventsBuffer from './pages/events/buffer.js';
 
 //check
 
 const routes = {
   '/': Home,
   '/home': Home,
-  '/events': Events,
+  '/events/day1': Events,
+  '/events/day2': EventsDay2,
+  '/events/buffer': EventsBuffer,
   '/gallery': Gallery,
   '/team': Team,
 };

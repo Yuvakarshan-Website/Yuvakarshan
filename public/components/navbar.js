@@ -18,7 +18,7 @@ export default function Navbar() {
     <div class="nav-right">
       <ul class="nav-list">
         <li><a href="/" class="nav-link" data-link>Home</a></li>
-        <li><a href="/events" class="nav-link" data-link>Events</a></li>
+        <li><a href="/events/day1" class="nav-link" data-link>Events</a></li>
         <li><a href="/gallery" class="nav-link" data-link>Gallery</a></li>
         <li><a href="/team" class="nav-link" data-link>Team</a></li>
       </ul>

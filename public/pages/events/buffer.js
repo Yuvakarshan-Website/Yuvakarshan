@@ -1,6 +1,6 @@
-export default function Events() {
+export default function EventsBuffer() {
   const container = document.createElement('div');
-  container.className = 'events-page';
+  container.className = 'events-page-buffer';
 
   container.innerHTML = `
     <section class="events-list">
@@ -56,7 +56,6 @@ export default function Events() {
                   <div class="card-title">MOOT COURT</div>
                 </div>
 
-
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -108,7 +107,15 @@ export default function Events() {
           </div>
         </div>
 
+    <!-- Fixed Right Button -->
+    <button class="side-button left-button"><a href="/events/day2" data-link>◀ Day 2 </a> </button>
+
+    <!-- Bottom Center Label -->
+    <div class="bottom-label">BUFFER</div>
+    
     </section>
+
+
   `;
 
   return container;
