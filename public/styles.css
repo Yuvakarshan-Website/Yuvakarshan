@@ -286,7 +286,7 @@ body {
 .dpsnHist {
   display: flex;
   top: 450vh;
-  background-image: url("/assets/images/dpsnBuilding.png");
+  background-image: url("/assets/images/dpsbuilding.png");
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
