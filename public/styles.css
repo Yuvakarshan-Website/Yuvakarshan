@@ -128,7 +128,7 @@ body {
 .Yuva.scrolled3 {
   transform: scaleX(-1) scale(0.6) translate(-30vw, 0vh);
   position: absolute;
-  top: 305vh;
+  top: 360vh;
   left: 0vw;
 }
 
@@ -216,7 +216,7 @@ body {
   align-items: center;
 }
 .HomeNav {
-  top: 325vh;
+  top: 375vh;
 }
 
 
@@ -285,13 +285,45 @@ body {
 
 .dpsnHist {
   display: flex;
-  top: 450vh;
-  background-image: url("/assets/images/dpsbuilding.png");
+  top: 500vh;
+  align-items: center;
+  justify-content: space-between;
+  overflow: none;
+}
+
+.dpsnHist::before {
+  height: 100%;
+  width: 100%;
+  content: "";
+  position: relative;
+  inset: 0;
+  background-image: url("/assets/images/dpsnBuilding.png");
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  align-items: flex-start;
-  justify-content: space-between;
+  pointer-events: none; /* allows clicks through */
+  z-index: 2;
+
+  mask-image: radial-gradient(
+    circle at bottom right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.85) 38%,
+    rgba(0, 0, 0, 0.3) 42%,
+    rgba(0, 0, 0, 0) 45%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle at bottom right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.85) 38%,
+    rgba(0, 0, 0, 0.5) 40%,
+    rgba(0, 0, 0, 0.3) 43%,
+    rgba(0, 0, 0, 0) 46%
+  );
+
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
 }
 
 .dpsnHistTitle {
@@ -300,7 +332,6 @@ body {
   top: 8rem;
   right: 8rem;
   width: 30%;
-
   font-family: 'Kaivalya', sans-serif;
   font-size: 2.5rem;
   color: #ffd700;
@@ -310,7 +341,44 @@ body {
   box-shadow:
     0 0 15px rgba(255, 215, 0, 0.6),
     inset 0 0 10px rgba(255, 255, 255, 0.2);
+  animation: shimmerTextShadow 2s infinite ease-in-out;
 }
+
+/* ✨ Animated shimmer using text-shadow */
+@keyframes shimmerTextShadow {
+  0% {
+    text-shadow:
+      1px 1px 0 #fff8dcF0,
+      2px 2px 1px #ffd77F50,
+      -1px -1px 0 #ffffffF0;
+  }
+  25% {
+    text-shadow:
+      -1px 1px 1px #fffacdF0,
+      2px -2px 0 #ffeb3b50,
+      0px 0px 2px #ffffffF0;
+  }
+  50% {
+    text-shadow:
+      1px -1px 1px #ffffe0F0,
+      -2px 2px 0 #ffd70050,
+      0px 0px 3px #fff8dcF0;
+  }
+  75% {
+    text-shadow:
+      -1px -1px 0 #ffffffF0,
+      2px 2px 2px #ffd70050,
+      1px 0px 1px #fffff0F0;
+  }
+  100% {
+    text-shadow:
+      1px 1px 0 #fff8dcF0,
+      2px 2px 1px #ffd70050,
+      -1px -1px 0 #ffffffF0;
+  }
+}
+
+
 
 .dpsnHistText {
   border-radius: 30px;
@@ -328,7 +396,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   color: #ffffff;
-
   width: 40%;
   height: 60%
 }
@@ -434,8 +501,8 @@ body {
 }
 
 .card-grid {
-  height: 76vh;
-  margin-top: 4.6rem;
+  height: 72vh;
+  margin-top: 5.6rem;
   justify-items: center;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -515,14 +582,13 @@ body {
 .side-button {
   position: fixed;
   font-family: 'Montserrat', sans-serif;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20%;
   z-index: 999;
   background-color: #a36d0147;
   color: #fff;
   border: none;
   padding: 12px 16px;
-  font-size: 18px;
+  font-size: 1rem;
   border-radius: 10px;
   outline: 1px solid;
   text-shadow: none;
@@ -539,11 +605,11 @@ body {
 }
 
 .left-button {
-  left: 20px;
+  left: 3.5rem
 }
 
 .right-button {
-  right: 15px;
+  right: 3.5rem
 }
 
 .side-button:hover {
@@ -555,12 +621,12 @@ body {
 }
 
 /* Bottom Center Label */
-.bottom-label {
+.page-label {
   position: fixed;
-  bottom: 10px;
+  top: 14%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 25px;
+  font-size: 1.5rem;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
   padding: 16px;
@@ -569,7 +635,7 @@ body {
   font-family: 'Kaivalya', sans-serif;
 }
 
-.bottom-label::after{
+.page-label::after{
   content: '';
   position: absolute;
   left: 0;

@@ -108,10 +108,10 @@ export default function EventsBuffer() {
         </div>
 
     <!-- Fixed Right Button -->
-    <button class="side-button left-button"><a href="/events/day2" data-link>◀ Day 2 </a> </button>
+    <button class="side-button left-button"><a href="/eventsDay2" data-link>◀ Day 2 </a> </button>
 
-    <!-- Bottom Center Label -->
-    <div class="bottom-label">BUFFER</div>
+    <!-- page Center Label -->
+    <div class="page-label">BUFFER</div>
     
     </section>
 

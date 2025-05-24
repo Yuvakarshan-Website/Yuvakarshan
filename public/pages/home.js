@@ -43,7 +43,7 @@ export default function Home() {
     <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
     <div class="HomeNav">
       <div class="HomeNavGrid">
-        <div class="grid-item left"><a href="/events" data-link>Events</a></div>
+        <div class="grid-item left"><a href="/eventsDay1" data-link>Events</a></div>
         <div class="grid-item right"><a href="/gallery" data-link>Gallery</a></div>
         <div class="grid-item left"><a href="/team" data-link>Team</a></div>
         <div class="grid-item right"><a href="/lottery" data-link>LOTTERY RESULTS</a></div>

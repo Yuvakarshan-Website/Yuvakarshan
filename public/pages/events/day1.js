@@ -108,10 +108,10 @@ export default function Events() {
         </div>
 
     <!-- Fixed Right Button -->
-    <button class="side-button right-button"><a href="/events/day2" data-link>Day 2 ▶</a></button> 
+    <button class="side-button right-button"><a href="/eventsDay2" data-link>Day 2 ▶</a></button> 
 
-    <!-- Bottom Center Label -->
-    <div class="bottom-label">DAY ONE</div>
+    <!-- page Center Label -->
+    <div class="page-label">DAY ONE</div>
     
     </section>
 
