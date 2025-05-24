@@ -43,12 +43,16 @@ export default function Home() {
     <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
     <div class="HomeNav">
       <div class="HomeNavGrid">
-        <div class="grid-item left"><a href="/eventsDay1" data-link>Events</a></div>
-        <div class="grid-item right"><a href="/gallery" data-link>Gallery</a></div>
-        <div class="grid-item left"><a href="/team" data-link>Team</a></div>
-        <div class="grid-item right"><a href="/lottery" data-link>LOTTERY RESULTS</a></div>
-        <div class="grid-item left"><a href="https://dpsnewtownkolkata.com/" >About DPSN</a></div>
-        <div class="grid-item right"><a href="/rep-meet" data-link>reps' meet</a></div>
+        <div class="gridTop">
+          <div class="grid-item left"><a href="/eventsDay1" data-link>Events</a></div>
+          <div class="grid-item right"><a href="/gallery" data-link>Gallery</a></div>
+          <div class="grid-item left"><a href="/team" data-link>Team</a></div>
+        </div>
+        <div class="gridBottom">
+          <div class="grid-item right"><a href="/lottery" data-link>LOTTERY RESULTS</a></div>
+          <div class="grid-item left"><a href="https://dpsnewtownkolkata.com/" >About DPSN</a></div>
+          <div class="grid-item right"><a href="/rep-meet" data-link>reps' meet</a></div>
+        </div>
       </div>
       <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"><img class="YuvaMobile" src="/assets/images/Yuva.png"></img></img>
     </div>
