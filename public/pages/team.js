@@ -4,7 +4,7 @@ export default function Team() {
 
   container.innerHTML = `
     <section class="team-members">
-      <p>
+       <h1 style='position: absolute'> Hello </h1>
     </section>
   `;
 

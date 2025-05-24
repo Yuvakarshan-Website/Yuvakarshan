@@ -4,9 +4,7 @@ export default function Gallery() {
 
   container.innerHTML = `
     <section class="gallery-grid">
-      <h1 class="page-title">Gallery</h1>
-      <div class="images">
-      </div>
+        <h1 style='position: absolute'> Hello </h1>
     </section>
   `;
 

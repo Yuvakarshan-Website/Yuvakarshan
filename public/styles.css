@@ -41,6 +41,7 @@ body {
 
 .home {height: 600vh; padding: 2rem;}
 .events-page, .events-page-day-2, .events-page-buffer, .gallery-page {height: 100vh;}
+.gallery {padding: 2rem;}
 
 
 .home-banner {
