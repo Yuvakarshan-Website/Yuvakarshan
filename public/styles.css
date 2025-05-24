@@ -37,6 +37,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: rgb(0, 0, 0);
+  overflow: hidden;
+
 }
 
 .home {height: 600vh; padding: 2rem;}
@@ -71,6 +73,7 @@ body {
 }
 
 .subtitle {
+  margin-right: -1rem;
   text-align: right;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
@@ -88,19 +91,20 @@ body {
 .subtitle::before {
   content: "";
   position: absolute;
-  right: 13.5vw;
-  top: 11.64rem; /* 9.7rem × 1.2 */
-  width: 28.8vw; /* 24vw × 1.2 */
+  right: 12.5vw;
+  top: 12rem; /* 9.7rem × 1.2 */
+  width: 31vw; /* 24vw × 1.2 */
   height: 2.4px; /* 2px × 1.2 */
   background: #ffd700;
 }
 
 .tagline {
-  margin-top: -1.2rem; /* -1rem × 1.2 */
+  margin-top: -2.7rem; /* -1rem × 1.2 */
+  margin-left: -0.8rem;
   font-style: italic;
-  font-size: 1.56rem; /* 1.3rem × 1.2 */
+  font-size: 1.2rem; /* 1.3rem × 1.2 */
   font-weight: 100;
-  letter-spacing: 0.7rem; /* 2rem × 1.2 */
+  letter-spacing: 0.15rem; /* 2rem × 1.2 */
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.834);
   position: relative;
@@ -112,6 +116,10 @@ body {
   transform: scaleX(-1) translate(-50vw, 1rem);
   transition: transform 1.2s ease-out;
   z-index: 2;
+}
+
+.YuvaMobile {
+  display: none;
 }
 
 .Yuva.scrolled {
@@ -409,7 +417,7 @@ body {
   }
 
   .home {
-    height: 400lvh;
+    height: 800lvh;
     padding: 1rem;
   }
 
@@ -439,6 +447,7 @@ body {
   }
 
   .tagline {
+    display: none;
     margin-top: 0;
     font-size: 1rem;
     letter-spacing: 2.2rem;
@@ -451,8 +460,17 @@ body {
     transition: transform 1.2s ease-out;
   }
 
+  .YuvaMobile {
+    display: flex;
+    position: absolute;
+    top: 30vh;
+    transform: scaleX(-1);
+    left:5vw;
+    height: 21rem;
+  }
+
   .Yuva.scrolled {
-    transform: scaleX(1) translate(-30vw, 10vh);
+    transform: scaleX(1) scale(0.6) translate(-50vw, -10vh);
   }
 
   .Yuva.scrolled1 {
@@ -460,10 +478,16 @@ body {
   }
 
   .Yuva.scrolled2 {
-    transform: scaleX(-1) scale(0.4) translate(0vw, -10vh);
+    transform: scaleX(-1) scale(0.5) translate(60vw, 160vh);
   }
 
+  .Yuva.scrolled3 {
+    display: none;
+  }
+
+
   .YuvaHistContainer {
+    top: 100vh;
     right: 0;
     left: 0;
     width: 100vw;
@@ -472,9 +496,29 @@ body {
     justify-content: center;
   }
 
+  .YuvaHist.Title {
+    font-size: 1rem;
+  }
+
   .YuvaHist {
     font-size: 0.95rem;
     width: 70vw;
+  }
+
+  .HomeNav {
+    top: 345vh;
+  }
+
+  .HomeNavFrame {
+    height: 20rem;
+  }
+
+  .HomeNavGrid {
+    display: none;
+  }
+
+  .dpsnHist {
+    display: none;
   }
 }
 

@@ -92,15 +92,37 @@ window.addEventListener("scroll", () => {
   const scrollY = window.scrollY || window.pageYOffset;
   const isPortrait = window.innerHeight > window.innerWidth;
 
-  yuva.classList.toggle("scrolled", scrollY >= window.innerHeight * 0.1 && scrollY <= window.innerHeight * 0.75);
-  yuva.classList.toggle("scrolled1", scrollY >= window.innerHeight * 0.75 && scrollY <= window.innerHeight * 3);
-
-  const inScrolled2 = (!isPortrait && scrollY >= window.innerHeight * 3 && scrollY <= window.innerHeight * 3.5)
-                   || (isPortrait && scrollY >= window.innerHeight * 2.4);
-  yuva.classList.toggle("scrolled2", inScrolled2);
-
-  yuva.classList.toggle("scrolled3", !isPortrait && scrollY >= window.innerHeight * 3.5);
+  if (isPortrait) {
+    handlePortraitScroll(yuva, scrollY);
+  } else {
+    handleLandscapeScroll(yuva, scrollY);
+  }
 });
+
+function handlePortraitScroll(yuva, scrollY) {
+  const h = window.innerHeight;
+
+  yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.5);
+
+  yuva.classList.toggle("scrolled1", scrollY >= h * 0.5 && scrollY < h * 2.8);
+
+  yuva.classList.toggle("scrolled2", scrollY >= h * 2.8 && scrollY < h * 3);
+
+  yuva.classList.toggle("scrolled3", scrollY >= h * 3);
+}
+
+function handleLandscapeScroll(yuva, scrollY) {
+  const h = window.innerHeight;
+
+  yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.75);
+
+  yuva.classList.toggle("scrolled1", scrollY >= h * 0.75 && scrollY < h * 3);
+
+  yuva.classList.toggle("scrolled2", scrollY >= h * 3 && scrollY < h * 3.5);
+
+  yuva.classList.toggle("scrolled3", scrollY >= h * 3.5);
+}
+
 
 // Intersection observer for .YuvaHist elements
 function observeYuvaHist() {

@@ -7,7 +7,7 @@ export default function Home() {
       <div class="welcome">WELCOME TO</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K25</div>
-      <div class="tagline">24th & 25th July</div>
+      <div class="tagline"><pre>Rise Like a Phoenix, Reign Like a God</pre> </div>
     </div>
     <img class="Yuva" src="/assets/images/Yuva.png"></img>
     <div class="YuvaHistContainer">
@@ -50,7 +50,7 @@ export default function Home() {
         <div class="grid-item left"><a href="https://dpsnewtownkolkata.com/" >About DPSN</a></div>
         <div class="grid-item right"><a href="/rep-meet" data-link>reps' meet</a></div>
       </div>
-      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"></img>
+      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"><img class="YuvaMobile" src="/assets/images/Yuva.png"></img></img>
     </div>
     <div class="dpsnHist">
       <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>
