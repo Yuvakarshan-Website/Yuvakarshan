@@ -7,7 +7,7 @@ export default function Home() {
       <div class="welcome">WELCOME TO</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K25</div>
-      <div class="tagline"><pre>Rise Like a Phoenix, Reign Like a God</pre> </div>
+      <div class="tagline">Rise Like a Phoenix, Reign Like a God</div>
     </div>
     <img class="Yuva" src="/assets/images/Yuva.png"></img>
     <div class="YuvaHistContainer">
@@ -52,7 +52,7 @@ export default function Home() {
         <div class="grid-item left" style="grid-row: 3; grid-column: 1;">
           <a href="https://dpsnewtownkolkata.com/">About DPSN</a>
         </div>
-        <div class="grid-item right 1" style="grid-row: 1; grid-column: 2;">
+        <div class="grid-item right first" style="grid-row: 1; grid-column: 2;">
           <a href="/gallery" data-link>Gallery</a>
         </div>
         <div class="grid-item right" style="grid-row: 2; grid-column: 2;">

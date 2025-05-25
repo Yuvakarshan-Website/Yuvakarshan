@@ -5,6 +5,7 @@ import EventsBuffer from './pages/events/buffer.js';
 import Gallery from './pages/gallery.js';
 import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
+import Footer from './components/footer.js';
 
 // Fallback 404 component
 function NotFound() {
@@ -46,6 +47,10 @@ function setupRouter() {
   const navbarContainer = document.getElementById('navbar');
   navbarContainer.innerHTML = '';
   navbarContainer.appendChild(Navbar());
+
+  const footerContainer = document.getElementById('footer');
+  footerContainer.innerHTML = '';
+  footerContainer.appendChild(Footer());
 
   // Intercept link clicks
   document.body.addEventListener('click', e => {
