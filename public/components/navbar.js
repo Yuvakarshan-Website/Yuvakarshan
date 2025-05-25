@@ -24,7 +24,7 @@ export default function Navbar() {
       </ul>
     <div class="nav-right">
   `;
-
+ 
   return nav;
 }
 

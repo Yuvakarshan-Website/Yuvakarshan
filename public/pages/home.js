@@ -70,7 +70,8 @@ export default function Home() {
       <div class="dpsnHistTitle">ABOUT OUR SCHOOL</div>
     </div>
   `;
-
+ 
   return container;
 }
 
+ 

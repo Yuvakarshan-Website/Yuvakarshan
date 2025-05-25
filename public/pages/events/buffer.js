@@ -106,7 +106,7 @@ export default function EventsBuffer() {
               </div>
           </div>
         </div>
-
+ 
     <!-- Fixed Right Button -->
     <button class="side-button left-button"><a href="/eventsDay2" data-link>◀ Day 2 </a> </button>
 

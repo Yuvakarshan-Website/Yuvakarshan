@@ -48,7 +48,7 @@ function setupRouter() {
   navbarContainer.innerHTML = '';
   navbarContainer.appendChild(Navbar());
 
-  const footerContainer = document.getElementById('footer');
+   const footerContainer = document.getElementById('footer');
   footerContainer.innerHTML = '';
   footerContainer.appendChild(Footer());
 
@@ -62,7 +62,7 @@ function setupRouter() {
       render(normalized);
     }
   });
-
+ 
   // Handle back/forward buttons
   window.addEventListener('popstate', () => render(normalizePath(location.pathname)));
 
