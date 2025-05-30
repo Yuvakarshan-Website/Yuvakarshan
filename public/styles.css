@@ -41,7 +41,7 @@ body {
 
 }
 
-.home {height: 600vh; padding: 2rem;}
+.home {height: 625vh; padding: 2rem;}
 .events-page, .events-page-day-2, .events-page-buffer, .gallery-page {height: 100vh;}
 .gallery {padding: 2rem;}
 
@@ -91,9 +91,9 @@ body {
 .subtitle::before {
   content: "";
   position: absolute;
-  right: 12.5vw;
+  right: clamp(11.8rem, 12.5vw, 14.5rem);
   top: 12rem; /* 9.7rem × 1.2 */
-  width: 31vw; /* 24vw × 1.2 */
+  width: clamp(30rem, 31vw, 60rem); /* 24vw × 1.2 */
   height: 2.4px; /* 2px × 1.2 */
   background: #ffd700;
 }
@@ -112,7 +112,7 @@ body {
 
 .Yuva {
   position: fixed;
-  height: 60rem;
+  height: clamp(30rem, 60vw, 60rem);
   transform: scaleX(-1) translate(-50vw, 1rem);
   transition: transform 1.2s ease-out;
   z-index: 2;
@@ -151,12 +151,11 @@ body {
 }
 
 .YuvaHist {
-  
+  font-size: clamp(0.5rem, 0.7rem + 0.5vw, 1.3rem);
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
   width: 50vw;
   color: white;
   background-color: rgba(255, 189, 122, 0.05);
@@ -234,14 +233,13 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 2rem 18rem; /* ample spacing for background visibility */
+  gap: clamp(0.5rem, 1vw, 3rem) clamp(4rem, 19.5vw, 18rem); /* ample spacing for background visibility */
   z-index: -1;
-  top: 25%;
   left: 5%;
   right: 5%;
-  bottom: 25%;
-  width: 90%;
-  height: 50%;
+  width: clamp(20rem, 90vw, 90rem);
+  height: clamp(4rem, 23vw, 90rem);
+
 }
 
 
@@ -265,7 +263,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Kaivalya', sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(0.6rem, 1.6vw, 1.6rem);
   color: #ffd700;
   text-shadow: 3px 3px #972a1c;
 }
@@ -278,8 +276,6 @@ body {
   justify-content: left;
 }
 
-
-
 .grid-item.right:hover
 {transform: translateX(25px);}
 
@@ -288,7 +284,9 @@ body {
 {transform: translateX(-25px);}
 
 .HomeNavFrame {
-  height: 90vh
+  height: clamp(10rem, 42vw, 42rem);
+  align-items: center;
+  justify-content: center;
 }
 
 /* dpsn history */
@@ -340,60 +338,28 @@ body {
 .dpsnHistTitle {
   text-align: center;
   position: absolute;
-  top: 8rem;
-  right: 8rem;
+  top: 6.6rem;
+  right: 8vw;
   width: 30%;
   font-family: 'Kaivalya', sans-serif;
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 2.6vw, 2.5rem);
   color: #ffd700;
   padding: 10px 20px;
   border-radius: 30px;
-  border: 3px solid #ffd700;
-  box-shadow:
-    0 0 15px rgba(255, 215, 0, 0.6),
+  border: 2px solid #972a1c;
+  
+  box-shadow: 
+    0 0 8px rgba(163, 65, 0, 0.852),
+    0 0 16px rgba(255, 77, 0, 0.2),
+    0 0 24px rgba(255, 115, 0, 0.1),
     inset 0 0 10px rgba(255, 255, 255, 0.2);
-  animation: shimmerTextShadow 2s infinite ease-in-out;
-}
-
-/* ✨ Animated shimmer using text-shadow */
-@keyframes shimmerTextShadow {
-  0% {
-    text-shadow:
-      1px 1px 0 #fff8dcF0,
-      2px 2px 1px #ffd77F50,
-      -1px -1px 0 #ffffffF0;
-  }
-  25% {
-    text-shadow:
-      -1px 1px 1px #fffacdF0,
-      2px -2px 0 #ffeb3b50,
-      0px 0px 2px #ffffffF0;
-  }
-  50% {
-    text-shadow:
-      1px -1px 1px #ffffe0F0,
-      -2px 2px 0 #ffd70050,
-      0px 0px 3px #fff8dcF0;
-  }
-  75% {
-    text-shadow:
-      -1px -1px 0 #ffffffF0,
-      2px 2px 2px #ffd70050,
-      1px 0px 1px #fffff0F0;
-  }
-  100% {
-    text-shadow:
-      1px 1px 0 #fff8dcF0,
-      2px 2px 1px #ffd70050,
-      -1px -1px 0 #ffffffF0;
-  }
 }
 
 
 
 .dpsnHistText {
   border-radius: 30px;
-  border: 3px solid #ffffff;
+  border: 1px solid #ffd700;
   box-shadow:
     0 0 15px rgba(255, 215, 0, 0.6),
     inset 0 0 10px rgba(255, 255, 255, 0.2);
@@ -405,7 +371,7 @@ body {
   justify-content: center;
   left: 2rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4rem;
+  font-size: clamp(1.1rem, 1.6vw, 1.5rem);
   color: #ffffff;
   width: 40%;
   height: 60%
@@ -419,7 +385,7 @@ body {
   }
 
   .home {
-    height: 550lvh;
+    height: 580lvh;
     padding: 1rem;
   }
 
@@ -467,9 +433,7 @@ body {
   .YuvaMobile {
     display: flex;
     position: absolute;
-    top: 25vh;
-    transform: scaleX(-1);
-    left:5vw;
+    transform: scaleX(-1) translateY(2vh);
     height: 21rem;
   }
 
@@ -883,14 +847,14 @@ body {
 @media (max-aspect-ratio: 1.3/1) {
 
   .nav-image {
-    height: 2rem;
+    height: 2.5rem;
   }
 
   .nav-title{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .nav-subtitle {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .nav-hamburger {
@@ -942,35 +906,34 @@ body {
 /*Footer*/
 footer.footer {
   display: flex;
-  height: 15vh;
+  height: 10vh;
   padding: 2rem;
   align-items: center;
   justify-content: center;
 
-  background-image: 
-    linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), 
-    url("/assets/images/footerBG.png");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), transparent);
+  backdrop-filter: blur(6px);
   background-size: cover;
   background-repeat: repeat-x;
   background-position: bottom;
-  
+  margin-top: -24.1vh;
   font-family: 'Montserrat', sans-serif;
-  color: #5b0000;
+  color: #740c00;
   text-align: center;
   font-weight: 900;
-  font-size: 1.2rem;
   position: relative;
   z-index: 10;
 }
 
 .footer-content {
+  font-size: clamp(1rem, 1.8vw, 1.8rem);
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
 .footer-icon {
-  color: #5b0000;
+  color: #8d2012;
   cursor: pointer;
   display: flex;
   align-items: center;
