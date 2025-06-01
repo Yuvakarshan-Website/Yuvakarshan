@@ -7,6 +7,8 @@ import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
 import Footer from './components/footer.js';
 
+import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
+
 // Fallback 404 component
 function NotFound() {
   const div = document.createElement('div');
@@ -90,43 +92,85 @@ links.forEach(link => {
 });
 
 // Scroll-based class toggling
-window.addEventListener("scroll", () => {
-  const yuva = document.querySelector(".Yuva");
-  if (!yuva) return;
+// window.addEventListener("scroll", () => {
+//   const yuva = document.querySelector(".Yuva");
+//   if (!yuva) return;
 
-  const scrollY = window.scrollY || window.pageYOffset;
-  const isPortrait = window.innerHeight > window.innerWidth;
+//   const scrollY = window.scrollY || window.pageYOffset;
+//   const isPortrait = window.innerHeight > window.innerWidth;
 
-  if (isPortrait) {
-    handlePortraitScroll(yuva, scrollY);
-  } else {
-    handleLandscapeScroll(yuva, scrollY);
-  }
+//   if (isPortrait) {
+//     handlePortraitScroll(yuva, scrollY);
+//   } else {
+//     handleLandscapeScroll(yuva, scrollY);
+//   }
+// });
+
+// function handlePortraitScroll(yuva, scrollY) {
+//   const h = window.innerHeight;
+
+//   yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.5);
+
+//   yuva.classList.toggle("scrolled1", scrollY >= h * 0.5 && scrollY < h * 2.8);
+
+//   yuva.classList.toggle("scrolled2", scrollY >= h * 2.8 && scrollY < h * 3);
+
+//   yuva.classList.toggle("scrolled3", scrollY >= h * 3);
+// }
+
+// function handleLandscapeScroll(yuva, scrollY) {
+//   const h = window.innerHeight;
+
+//   yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.75);
+
+//   yuva.classList.toggle("scrolled1", scrollY >= h * 0.75 && scrollY < h * 3);
+
+//   yuva.classList.toggle("scrolled2", scrollY >= h * 3 && scrollY < h * 3.5);
+
+//   yuva.classList.toggle("scrolled3", scrollY >= h * 3.5);
+// }
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+
+app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
+  const targetObject = app.findObjectByName('yuva');
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY || window.pageYOffset;
+    const isPortrait = window.innerHeight > window.innerWidth;
+
+    if (isPortrait) {
+      handlePortraitScroll(targetObject, scrollY);
+    } else {
+      handleLandscapeScroll(targetObject, scrollY);
+    }
+  });
 });
 
-function handlePortraitScroll(yuva, scrollY) {
+let state = "base";
+
+function handleLandscapeScroll(targetObject, scrollY) {
   const h = window.innerHeight;
 
-  yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.5);
+  if ((scrollY < h * 0.3) && state !== "base") {
+    targetObject.emitEvent('keyPress', 'i');
+    state = "base";
+  } 
+  else if (scrollY >= h * 0.3 && scrollY < h * 3) {
+    if (state === "base")
+    {targetObject.emitEvent('keyPress', 'u');
+    state = "left";}
+    else if (state === "down") {targetObject.emitEvent('keyPress', 'p');
+    state = "left";}
+  }
+  else if (scrollY >= h * 3 && scrollY < h * 3.5) {
+    if (state === "left")
+    {targetObject.emitEvent('keyPress', 'o');
+    state = "down";}
+  }
+} 
 
-  yuva.classList.toggle("scrolled1", scrollY >= h * 0.5 && scrollY < h * 2.8);
-
-  yuva.classList.toggle("scrolled2", scrollY >= h * 2.8 && scrollY < h * 3);
-
-  yuva.classList.toggle("scrolled3", scrollY >= h * 3);
-}
-
-function handleLandscapeScroll(yuva, scrollY) {
-  const h = window.innerHeight;
-
-  yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.75);
-
-  yuva.classList.toggle("scrolled1", scrollY >= h * 0.75 && scrollY < h * 3);
-
-  yuva.classList.toggle("scrolled2", scrollY >= h * 3 && scrollY < h * 3.5);
-
-  yuva.classList.toggle("scrolled3", scrollY >= h * 3.5);
-}
 
 
 // Intersection observer for .YuvaHist elements
@@ -146,3 +190,5 @@ document.addEventListener("DOMContentLoaded", observeYuvaHist);
 window.addEventListener("load", observeYuvaHist);
 const bodyObserver = new MutationObserver(() => observeYuvaHist());
 bodyObserver.observe(document.body, { childList: true, subtree: true });
+
+

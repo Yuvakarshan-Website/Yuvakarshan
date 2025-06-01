@@ -3,6 +3,7 @@ export default function Home() {
   container.className = 'home';
 
   container.innerHTML = `
+    <canvas id="canvas3d"></canvas>
     <div class="home-banner">
       <div class="welcome">WELCOME TO</div>
       <div class="title">YUVAKARSHAN</div>
@@ -67,6 +68,10 @@ export default function Home() {
       Since its inception on 25th April 2005, the school has striven to provide a holistic education experience that ensures high standards of academic excellence complemented by a kaleidoscope of co-curricular activities. The focus is on nurturing well-rounded personalities with the skills to excel in the world they will inherit in time.</div>
       <div class="dpsnHistTitle">ABOUT OUR SCHOOL</div>
     </div>
+    
+    
+    <div class="watermark-cover">Yuvakarshan</div>
+    
   `;
  
   return container;

@@ -110,7 +110,38 @@ body {
   position: relative;
 }
 
+#canvas3d {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  z-index: 5;
+}
+
+.watermark-cover {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  width: 135px;
+  height: 30px;
+  background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kaivalya', sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
 .Yuva {
+  display: none;
   position: fixed;
   height: clamp(30rem, 60vw, 60rem);
   transform: scaleX(-1) translate(-50vw, 1rem);
@@ -916,21 +947,25 @@ footer.footer {
   background-size: cover;
   background-repeat: repeat-x;
   background-position: bottom;
-  margin-top: -24.1vh;
-  font-family: 'Montserrat', sans-serif;
-  color: #740c00;
+  margin-top: -19.5vh;
   text-align: center;
-  font-weight: 900;
   position: relative;
   z-index: 10;
 }
 
 .footer-content {
   font-size: clamp(1rem, 1.8vw, 1.8rem);
+  color: #a21000;
   display: flex;
   align-items: center;
   gap: 2rem;
 }
+
+.footer-content p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
 
 .footer-icon {
   color: #8d2012;
