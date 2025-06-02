@@ -154,20 +154,29 @@ function handleLandscapeScroll(targetObject, scrollY) {
   const h = window.innerHeight;
 
   if ((scrollY < h * 0.3) && state !== "base") {
-    targetObject.emitEvent('keyPress', 'i');
+    app.setVariable('States', 0);
     state = "base";
   } 
   else if (scrollY >= h * 0.3 && scrollY < h * 3) {
-    if (state === "base")
-    {targetObject.emitEvent('keyPress', 'u');
-    state = "left";}
-    else if (state === "down") {targetObject.emitEvent('keyPress', 'p');
-    state = "left";}
+    if (state === "base") {
+      app.setVariable('States', 1);
+      state = "left";
+    } else if (state === "down") {
+      app.setVariable('States', -1);
+      state = "left";
+    }
   }
-  else if (scrollY >= h * 3 && scrollY < h * 3.5) {
-    if (state === "left")
-    {targetObject.emitEvent('keyPress', 'o');
-    state = "down";}
+  else if (scrollY >= h * 3) {
+    if (state !== "down") {
+      app.setVariable('States', 2);
+      state = "down";
+    }
+  }
+  if (scrollY >= h * 3.6) {
+    canvas.classList.add("active");
+    
+  } else {
+    canvas.classList.remove("active");
   }
 } 
 

@@ -120,7 +120,14 @@ body {
   z-index: 5;
 }
 
+#canvas3d.active {
+  position: absolute;
+  top: 360vh;
+  pointer-events: none;
+}
+
 .watermark-cover {
+  display: none;
   position: fixed;
   bottom: 25px;
   right: 20px;
@@ -130,7 +137,6 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 8px;
   z-index: 999;
-  display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Kaivalya', sans-serif;
@@ -947,7 +953,7 @@ footer.footer {
   background-size: cover;
   background-repeat: repeat-x;
   background-position: bottom;
-  margin-top: -19.5vh;
+  margin-top: -20vh;
   text-align: center;
   position: relative;
   z-index: 10;
