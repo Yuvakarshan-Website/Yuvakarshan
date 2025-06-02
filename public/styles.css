@@ -126,26 +126,6 @@ body {
   pointer-events: none;
 }
 
-.watermark-cover {
-  display: none;
-  position: fixed;
-  bottom: 25px;
-  right: 20px;
-  width: 135px;
-  height: 30px;
-  background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0));
-  backdrop-filter: blur(10px);
-  border-radius: 8px;
-  z-index: 999;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Kaivalya', sans-serif;
-  font-size: 14px;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 0.5px;
-}
-
 .Yuva {
   display: none;
   position: fixed;
@@ -941,27 +921,26 @@ body {
 
 
 /*Footer*/
-footer.footer {
+.footer {
   display: flex;
-  height: 10vh;
-  padding: 2rem;
+  min-height: 19.1vh;
+  width: 100vw;
+  top: 615vh;
+  left: 0;
+  bottom: 0;
+  position: absolute;
   align-items: center;
   justify-content: center;
-
   background: linear-gradient(to top, rgba(0, 0, 0, 0.3), transparent);
   backdrop-filter: blur(6px);
-  background-size: cover;
-  background-repeat: repeat-x;
-  background-position: bottom;
-  margin-top: -20vh;
   text-align: center;
-  position: relative;
   z-index: 10;
 }
 
+
 .footer-content {
   font-size: clamp(1rem, 1.8vw, 1.8rem);
-  color: #a21000;
+  color: #ffd700;
   display: flex;
   align-items: center;
   gap: 2rem;

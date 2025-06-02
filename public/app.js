@@ -5,7 +5,6 @@ import EventsBuffer from './pages/events/buffer.js';
 import Gallery from './pages/gallery.js';
 import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
-import Footer from './components/footer.js';
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
 
@@ -35,13 +34,65 @@ function normalizePath(path) {
 // Render the correct page based on path
 function render(path) {
   const app = document.getElementById('app');
-  if (!app) throw new Error("Element with ID 'app' not found.");
 
   const normalized = normalizePath(path);
   const Page = routes[normalized] || NotFound;
 
   app.innerHTML = '';
   app.appendChild(Page());
+  if (normalized === '/' || normalized === '/home') {
+      const canvas = document.getElementById('canvas3d');
+      const app = new Application(canvas);
+
+      app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
+        const targetObject = app.findObjectByName('yuva');
+        let size = (window.innerWidth/1366)*2.6;
+        app.setVariable('Size', size);
+
+        window.addEventListener('scroll', () => {
+          const scrollY = window.scrollY || window.pageYOffset;
+          const isPortrait = window.innerHeight > window.innerWidth;
+
+          if (isPortrait) {
+            handlePortraitScroll(targetObject, scrollY);
+          } else {
+            handleLandscapeScroll(targetObject, scrollY);
+          }
+        });
+      });
+
+      let state = "base";
+
+      function handleLandscapeScroll(targetObject, scrollY) {
+        const h = window.innerHeight;
+
+        if ((scrollY < h * 0.3) && state !== "base") {
+          app.setVariable('States', 0);
+          state = "base";
+        } 
+        else if (scrollY >= h * 0.3 && scrollY < h * 3) {
+          if (state === "base") {
+            app.setVariable('States', 1);
+            state = "left";
+          } else if (state === "down") {
+            app.setVariable('States', -1);
+            state = "left";
+          }
+        }
+        else if (scrollY >= h * 3) {
+          if (state !== "down") {
+            app.setVariable('States', 2);
+            state = "down";
+          }
+        }
+        if (scrollY >= h * 3.6) {
+          canvas.classList.add("active");
+          
+        } else {
+          canvas.classList.remove("active");
+        }
+      } 
+  }
 }
 
 // Setup SPA-style routing
@@ -49,10 +100,6 @@ function setupRouter() {
   const navbarContainer = document.getElementById('navbar');
   navbarContainer.innerHTML = '';
   navbarContainer.appendChild(Navbar());
-
-  const footerContainer = document.getElementById('footer');
-  footerContainer.innerHTML = '';
-  footerContainer.appendChild(Footer());
 
   // Intercept link clicks
   document.body.addEventListener('click', e => {
@@ -130,55 +177,7 @@ links.forEach(link => {
 //   yuva.classList.toggle("scrolled3", scrollY >= h * 3.5);
 // }
 
-const canvas = document.getElementById('canvas3d');
-const app = new Application(canvas);
 
-app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
-  const targetObject = app.findObjectByName('yuva');
-
-  window.addEventListener('scroll', () => {
-    const scrollY = window.scrollY || window.pageYOffset;
-    const isPortrait = window.innerHeight > window.innerWidth;
-
-    if (isPortrait) {
-      handlePortraitScroll(targetObject, scrollY);
-    } else {
-      handleLandscapeScroll(targetObject, scrollY);
-    }
-  });
-});
-
-let state = "base";
-
-function handleLandscapeScroll(targetObject, scrollY) {
-  const h = window.innerHeight;
-
-  if ((scrollY < h * 0.3) && state !== "base") {
-    app.setVariable('States', 0);
-    state = "base";
-  } 
-  else if (scrollY >= h * 0.3 && scrollY < h * 3) {
-    if (state === "base") {
-      app.setVariable('States', 1);
-      state = "left";
-    } else if (state === "down") {
-      app.setVariable('States', -1);
-      state = "left";
-    }
-  }
-  else if (scrollY >= h * 3) {
-    if (state !== "down") {
-      app.setVariable('States', 2);
-      state = "down";
-    }
-  }
-  if (scrollY >= h * 3.6) {
-    canvas.classList.add("active");
-    
-  } else {
-    canvas.classList.remove("active");
-  }
-} 
 
 
 
