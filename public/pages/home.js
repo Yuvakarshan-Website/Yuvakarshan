@@ -11,7 +11,6 @@ export default function Home() {
       <div class="subtitle">2K25</div>
       <div class="tagline">Rise Like a Phoenix, Reign Like a God</div>
     </div>
-    <img class="Yuva" src="/assets/images/Yuva.png"></img>
     <div class="YuvaHistContainer">
       <div class="YuvaHist Title">
         From the Yuvakarshan Directors' Desk

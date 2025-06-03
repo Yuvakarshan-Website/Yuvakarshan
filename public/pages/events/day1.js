@@ -6,8 +6,6 @@ export default function Events() {
     <section class="events-list">
         <div class="card-container">
           <div class="card-grid ">
-            <!-- Repeat this block for each card -->
-              <div class="card-row">
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -38,9 +36,7 @@ export default function Events() {
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
-              </div>
-
-                          <div class="card-row">
+              
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -70,9 +66,7 @@ export default function Events() {
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
-              </div>
-
-                          <div class="card-row">
+              
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -103,7 +97,6 @@ export default function Events() {
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
-              </div>
           </div>
         </div>
 

@@ -7,7 +7,7 @@ export default function EventsDay2() {
         <div class="card-container">
           <div class="card-grid ">
             <!-- Repeat this block for each card -->
-              <div class="card-row">
+              
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -38,9 +38,7 @@ export default function EventsDay2() {
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
-              </div>
-
-                          <div class="card-row">
+              
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -70,9 +68,7 @@ export default function EventsDay2() {
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
-              </div>
-
-                          <div class="card-row">
+              
                 <div class="card">
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
@@ -103,7 +99,6 @@ export default function EventsDay2() {
                   <img src="../assets/images/logo.png" alt="Moot Court">
                   <div class="card-title">MOOT COURT</div>
                 </div>
-              </div>
           </div>
         </div>
 

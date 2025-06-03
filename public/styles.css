@@ -126,38 +126,6 @@ body {
   pointer-events: none;
 }
 
-.Yuva {
-  display: none;
-  position: fixed;
-  height: clamp(30rem, 60vw, 60rem);
-  transform: scaleX(-1) translate(-50vw, 1rem);
-  transition: transform 1.2s ease-out;
-  z-index: 2;
-}
-
-.YuvaMobile {
-  display: none;
-}
-
-.Yuva.scrolled {
-  transform: scaleX(-0.3) scale(0.5) translate(-100vw, 1rem);
-}
-
-.Yuva.scrolled1 {
-  transform: scaleX(1) translate(-15vw, 1rem);
-}
-
-.Yuva.scrolled2 {
-  transform: scaleX(-1) scale(0.6) translate(-25vw, 10vh);
-}
-
-.Yuva.scrolled3 {
-  transform: scaleX(-1) scale(0.6) translate(-30vw, 0vh);
-  position: absolute;
-  top: 360vh;
-  left: 0vw;
-}
-
 .YuvaHistContainer {
   position: absolute;
   top: 150vh;
@@ -502,36 +470,6 @@ body {
     top: 320vh;
   }
 
-  .Yuva {
-    position: fixed;
-    height: 35rem;
-    transform: scaleX(-1) translate(35vw, 25vh);
-    transition: transform 1.2s ease-out;
-  }
-
-  .YuvaMobile {
-    display: flex;
-    position: absolute;
-    transform: scaleX(-1) translateY(2vh);
-    height: 21rem;
-  }
-
-  .Yuva.scrolled {
-    transform: scaleX(1) scale(0.6) translate(-50vw, -10vh);
-  }
-
-  .Yuva.scrolled1 {
-    transform: scaleX(-1) scale(0.8) translate(-25vw, 20vh);
-  }
-
-  .Yuva.scrolled2 {
-    transform: scaleX(-1) scale(0.5) translate(60vw, 160vh);
-  }
-
-  .Yuva.scrolled3 {
-    display: none;
-  }
-
 
   .YuvaHistContainer {
     top: 100vh;
@@ -629,7 +567,7 @@ body {
 .events-list{
   max-height: 60lvh;
   overflow: none;
-  padding: 2rem;
+  padding: clamp(1rem, 2vw, 2rem);
 }
 
 .card-container{
@@ -642,20 +580,17 @@ body {
   box-sizing: border-box;
 }
 
-.card-row{
-  display: flex;
-  overflow: hidden
-}
-
 .card-grid {
+  display: flex;
+  flex-wrap: wrap;
   height: 72vh;
-  margin-top: 5.6rem;
-  justify-items: center;
+  justify-content: center;
+  margin-top: clamp(1rem, 5.6vw, 6rem);
   overflow-y: scroll;
   overflow-x: hidden;
   position: relative;
   width: 95%;
-  padding: 1.6rem 5rem;
+  padding: 1.6rem 2.4rem;
   background: rgba(0, 0, 0, 0.433);
   backdrop-filter: blur(1px);
   border-radius: 20px;
@@ -669,8 +604,8 @@ body {
 
 /* Individual card style */
 .card {
-  width: 170px;
-  height: 230px;
+  min-width: 170px;
+  min-height: 230px;
   margin-top: 20px;
   border-radius: 30px;
   overflow: hidden;
@@ -681,7 +616,6 @@ body {
   align-items: center;
   padding: 20px;
   transition: 0.2s ease;
-  margin: 7px;
 }
 
 .card:hover {
@@ -714,14 +648,16 @@ body {
   text-transform: uppercase;
 }
 
-@media (max-aspect-ratio: 1.3/1) {
+@media (max-aspect-ratio: 1/1) {
   .card-container{
     margin-top: 100px;
   }
 
-  .card-row{
-    flex-direction: column;
+  .side-button {
+    margin-top: -7svh;
   }
+
+
 }
 
 /* Left and Right Side Buttons */
@@ -735,7 +671,7 @@ body {
   color: #fff;
   border: none;
   padding: 12px 16px;
-  font-size: 1rem;
+  font-size: clamp(0.7rem, 1vw, 1rem);
   border-radius: 10px;
   outline: 1px solid;
   text-shadow: none;
@@ -752,11 +688,11 @@ body {
 }
 
 .left-button {
-  left: 3.5rem
+  left: clamp(1rem, 3.5vw, 3.5rem);
 }
 
 .right-button {
-  right: 3.5rem
+  right: clamp(1rem, 3.5vw, 3.5rem);
 }
 
 .side-button:hover {
