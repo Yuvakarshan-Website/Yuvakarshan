@@ -169,44 +169,43 @@ links.forEach(link => {
   });
 });
 
-// Scroll-based class toggling
-// window.addEventListener("scroll", () => {
-//   const yuva = document.querySelector(".Yuva");
-//   if (!yuva) return;
 
-//   const scrollY = window.scrollY || window.pageYOffset;
-//   const isPortrait = window.innerHeight > window.innerWidth;
+/*team menu*/
+let lastHiddenCard = null;
+const coreCards = document.querySelectorAll('.CoreCard');
 
-//   if (isPortrait) {
-//     handlePortraitScroll(yuva, scrollY);
-//   } else {
-//     handleLandscapeScroll(yuva, scrollY);
-//   }
-// });
+// 👇 Preselect Sarengi card and trigger everything
+window.addEventListener('DOMContentLoaded', () => {
+  const sarengiCard = document.querySelector('.CoreCard.Sarengi');
+  if (sarengiCard) {
+    updateHighlighted(sarengiCard);
+    sarengiCard.style.display = 'none';
+    lastHiddenCard = sarengiCard;
+  }
+});
 
-// function handlePortraitScroll(yuva, scrollY) {
-//   const h = window.innerHeight;
+coreCards.forEach(card => {
+  card.addEventListener('click', () => {
+    if (lastHiddenCard) {
+      lastHiddenCard.style.display = 'flex'; // restore previous
+    }
 
-//   yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.5);
+    updateHighlighted(card); // update bg
+    card.style.display = 'none'; // hide current
+    lastHiddenCard = card;
+  });
+});
 
-//   yuva.classList.toggle("scrolled1", scrollY >= h * 0.5 && scrollY < h * 2.8);
-
-//   yuva.classList.toggle("scrolled2", scrollY >= h * 2.8 && scrollY < h * 3);
-
-//   yuva.classList.toggle("scrolled3", scrollY >= h * 3);
-// }
-
-// function handleLandscapeScroll(yuva, scrollY) {
-//   const h = window.innerHeight;
-
-//   yuva.classList.toggle("scrolled", scrollY >= h * 0.1 && scrollY < h * 0.75);
-
-//   yuva.classList.toggle("scrolled1", scrollY >= h * 0.75 && scrollY < h * 3);
-
-//   yuva.classList.toggle("scrolled2", scrollY >= h * 3 && scrollY < h * 3.5);
-
-//   yuva.classList.toggle("scrolled3", scrollY >= h * 3.5);
-// }
+function updateHighlighted(card) {
+  const highlight = document.querySelector('.Highlighted.core');
+  if (card && highlight) {
+    const bgImage = window.getComputedStyle(card).backgroundImage;
+    highlight.style.backgroundImage = bgImage;
+    highlight.style.backgroundSize = 'cover';
+    highlight.style.backgroundRepeat = 'no-repeat';
+    highlight.style.backgroundPosition = 'center';
+  }
+}
 
 
 
