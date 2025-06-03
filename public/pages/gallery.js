@@ -3,9 +3,7 @@ export default function Gallery() {
   container.className = 'gallery-page';
 
   container.innerHTML = `
-    <section class="gallery-grid">
-        <h1 style='position: absolute'> Hello </h1>
-    </section>
+        <div class="galleryMessage">STAY TUNED</div>
   `;
 
   return container;

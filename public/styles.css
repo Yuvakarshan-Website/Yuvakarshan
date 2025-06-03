@@ -937,4 +937,25 @@ body {
 
 .gallery-page{
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryMessage {
+  border-radius: 30px;
+  border: 3px solid #ffd700;
+  box-shadow:
+    0 0 15px rgba(255, 215, 0, 0.6),
+    inset 0 0 10px rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
+  position: fixed;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kaivalya', sans-serif;
+  font-size: clamp(2.2rem, 4.6vw, 4.5rem);
+  color: #ffffff;
+  width: 40%;
 }
