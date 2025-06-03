@@ -43,23 +43,36 @@ function render(path) {
   if (normalized === '/' || normalized === '/home') {
       const canvas = document.getElementById('canvas3d');
       const app = new Application(canvas);
+      canvas.style.height = 0.9 * window.innerHeight;
 
-      app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
-        const targetObject = app.findObjectByName('yuva');
+      const isPortrait = window.innerHeight > window.innerWidth;
+
+      if (isPortrait) {
+          app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
+
+          const targetObject = app.findObjectByName('yuva');
+
+          window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY || window.pageYOffset;
+            handlePortraitScroll(targetObject, scrollY);
+          });
+        });
+      } 
+      else {
+        app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
+      
         let size = (window.innerWidth/1366)*2.6;
         app.setVariable('Size', size);
+        const targetObject = app.findObjectByName('yuva');
 
         window.addEventListener('scroll', () => {
           const scrollY = window.scrollY || window.pageYOffset;
-          const isPortrait = window.innerHeight > window.innerWidth;
-
-          if (isPortrait) {
-            handlePortraitScroll(targetObject, scrollY);
-          } else {
-            handleLandscapeScroll(targetObject, scrollY);
-          }
+          handleLandscapeScroll(targetObject, scrollY);
         });
-      });
+        });      
+      }
+
+      
 
       let state = "base";
 
@@ -85,12 +98,32 @@ function render(path) {
             state = "down";
           }
         }
-        if (scrollY >= h * 3.6) {
-          canvas.classList.add("active");
-          
-        } else {
-          canvas.classList.remove("active");
+        canvas.classList.toggle("active", scrollY >= h * 3.6);
+      } 
+
+      function handlePortraitScroll(targetObject, scrollY) {
+        const h = window.innerHeight;
+
+        if ((scrollY < h * 0.1) && state !== "base") {
+          app.setVariable('States', 0);
+          state = "base";
+        } 
+        else if (scrollY >= h * 0.1 && scrollY < h * 3.2) {
+          if (state === "base") {
+            app.setVariable('States', 1);
+            state = "left";
+          } else if (state === "down") {
+            app.setVariable('States', -1);
+            state = "left";
+          }
         }
+        else if (scrollY >= h * 3.2) {
+          if (state !== "down") {
+            app.setVariable('States', 2);
+            state = "down";
+          }
+        }
+        canvas.classList.toggle("active", scrollY >= h * 3.4);
       } 
   }
 }

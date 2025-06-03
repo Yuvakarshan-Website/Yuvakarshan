@@ -1,3 +1,4 @@
+
 export default function Home() {
   const container = document.createElement('div');
   container.className = 'home';
@@ -61,7 +62,7 @@ export default function Home() {
           <a href="/rep-meet" data-link>reps' meet</a>
         </div>
       </div>
-      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"><img class="YuvaMobile" src="/assets/images/Yuva.png"></img></img>
+      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"></img>
     </div>
     <div class="dpsnHist">
       <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>
