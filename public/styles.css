@@ -114,6 +114,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  max-height: 100svh; 
   width: 100vw;
   display: block;
   z-index: 5;
@@ -484,7 +485,7 @@ body {
 
   .subtitle::before {
     right: 35vw;
-    top: 25vw; /* 9.7rem × 1.2 */
+    top: 24vw; /* 9.7rem × 1.2 */
     width: 50vw; /* 24vw × 1.2 */
   }
 

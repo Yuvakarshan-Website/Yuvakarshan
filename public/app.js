@@ -43,8 +43,6 @@ function render(path) {
   if (normalized === '/' || normalized === '/home') {
       const canvas = document.getElementById('canvas3d');
       const app = new Application(canvas);
-      canvas.style.height = 0.9 * window.innerHeight;
-
       const isPortrait = window.innerHeight > window.innerWidth;
 
       if (isPortrait) {
