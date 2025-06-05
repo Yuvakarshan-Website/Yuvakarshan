@@ -19,7 +19,7 @@ body {
   display: none;
 }
 
-.home, .events-page, .team-page, .gallery-page, .events-page-day-2, .events-page-buffer {
+.homeBg, .events-page, .teamBg, .galleryBg, .events-page-day-2, .events-page-buffer {
   background-image: 
     radial-gradient(
       circle at top center,
@@ -30,13 +30,12 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: rgb(0, 0, 0);
   overflow: hidden;
-
 }
 
 .home {height: 625vh; padding: 2rem;}
+.homeBg, .teamBg, .galleryBg {min-height: 100lvh; min-width: 100lvw; position: fixed; z-index: 0; top: 0; left: 0;}
 .events-page, .events-page-day-2, .events-page-buffer, .gallery-page {height: 100vh;}
 .gallery, .team-page {padding: 2rem;}
 
@@ -118,12 +117,12 @@ body {
   width: 100vw;
   display: block;
   z-index: 5;
+  pointer-events: none;
 }
 
 #canvas3d.active {
   position: absolute;
   top: 360vh;
-  pointer-events: none;
 }
 
 .YuvaHistContainer {
@@ -436,7 +435,7 @@ body {
 
 
 @media (max-aspect-ratio: 1/1) {
-  .home, .events-page, .team-page {
+  .homeBg, .events-page, .teamBg{
     background-size: auto 100lvh;
     background-position: center 0;
   }
@@ -458,11 +457,19 @@ body {
 
   .title {
     font-size: 2.4rem;
+    text-shadow:
+    0 0 4px rgba(255, 255, 255, 0.4),
+    0 0 16px rgba(255, 255, 255, 0.4),
+    0 0 14px rgba(255, 255, 255, 0.4);
   }
 
   .subtitle {
     font-size: 2rem;
     margin-top: -0.6rem; 
+    text-shadow:
+    0 0 4px #ffd900a2,
+    0 0 8px #ffd700a2,
+    0 0 12px #ffea00a2;
   }
 
   .subtitle::before {

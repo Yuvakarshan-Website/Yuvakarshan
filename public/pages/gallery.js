@@ -3,7 +3,8 @@ export default function Gallery() {
   container.className = 'gallery-page';
 
   container.innerHTML = `
-        <div class="galleryMessage">STAY TUNED</div>
+    <div class="galleryBg">
+    <div class="galleryMessage">STAY TUNED</div>
   `;
 
   return container;

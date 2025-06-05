@@ -3,6 +3,7 @@ export default function Team() {
   container.className = 'team-page';
 
   container.innerHTML = `
+    <div class="teamBg"></div>
     <section class="CoreCommittee">
       <div class="CoreColumn Left">
         <div class="SectionTitle">

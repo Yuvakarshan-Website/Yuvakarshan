@@ -4,6 +4,7 @@ export default function Home() {
   container.className = 'home';
 
   container.innerHTML = `
+    <div class="homeBg"></div>
     <canvas id="canvas3d"></canvas>
     <div class="home-banner">
       <div class="welcome">WELCOME TO</div>

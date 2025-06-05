@@ -106,7 +106,7 @@ function render(path) {
           app.setVariable('States', 0);
           state = "base";
         } 
-        else if (scrollY >= h * 0.1 && scrollY < h * 3.2) {
+        else if (scrollY >= h * 0.1 && scrollY < h * 3.15) {
           if (state === "base") {
             app.setVariable('States', 1);
             state = "left";
@@ -115,13 +115,13 @@ function render(path) {
             state = "left";
           }
         }
-        else if (scrollY >= h * 3.2) {
+        else if (scrollY >= h * 3.15) {
           if (state !== "down") {
             app.setVariable('States', 2);
             state = "down";
           }
         }
-        canvas.classList.toggle("active", scrollY >= h * 3.4);
+        canvas.classList.toggle("active", scrollY >= h * 3.2);
       } 
   }
   if (normalized === '/team') {
@@ -202,8 +202,6 @@ links.forEach(link => {
   });
 });
 
-
-/*team menu*/
 
 
 
