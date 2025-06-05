@@ -37,13 +37,13 @@ function render(path) {
 
   const normalized = normalizePath(path);
   const Page = routes[normalized] || NotFound;
+  const isPortrait = window.innerHeight > window.innerWidth;
 
   app.innerHTML = '';
   app.appendChild(Page());
   if (normalized === '/' || normalized === '/home') {
       const canvas = document.getElementById('canvas3d');
       const app = new Application(canvas);
-      const isPortrait = window.innerHeight > window.innerWidth;
 
       if (isPortrait) {
           app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
@@ -124,6 +124,39 @@ function render(path) {
         canvas.classList.toggle("active", scrollY >= h * 3.4);
       } 
   }
+  if (normalized === '/team') {
+    let lastHiddenCard = null;
+    const coreCards = document.querySelectorAll('.CoreCard');
+
+    const sarengiCard = document.querySelector('.CoreCard.Sarengi');
+    if (sarengiCard) {
+      updateHighlighted(sarengiCard);
+      sarengiCard.style.display = 'none';
+      lastHiddenCard = sarengiCard;
+    }
+    coreCards.forEach(card => {
+      card.addEventListener('click', () => {
+        if (lastHiddenCard) {
+          lastHiddenCard.style.display = 'flex'; // restore previous
+        }
+
+        updateHighlighted(card); // update bg
+        card.style.display = 'none'; // hide current
+        lastHiddenCard = card;
+      });
+    });
+
+    function updateHighlighted(card) {
+      const highlight = document.querySelector('.Highlighted.core');
+      if (card && highlight) {
+        const bgImage = window.getComputedStyle(card).backgroundImage;
+        highlight.style.backgroundImage = bgImage;
+        highlight.style.backgroundSize = (isPortrait)?'100%':'90%';
+        highlight.style.backgroundRepeat = 'no-repeat';
+        highlight.style.backgroundPosition = 'bottom';
+      }
+    }
+  }
 }
 
 // Setup SPA-style routing
@@ -171,41 +204,9 @@ links.forEach(link => {
 
 
 /*team menu*/
-let lastHiddenCard = null;
-const coreCards = document.querySelectorAll('.CoreCard');
 
-// 👇 Preselect Sarengi card and trigger everything
-window.addEventListener('DOMContentLoaded', () => {
-  const sarengiCard = document.querySelector('.CoreCard.Sarengi');
-  if (sarengiCard) {
-    updateHighlighted(sarengiCard);
-    sarengiCard.style.display = 'none';
-    lastHiddenCard = sarengiCard;
-  }
-});
 
-coreCards.forEach(card => {
-  card.addEventListener('click', () => {
-    if (lastHiddenCard) {
-      lastHiddenCard.style.display = 'flex'; // restore previous
-    }
 
-    updateHighlighted(card); // update bg
-    card.style.display = 'none'; // hide current
-    lastHiddenCard = card;
-  });
-});
-
-function updateHighlighted(card) {
-  const highlight = document.querySelector('.Highlighted.core');
-  if (card && highlight) {
-    const bgImage = window.getComputedStyle(card).backgroundImage;
-    highlight.style.backgroundImage = bgImage;
-    highlight.style.backgroundSize = 'cover';
-    highlight.style.backgroundRepeat = 'no-repeat';
-    highlight.style.backgroundPosition = 'center';
-  }
-}
 
 
 
