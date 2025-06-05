@@ -4,7 +4,8 @@ export default function Gallery() {
 
   container.innerHTML = `
     <div class="galleryBg">
-    <div class="galleryMessage">STAY TUNED</div>
+        <div class="galleryMessage">STAY TUNED</div>
+    </div>
   `;
 
   return container;

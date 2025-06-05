@@ -945,7 +945,7 @@ body {
 
 /* gallery page */
 
-.gallery-page{
+.gallery-page, .galleryBg{
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -959,18 +959,57 @@ body {
     0 0 15px rgba(255, 215, 0, 0.6),
     inset 0 0 10px rgba(255, 255, 255, 0.2);
   background-color: rgba(0, 0, 0, 0.15);
-  position: fixed;
+  position: absolute;
+  backdrop-filter: blur(10px);
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Kaivalya', sans-serif;
   font-size: clamp(2.2rem, 4.6vw, 4.5rem);
+  z-index: 0;
   color: #ffffff;
   width: 40%;
+  text-align: center;
+  --border-angle: 0turn;
+  /* Static background (does NOT animate) */
+  --main-bg: conic-gradient(
+  from 0turn,
+  rgba(33, 26, 3, 0.164),
+  rgba(33, 26, 3, 0.164) 5%,
+  rgba(33, 26, 3, 0.164) 60%,
+  rgba(33, 26, 3, 0.164) 95% 
+  );
+
+
+  border: solid 5px transparent;
+  border-radius: 2em;
+
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, rgba(214, 150, 0, 0.344), rgba(135, 102, 4, 0.502) 99%, transparent);
+
+  background:
+    var(--main-bg) padding-box,
+    var(--gradient-border) border-box,
+    var(--main-bg) border-box;
+
+  background-position: center center;
+
+  animation: bg-spin 3s linear infinite;
+  
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
 }
 
 
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
 
 
 

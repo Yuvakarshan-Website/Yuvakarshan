@@ -9,96 +9,66 @@ export default function EventsDay2() {
             <!-- Repeat this block for each card -->
               
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Raaga Rock">
+                  <div class="card-title">Raaga Rock</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Bodha Blitz ">
+                  <div class="card-title">Bodha Blitz </div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Nazakat">
+                  <div class="card-title">Nazakat</div>
                 </div>
 
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Leela Manch">
+                  <div class="card-title">Leela <br />  Manch</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Chitrakatha">
+                  <div class="card-title">Chitrakatha</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="AppUrva">
+                  <div class="card-title">AppUrva</div>
                 </div>
               
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Vaigyanik Vistaar">
+                  <div class="card-title">Vaigyanik <br /> Vistaar</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Vanijya Verse">
+                  <div class="card-title">Vanijya <br />  Verse</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Tarkanjali">
+                  <div class="card-title">Tarkanjali</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Shataranj">
+                  <div class="card-title">Shataranj</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Nyaya Yudh">
+                  <div class="card-title">Nyaya Yudh</div>
                 </div>
 
                 <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
+                  <img src="../assets/images/logo.png" alt="Vyapaar Yagna">
+                  <div class="card-title">Vyapaar <br />  Yagna</div>
                 </div>
               
-                <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
-                </div>
-
-                <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
-                </div>
-
-                <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
-                </div>
-
-
-                <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
-                </div>
-
-                <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
-                </div>
-
-                <div class="card">
-                  <img src="../assets/images/logo.png" alt="Moot Court">
-                  <div class="card-title">MOOT COURT</div>
-                </div>
           </div>
         </div>
 
