@@ -218,7 +218,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: clamp(0.5rem, 1vw, 3rem) clamp(4rem, 19.5vw, 18rem); /* ample spacing for background visibility */
-  z-index: -1;
+  z-index: 1;
   left: 5%;
   right: 5%;
   width: clamp(20rem, 90vw, 90rem);
@@ -271,6 +271,7 @@ body {
   height: clamp(10rem, 42vw, 42rem);
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 /* dpsn history */
