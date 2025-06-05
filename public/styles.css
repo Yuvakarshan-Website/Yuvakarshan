@@ -1140,8 +1140,9 @@ body {
 
   .nav-list {
     padding: 0.5rem 1rem;
-    background-color: rgba(162, 136, 109, 0.385);
-    backdrop-filter: blur(20px);
+    background-color: rgba(47, 31, 16, 0.918);
+    backdrop-filter: blur(10px); /* <- The glass blur */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     border-radius: 20px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.3);
     border: 2px solid rgba(255, 255, 255, 0.46);
