@@ -5,6 +5,10 @@ export default function Team() {
   container.innerHTML = `
     <div class="teamBg"></div>
     <section class="CoreCommittee">
+      
+      <div class="scroll-prompt-team">SCROLL DOWN!</div>
+
+
       <div class="CoreColumn Left">
         <div class="SectionTitle">
         Core Committee

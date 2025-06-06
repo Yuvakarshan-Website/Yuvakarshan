@@ -4,7 +4,11 @@ export default function EventsBuffer() {
 
   container.innerHTML = `
     <section class="events-list">
-        <div class="card-container">
+
+        <div class="scroll-prompt-buffer">SCROLL DOWN!</div>
+
+
+        <div class="card-container">  
           <div class="card-grid ">
             <!-- Repeat this block for each card -->
               

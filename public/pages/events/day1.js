@@ -4,6 +4,9 @@ export default function Events() {
 
   container.innerHTML = `
     <section class="events-list">
+
+        <div class="scroll-prompt-day1">SCROLL DOWN!</div>
+
         <div class="card-container">
           <div class="card-grid ">
                 <div class="card">

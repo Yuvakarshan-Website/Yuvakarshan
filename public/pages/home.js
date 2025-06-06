@@ -12,6 +12,9 @@ export default function Home() {
       <div class="subtitle">2K25</div>
       <div class="tagline">Rise Like a Phoenix, Reign Like a God</div>
     </div>
+    
+    <div class="scroll-prompt">SCROLL DOWN!</div>
+
     <div class="YuvaHistContainer">
       <div class="YuvaHist Title">
         From the Yuvakarshan Directors' Desk
@@ -59,7 +62,7 @@ export default function Home() {
           <a href="/lottery" data-link>LOTTERY RESULTS</a>
         </div>
         <div class="grid-item right" style="grid-row: 3; grid-column: 2;">
-          <a href="/rep-meet" data-link>reps' meet</a>
+          <a href="https://instagram.com/yuvakarshan2k25/" data-link>Socials</a>
         </div>
       </div>
       <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"></img>
@@ -88,6 +91,7 @@ export default function Home() {
           </svg>
         </a>
       </div>
+
     </div>
   `;
 

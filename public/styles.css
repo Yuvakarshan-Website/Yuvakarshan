@@ -45,6 +45,53 @@ body {
 /*Pages*/
 
 /*home*/
+
+.scroll-prompt{
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  border-radius: 8px;
+  z-index: 999;
+  font-family: 'Kaivalya', sans-serif;
+  transition: ease 0.5s ease;
+  display: none;
+
+  /* Animation */
+  animation: pulseScale 1.6s ease-in-out infinite;
+}
+
+@keyframes pulseScale {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.15);
+  }
+}
+
+
+.scroll-prompt::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #ffd700;
+  box-shadow: 0 0 6px #ffd700,
+              0 0 12px #ffd700;
+}
+
+.scroll-prompt.visible{
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .home-banner {
   position: absolute;
   top: 40vh;
@@ -632,6 +679,7 @@ body {
 
   scrollbar-width: 0.8rem; /* Firefox */
   scrollbar-color: rgb(255, 217, 0) rgba(0 0 0 / 0.1); /* thumb and track */
+  
 }
 
 
