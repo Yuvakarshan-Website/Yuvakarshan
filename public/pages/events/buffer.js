@@ -40,7 +40,7 @@ export default function EventsBuffer() {
                 </div>
               
                 <div class="card">
-                  <img src="../assets/images/logos/25.jpeg" alt="Chakra League">
+                  <img src="../assets/images/logos/25.png" alt="Chakra League">
                   <div class="card-title">Chakra<br /> League<br /> </div>
                 </div>
 
