@@ -5,8 +5,6 @@ export default function EventsDay2() {
   container.innerHTML = `
     <section class="events-list">
 
-        <div class="scroll-prompt-day2">SCROLL DOWN!</div>
-
         <div class="card-container">
           <div class="card-grid ">
             <!-- Repeat this block for each card -->

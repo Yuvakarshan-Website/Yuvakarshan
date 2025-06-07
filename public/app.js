@@ -44,8 +44,30 @@ function render(path) {
 
   app.innerHTML = '';
   app.appendChild(Page());
+
+  const scrollPrompt = document.querySelector('.scroll-prompt');
+
+  scrollPrompt?.addEventListener("click", () => {
+      window.scrollBy({ 
+      top: 1.3* window.innerHeight, 
+      behavior: 'smooth' 
+    });
+  });
+
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY || window.pageYOffset;
+    const threshold = 0.2 * window.innerHeight;
+
+    const isActive = scrollPrompt.classList.contains('active');
+
+    if (scrollY > threshold && !isActive) {
+      scrollPrompt.classList.add('active');
+    } else if (scrollY <= threshold && isActive) {
+      scrollPrompt.classList.remove('active');
+    }
+  });
+
   if (normalized === '/' || normalized === '/home') {
-      loadPromptForPage(0)
 
       const canvas = document.getElementById('canvas3d');
       const app = new Application(canvas);
@@ -130,22 +152,7 @@ function render(path) {
       } 
   }
 
-  if (normalized === '/eventsDay1'){
-    loadPromptForPage(1)
-  }
-
-  if (normalized === '/eventsDay2'){
-    loadPromptForPage(2)
-  }
-
-  if (normalized === '/eventsBuffer'){
-    loadPromptForPage(3)
-  }
-
   if (normalized === '/team') {
-
-    loadPromptForPage(4)
-
     let lastHiddenCard = null;
     const coreCards = document.querySelectorAll('.CoreCard');
 
@@ -180,38 +187,7 @@ function render(path) {
   }
 }
 
-//function for prompt loading
 
-const pages = [
-  ".scroll-prompt",
-  ".scroll-prompt-day1",
-  ".scroll-prompt-day2",
-  ".scroll-prompt-buffer",
-  ".scroll-prompt-team",
-]
-
-const loadPromptForPage = (pg) => {
-    let hasScrolled = false;
-
-    let page = pages[pg]
-
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        hasScrolled = true;
-        const prompt = document.querySelector(page);
-        if (prompt) prompt.style.display = 'none';
-      }
-    });
-
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        if (!hasScrolled) {
-          const prompt = document.querySelector(page);
-          if (prompt) prompt.style.display = 'block';
-        }
-      }, 6000);
-    });
-}
 
 // Setup SPA-style routing
 function setupRouter() {
@@ -260,10 +236,6 @@ links.forEach(link => {
 
 
 
-
-
-
-
 // Intersection observer for .YuvaHist elements
 function observeYuvaHist() {
   const targets = document.querySelectorAll('.YuvaHist');
@@ -281,5 +253,9 @@ document.addEventListener("DOMContentLoaded", observeYuvaHist);
 window.addEventListener("load", observeYuvaHist);
 const bodyObserver = new MutationObserver(() => observeYuvaHist());
 bodyObserver.observe(document.body, { childList: true, subtree: true });
+
+
+//scroll prompt
+
 
 

@@ -13,7 +13,11 @@ export default function Home() {
       <div class="tagline">Rise Like a Phoenix, Reign Like a God</div>
     </div>
     
-    <div class="scroll-prompt">SCROLL DOWN!</div>
+    <div class="scroll-prompt">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
     <div class="YuvaHistContainer">
       <div class="YuvaHist Title">
