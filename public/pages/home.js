@@ -62,10 +62,10 @@ export default function Home() {
           <a href="/lottery" data-link>LOTTERY RESULTS</a>
         </div>
         <div class="grid-item right" style="grid-row: 3; grid-column: 2;">
-          <a href="https://instagram.com/yuvakarshan2k25/" data-link>Socials</a>
+          <a href="https://instagram.com/yuvakarshan2k25/">Socials</a>
         </div>
       </div>
-      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.png"></img>
+      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.webp"></img>
     </div>
     <div class="dpsnHist">
       <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>

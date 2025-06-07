@@ -36,6 +36,8 @@ function normalizePath(path) {
 function render(path) {
   const app = document.getElementById('app');
 
+  window.scrollTo(0, 0);
+
   const normalized = normalizePath(path);
   const Page = routes[normalized] || NotFound;
   const isPortrait = window.innerHeight > window.innerWidth;
@@ -52,7 +54,7 @@ function render(path) {
           app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
 
           const targetObject = app.findObjectByName('yuva');
-
+          handlePortraitScroll(targetObject, window.scrollY || window.pageYOffset);
           window.addEventListener('scroll', () => {
             const scrollY = window.scrollY || window.pageYOffset;
             handlePortraitScroll(targetObject, scrollY);
@@ -65,6 +67,7 @@ function render(path) {
         let size = (window.innerWidth/1366)*2.6;
         app.setVariable('Size', size);
         const targetObject = app.findObjectByName('yuva');
+        handleLandscapeScroll(targetObject, window.scrollY || window.pageYOffset);
 
         window.addEventListener('scroll', () => {
           const scrollY = window.scrollY || window.pageYOffset;
