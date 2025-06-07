@@ -32,17 +32,17 @@ export default function Home() {
       <p class="YuvaHist">
         In an age driven by algorithms and ambition, revisiting these narratives is more than homage it is a reclamation of identity. It is our tribute to the richness of Indian heritage, a celebration of symbolism, archetypes, and cosmic battles that still echo in our collective consciousness. It is through these stories that we hope to awaken in every participant a deeper understanding of leadership, strategy, art, justice, and most of all purpose. 
       </p>
-      <p class="YuvaHist">
+      <div class="YuvaHist">
         But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
           <br><br> 
-          &emsp;  ✧	Kartekya’s Combat <br>
+           &emsp;  ✧	Kartekya’s Combat<br> 
           &emsp;  ✧	Chanakaya’s Council <br>
           &emsp;  ✧	Kalpana <br>
           &emsp;  ✧	Shastra Byte <br>
           &emsp;  ✧	Karigari Hub <br>
           &emsp;  ✧	Vikram's Vision<br><br>
         Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
-      </p>
+      </div>
       <div class="YuvaHist">
       Yuvakarshan is not just a fest it is an experience. A confluence of intellect and imagination. A platform where legends are not just remembered, but reimagined. And in this convergence, we invite schools from across the country to participate, to create, and to carve their own legacy in the grand tapestry of Yuvakarshan on the 24th and 25th of July.
       </div>

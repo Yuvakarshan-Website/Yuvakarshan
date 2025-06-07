@@ -44,10 +44,15 @@ body {
 
 /*Pages*/
 
+
+
+
+
+
 /*home*/
 .scroll-prompt {
   position: fixed;
-  top: 94vh;
+  top: 90vh;
   left: 50%;
   user-select: none;
   cursor: pointer;
@@ -61,8 +66,8 @@ body {
 
 .scroll-prompt span {
   position: absolute;
-  border-left: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-left: 3px solid #f8a311;
+  border-bottom: 3px solid #e37c1d;
   transform: translateX(-50%) rotate(-45deg);
   opacity: 0.7;
   animation: breathe 2.5s ease-in-out infinite;
@@ -99,6 +104,15 @@ body {
     opacity: 1;
   }
 }
+
+.scroll-prompt-event{
+  top: 82vh;
+  cursor: pointer;
+}
+
+
+
+
 
 
 
@@ -898,7 +912,7 @@ body {
   display: flex;
   width: 100%;
   flex: 1.6;
-  border-radius: 30px;
+  border-radius: 50px;
   transition: all 0.3s ease;
   box-sizing: border-box;
 }
@@ -911,7 +925,7 @@ body {
   box-shadow:
     0 2px 8px 0 #ffd9008a,
     inset 0 0 1px rgba(255, 255, 255, 0.3);
-  transition: all 0.3s ease, transform 0.3s ease;
+  transition: all 0.3s ease;
   box-sizing: border-box;
   cursor: pointer;
   background-size: contain;
@@ -964,6 +978,9 @@ body {
   }
 }
 
+.Highlighted:hover {
+  transform: rotateY(8deg) scale(1.03);
+}
 
 @media (max-aspect-ratio: 1.2/1) {
    .CoreCommittee {

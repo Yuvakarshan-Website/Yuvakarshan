@@ -4,6 +4,12 @@ export default function Events() {
 
   container.innerHTML = `
     <section class="events-list">
+        <div class="scroll-prompt scroll-prompt-event">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
         <div class="card-container">
           <div class="card-grid ">
                 <div class="card">

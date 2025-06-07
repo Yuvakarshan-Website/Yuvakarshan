@@ -4,6 +4,11 @@ export default function EventsDay2() {
 
   container.innerHTML = `
     <section class="events-list">
+        <div class="scroll-prompt scroll-prompt-event">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
         <div class="card-container">
           <div class="card-grid ">

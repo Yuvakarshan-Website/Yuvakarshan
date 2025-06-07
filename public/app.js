@@ -67,6 +67,26 @@ function render(path) {
     }
   });
 
+  //for events page
+
+  const eventContainer = document.querySelector('.card-grid');
+
+  if (eventContainer) {
+    eventContainer.addEventListener('scroll', () => {
+      const scrollY = eventContainer.scrollTop;
+      const threshold = 0.05 * eventContainer.clientHeight;
+
+      const isActive = scrollPrompt.classList.contains('active');
+
+      if (scrollY > threshold && !isActive) {
+        scrollPrompt.classList.add('active');
+      } else if (scrollY <= threshold && isActive) {
+        scrollPrompt.classList.remove('active');
+      }
+    });
+  }
+
+
   if (normalized === '/' || normalized === '/home') {
 
       const canvas = document.getElementById('canvas3d');
@@ -184,6 +204,13 @@ function render(path) {
         highlight.style.backgroundPosition = 'bottom';
       }
     }
+
+    VanillaTilt.init(document.querySelectorAll(".Highlighted"), {
+      max: 25,
+      speed: 500,
+      glare: true,
+      "max-glare": 0.07,
+    });
   }
 }
 
