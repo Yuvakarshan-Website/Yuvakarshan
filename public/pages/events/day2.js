@@ -16,17 +16,17 @@ export default function EventsDay2() {
               
                 <div class="card">
                   <img src="../assets/images/logos/16.png" alt="Raaga Rock">
-                  <div class="card-title">Raaga Rock</div>
+                  <div class="card-title">Raaga <br /> Rock</div>
                 </div>
 
                 <div class="card">
                   <img src="../assets/images/logos/20.png" alt="Bodha Blitz ">
-                  <div class="card-title">Bodha Blitz </div>
+                  <div class="card-title">Bodha <br /> Blitz </div>
                 </div>
 
                 <div class="card">
                   <img src="../assets/images/logos/14.png" alt="Nazakat">
-                  <div class="card-title">Nazakat</div>
+                  <div class="card-title">Nazakat <br /> ‎ </div>
                 </div>
 
 
@@ -37,12 +37,12 @@ export default function EventsDay2() {
 
                 <div class="card">
                   <img src="../assets/images/logos/21.png" alt="Chitrakatha">
-                  <div class="card-title">Chitrakatha</div>
+                  <div class="card-title">Chitrakatha <br /> ‎ </div>
                 </div>
 
                 <div class="card">
                   <img src="../assets/images/logos/2.png" alt="AppUrva">
-                  <div class="card-title">AppUrva</div>
+                  <div class="card-title">AppUrva <br /> ‎ </div>
                 </div>
               
                 <div class="card">
@@ -57,17 +57,17 @@ export default function EventsDay2() {
 
                 <div class="card">
                   <img src="../assets/images/logos/23.png" alt="Tarkanjali">
-                  <div class="card-title">Tarkanjali</div>
+                  <div class="card-title">Tarkanjali <br /> ‎ </div>
                 </div>
 
                 <div class="card">
                   <img src="../assets/images/logos/29.png" alt="Shataranj">
-                  <div class="card-title">Shataranj</div>
+                  <div class="card-title">Shataranj <br /> ‎ </div>
                 </div>
 
                 <div class="card">
                   <img src="../assets/images/logos/24.png" alt="Nyaya Yudh">
-                  <div class="card-title">Nyaya Yudh</div>
+                  <div class="card-title">Nyaya <br /> Yudh</div>
                 </div>
 
                 <div class="card">
@@ -79,10 +79,10 @@ export default function EventsDay2() {
         </div>
 
     <!-- Fixed Right Button -->
-    <button class="side-button left-button"><a href="/eventsDay1" data-link>◀ Day 1</a></button>
+    <button class="side-button left-button"><a href="/eventsDay1" data-link>&larr; Day 1</a></button>
 
     <!-- Fixed Right Button -->
-    <button class="side-button right-button"><a href="/eventsBuffer" data-link>Buffer ▶</a></button>
+    <button class="side-button right-button"><a href="/eventsBuffer" data-link>Buffer &rarr;</a></button>
 
     <!-- page Center Label -->
     <div class="page-label">DAY TWO</div>

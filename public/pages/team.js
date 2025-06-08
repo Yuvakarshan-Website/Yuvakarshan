@@ -6,11 +6,11 @@ export default function Team() {
     <div class="teamBg"></div>
     <section class="CoreCommittee">
       
-      <div class="scroll-prompt">
+      <!--<div class="scroll-prompt">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </div>-->
 
 
       <div class="CoreColumn Left">

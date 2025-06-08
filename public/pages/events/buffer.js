@@ -26,7 +26,7 @@ export default function EventsBuffer() {
 
                 <div class="card">
                   <img src="../assets/images/logos/27.png" alt="Neeraganga">
-                  <div class="card-title">Neeraganga </div>
+                  <div class="card-title">Neeraganga <br /> ‎ </div>
                 </div>
 
                 <div class="card">
@@ -36,7 +36,7 @@ export default function EventsBuffer() {
 
                 <div class="card">
                   <img src="../assets/images/logos/33.png" alt="Vedic Race">
-                  <div class="card-title">Vedic Race<br /> </div>
+                  <div class="card-title">Vedic <br /> Race </div>
                 </div>
               
                 <div class="card">
@@ -46,7 +46,7 @@ export default function EventsBuffer() {
 
                 <div class="card">
                   <img src="../assets/images/logos/36.png" alt="IndraShock">
-                  <div class="card-title">IndraShock </div>
+                  <div class="card-title">IndraShock <br/> ‎ </div>
                 </div>
 
                 <div class="card">
@@ -59,7 +59,7 @@ export default function EventsBuffer() {
         </div>
  
     <!-- Fixed Right Button -->
-    <button class="side-button left-button"><a href="/eventsDay2" data-link>◀ Day 2 </a> </button>
+    <button class="side-button left-button"><a href="/eventsDay2" data-link>&larr; Day 2 </a> </button>
 
     <!-- page Center Label -->
     <div class="page-label">BUFFER</div>
