@@ -709,8 +709,8 @@ body {
 
 /* Individual card style */
 .card {
-  min-width: 170px;
-  min-height: 230px;
+  width: 170px;
+  height: 230px;
   margin-top: 20px;
   border-radius: 30px;
   overflow: hidden;

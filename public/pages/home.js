@@ -32,7 +32,7 @@ export default function Home() {
       <p class="YuvaHist">
         In an age driven by algorithms and ambition, revisiting these narratives is more than homage it is a reclamation of identity. It is our tribute to the richness of Indian heritage, a celebration of symbolism, archetypes, and cosmic battles that still echo in our collective consciousness. It is through these stories that we hope to awaken in every participant a deeper understanding of leadership, strategy, art, justice, and most of all purpose. 
       </p>
-      <div class="YuvaHist">
+      <p class="YuvaHist">
         But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
           <br><br> 
            <span style='color:rgb(226, 222, 9)'> &emsp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
@@ -42,10 +42,10 @@ export default function Home() {
           <span style='color:rgb(125, 33, 255)'> &emsp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
           <span style='color:rgb(63, 227, 23)'> &emsp;  ✧	Vikram's Vision </span > <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Innovation) </span> <br><br>
         Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
-      </div>
-      <div class="YuvaHist">
+      </p>
+      <p class="YuvaHist">
       Yuvakarshan is not just a fest it is an experience. A confluence of intellect and imagination. A platform where legends are not just remembered, but reimagined. And in this convergence, we invite schools from across the country to participate, to create, and to carve their own legacy in the grand tapestry of Yuvakarshan on the 24th and 25th of July.
-      </div>
+      </p>
     </div>
     <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
     <div class="HomeNav">
