@@ -35,7 +35,7 @@ export default function Home() {
       <div class="YuvaHist">
         But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
           <br><br> 
-           <span style='color:rgb(226, 222, 9)'> &emsp;  ✧	Kartekya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
+           <span style='color:rgb(226, 222, 9)'> &emsp;  ✧	Kartekeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
           <span style='color:rgb(102, 207, 255)'> &emsp;  ✧	Chanakaya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
           <span style='color:rgb(227, 171, 49)'> &emsp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
           <span style='color:rgb(255, 255, 255)'> &emsp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
