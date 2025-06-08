@@ -8,6 +8,8 @@ import Navbar from './components/navbar.js';
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
 
+let ClickPromptShown = false;
+
 // Fallback 404 component
 function NotFound() {
   const div = document.createElement('div');
@@ -211,6 +213,26 @@ function render(path) {
       glare: true,
       "max-glare": 0.07,
     });
+  }
+
+  if (normalized === '/eventsDay1') {
+    const prompt = document.getElementById('eventClickPrompt');
+
+    if (prompt && !ClickPromptShown) {
+      ClickPromptShown = true;
+
+      prompt.classList.remove('hidden');
+
+      // Auto-hide after 3 seconds
+      setTimeout(() => {
+        prompt.classList.add('hidden');
+      }, 3000);
+
+      // Optional: allow manual dismiss on click
+      prompt.addEventListener('click', () => {
+        prompt.classList.add('hidden');
+      });
+    }
   }
 }
 

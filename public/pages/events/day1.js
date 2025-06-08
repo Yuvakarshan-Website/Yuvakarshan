@@ -4,6 +4,11 @@ export default function Events() {
 
   container.innerHTML = `
     <section class="events-list">
+
+        <div id="eventClickPrompt" class="eventClickPrompt hidden">
+          Click any event to see its details
+        </div>
+
         <div class="scroll-prompt scroll-prompt-event">
           <span></span>
           <span></span>
@@ -12,87 +17,85 @@ export default function Events() {
         
         <div class="card-container">
           <div class="card-grid ">
-                <div class="card">
-                  <img src="../assets/images/logos/17.png" alt="Raaga Sangam">
-                  <div class="card-title">Raaga <br /> Sangam</div>
-                </div>
+            <a href="/RaagaSangam" data-link class="card">
+              <img src="../assets/images/logos/17.png" alt="Raaga Sangam">
+              <div class="card-title">Raaga <br /> Sangam</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/11.png" alt="Antakshari">
-                  <div class="card-title">Antakshari <br /> ‎ </div>
-                </div>
+            <a href="/Antakshari" data-link class="card">
+              <img src="../assets/images/logos/11.png" alt="Antakshari">
+              <div class="card-title">Antakshari <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/13.png" alt="Nritya Katha">
-                  <div class="card-title">Nritya <br /> Katha</div>
-                </div>
+            <a href="/NrityaKatha" data-link class="card">
+              <img src="../assets/images/logos/13.png" alt="Nritya Katha">
+              <div class="card-title">Nritya <br /> Katha</div>
+            </a>
 
+            <a href="/Chakravyuh" data-link class="card">
+              <img src="../assets/images/logos/35.png" alt="Chakravyuh">
+              <div class="card-title">Chakravyuh <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/35.png" alt="Chakravyuh">
-                  <div class="card-title">Chakravyuh <br /> ‎ </div>
-                </div>
+            <a href="/BheemsBhojnalay" data-link class="card">
+              <img src="../assets/images/logos/19.png" alt="Bheem's Bhojnalay">
+              <div class="card-title">Bheem's <br /> Bhojnalay</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/19.png" alt="Bheem's Bhojnalay">
-                  <div class="card-title">Bheem's <br /> Bhojnalay</div>
-                </div>
+            <a href="/MechaYaan" data-link class="card">
+              <img src="../assets/images/logos/4.png" alt="Mecha Yaan">
+              <div class="card-title">Mecha <br/> Yaan </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/4.png" alt="Mecha Yaan">
-                  <div class="card-title">Mecha <br/> Yaan </div>
-                </div>
-              
-                <div class="card">
-                  <img src="../assets/images/logos/3.png" alt="Cyber Siddhanta">
-                  <div class="card-title">Cyber <br /> Siddhanta</div>
-                </div>
+            <a href="/CyberSiddhanta" data-link class="card">
+              <img src="../assets/images/logos/3.png" alt="Cyber Siddhanta">
+              <div class="card-title">Cyber <br /> Siddhanta</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/1.png" alt="Anveshan">
-                  <div class="card-title">Anveshan <br /> ‎ </div>
-                </div>
+            <a href="/Anveshan" data-link class="card">
+              <img src="../assets/images/logos/1.png" alt="Anveshan">
+              <div class="card-title">Anveshan <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/7.png" alt="Arthashastra's Arena">
-                  <div class="card-title"  style="font-size: 0.8rem;">Arthashastra's <br /> Arena</div>
-                </div>
+            <a href="/ArthashastrasArena" data-link class="card">
+              <img src="../assets/images/logos/7.png" alt="Arthashastra's Arena">
+              <div class="card-title" style="font-size: 0.8rem;">Arthashastra's <br /> Arena</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/6.png" alt="Indra's Influence">
-                  <div class="card-title">Indra's <br /> Influence</div>
-                </div>
+            <a href="/IndrasInfluence" data-link class="card">
+              <img src="../assets/images/logos/6.png" alt="Indra's Influence">
+              <div class="card-title">Indra's <br /> Influence</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/8.png" alt="Kubera Capital">
-                  <div class="card-title">Kubera <br />Capital</div>
-                </div>
+            <a href="/KuberaCapital" data-link class="card">
+              <img src="../assets/images/logos/8.png" alt="Kubera Capital">
+              <div class="card-title">Kubera <br />Capital</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/26.png" alt="Hanuman's Combat">
-                  <div class="card-title">Hanuman's<br /> Combat</div>
-                </div>
-              
-                <div class="card">
-                  <img src="../assets/images/logos/18.png" alt="Vrittanta">
-                  <div class="card-title">Vrittanta <br/> ‎ </div>
-                </div>
+            <a href="/HanumansCombat" data-link class="card">
+              <img src="../assets/images/logos/26.png" alt="Hanuman's Combat">
+              <div class="card-title">Hanuman's<br /> Combat</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/15.png" alt="Nukkad Natak">
-                  <div class="card-title">Nukkad <br /> Natak</div>
-                </div>
+            <a href="/Vrittanta" data-link class="card">
+              <img src="../assets/images/logos/18.png" alt="Vrittanta">
+              <div class="card-title">Vrittanta <br/> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/34.png" alt="Agni Strikers">
-                  <div class="card-title">Agni <br /> Strikers</div>
-                </div>
+            <a href="/NukkadNatak" data-link class="card">
+              <img src="../assets/images/logos/15.png" alt="Nukkad Natak">
+              <div class="card-title">Nukkad <br /> Natak</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/22.png" alt="Maya Mandi">
-                  <div class="card-title">Maya <br /> Mandi</div>
-                </div>
+            <a href="/AgniStrikers" data-link class="card">
+              <img src="../assets/images/logos/34.png" alt="Agni Strikers">
+              <div class="card-title">Agni <br /> Strikers</div>
+            </a>
 
+            <a href="/MayaMandi" data-link class="card">
+              <img src="../assets/images/logos/22.png" alt="Maya Mandi">
+              <div class="card-title">Maya <br /> Mandi</div>
+            </a>
           </div>
         </div>
 

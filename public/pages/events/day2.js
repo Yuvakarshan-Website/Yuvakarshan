@@ -11,70 +11,67 @@ export default function EventsDay2() {
         </div>
 
         <div class="card-container">
-          <div class="card-grid ">
-            <!-- Repeat this block for each card -->
-              
-                <div class="card">
-                  <img src="../assets/images/logos/16.png" alt="Raaga Rock">
-                  <div class="card-title">Raaga <br /> Rock</div>
-                </div>
+          <div class="card-grid "> 
+            <a href="/RaagaRock" data-link class="card">
+              <img src="../assets/images/logos/16.png" alt="Raaga Rock">
+              <div class="card-title">Raaga <br /> Rock</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/20.png" alt="Bodha Blitz ">
-                  <div class="card-title">Bodha <br /> Blitz </div>
-                </div>
+            <a href="/BodhaBlitz" data-link class="card">
+              <img src="../assets/images/logos/20.png" alt="Bodha Blitz">
+              <div class="card-title">Bodha <br /> Blitz</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/14.png" alt="Nazakat">
-                  <div class="card-title">Nazakat <br /> ‎ </div>
-                </div>
+            <a href="/Nazakat" data-link class="card">
+              <img src="../assets/images/logos/14.png" alt="Nazakat">
+              <div class="card-title">Nazakat <br /> ‎ </div>
+            </a>
 
+            <a href="/LeelaManch" data-link class="card">
+              <img src="../assets/images/logos/12.png" alt="Leela Manch">
+              <div class="card-title">Leela <br /> Manch</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/12.png" alt="Leela Manch">
-                  <div class="card-title">Leela <br />  Manch</div>
-                </div>
+            <a href="/Chitrakatha" data-link class="card">
+              <img src="../assets/images/logos/21.png" alt="Chitrakatha">
+              <div class="card-title">Chitrakatha <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/21.png" alt="Chitrakatha">
-                  <div class="card-title">Chitrakatha <br /> ‎ </div>
-                </div>
+            <a href="/AppUrva" data-link class="card">
+              <img src="../assets/images/logos/2.png" alt="AppUrva">
+              <div class="card-title">AppUrva <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/2.png" alt="AppUrva">
-                  <div class="card-title">AppUrva <br /> ‎ </div>
-                </div>
-              
-                <div class="card">
-                  <img src="../assets/images/logos/5.png" alt="Vaigyanik Vistaar">
-                  <div class="card-title">Vaigyanik <br /> Vistaar</div>
-                </div>
+            <a href="/VaigyanikVistaar" data-link class="card">
+              <img src="../assets/images/logos/5.png" alt="Vaigyanik Vistaar">
+              <div class="card-title">Vaigyanik <br /> Vistaar</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/9.png" alt="Vanijya Verse">
-                  <div class="card-title">Vanijya <br />  Verse</div>
-                </div>
+            <a href="/VanijyaVerse" data-link class="card">
+              <img src="../assets/images/logos/9.png" alt="Vanijya Verse">
+              <div class="card-title">Vanijya <br /> Verse</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/23.png" alt="Tarkanjali">
-                  <div class="card-title">Tarkanjali <br /> ‎ </div>
-                </div>
+            <a href="/Tarkanjali" data-link class="card">
+              <img src="../assets/images/logos/23.png" alt="Tarkanjali">
+              <div class="card-title">Tarkanjali <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/29.png" alt="Shataranj">
-                  <div class="card-title">Shataranj <br /> ‎ </div>
-                </div>
+            <a href="/Shataranj" data-link class="card">
+              <img src="../assets/images/logos/29.png" alt="Shataranj">
+              <div class="card-title">Shataranj <br /> ‎ </div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/24.png" alt="Nyaya Yudh">
-                  <div class="card-title">Nyaya <br /> Yudh</div>
-                </div>
+            <a href="/NyayaYudh" data-link class="card">
+              <img src="../assets/images/logos/24.png" alt="Nyaya Yudh">
+              <div class="card-title">Nyaya <br /> Yudh</div>
+            </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/10.png" alt="Vyapaar Yagna">
-                  <div class="card-title">Vyapaar <br />  Yagna</div>
-                </div>
-              
+            <a href="/VyapaarYagna" data-link class="card">
+              <img src="../assets/images/logos/10.png" alt="Vyapaar Yagna">
+              <div class="card-title">Vyapaar <br /> Yagna</div>
+            </a>
+   
           </div>
         </div>
 
