@@ -35,11 +35,11 @@ export default function Home() {
       <p class="YuvaHist">
         But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
           <br><br> 
-           <span style='color:rgb(226, 222, 9)'> &emsp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
-          <span style='color:rgb(102, 207, 255)'> &emsp;  ✧	Chanakya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
-          <span style='color:rgb(227, 171, 49)'> &emsp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
-          <span style='color:rgb(255, 255, 255)'> &emsp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
-          <span style='color:rgb(125, 33, 255)'> &emsp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
+           <span style='color:#ffd700'> &emsp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
+          <span style='color:rgb(102, 222, 255)'> &emsp;  ✧	Chanakya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
+          <span style='color:rgb(222, 108, 42)'> &emsp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
+          <span style='color:rgb(255, 74, 74)'> &emsp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
+          <span style='color:rgb(170, 110, 255)'> &emsp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
           <span style='color:rgb(63, 227, 23)'> &emsp;  ✧	Vikram's Vision </span > <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Innovation) </span> <br><br>
         Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
       </p>

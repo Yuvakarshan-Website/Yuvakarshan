@@ -8,51 +8,51 @@ export default function EventsBuffer() {
           <div class="card-grid ">
             <!-- Repeat this block for each card -->
               
-                <div class="card">
-                  <img src="../assets/images/logos/31.png" alt="Sudarshan's Spin">
-                  <div class="card-title">Sudarshan's <br /> Spin  </div>
-                </div>
+                <a href="/SudarshansSpin" data-link class="card">
+                  <img src="../assets/images/logos/31.webp" alt="Sudarshan's Spin">
+                  <div class="card-title">Sudarshan's<br>Spin</div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/28.png" alt="Rudra's Racquet">
-                  <div class="card-title">Rudra's <br /> Racquet</div>
-                </div>
+                <a href="/RudrasRacquet" data-link class="card">
+                  <img src="../assets/images/logos/28.webp" alt="Rudra's Racquet">
+                  <div class="card-title">Rudra's<br>Racquet</div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/32.png" alt="Vaayu Smash ">
-                  <div class="card-title">Vaayu <br /> Smash</div>
-                </div>
+                <a href="/VaayuSmash" data-link class="card">
+                  <img src="../assets/images/logos/32.webp" alt="Vaayu Smash">
+                  <div class="card-title">Vaayu<br>Smash</div>
+                </a>
 
+                <a href="/Neeraganga" data-link class="card">
+                  <img src="../assets/images/logos/27.webp" alt="Neeraganga">
+                  <div class="card-title">Neeraganga<br>‎</div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/27.png" alt="Neeraganga">
-                  <div class="card-title">Neeraganga <br /> ‎ </div>
-                </div>
+                <a href="/RadiantRumble" data-link class="card">
+                  <img src="../assets/images/logos/37.webp" alt="Radiant Rumble">
+                  <div class="card-title">Radiant<br>Rumble</div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/37.png" alt="Radiant Rumble">
-                  <div class="card-title">Radiant<br />Rumble</div>
-                </div>
+                <a href="/VedicRace" data-link class="card">
+                  <img src="../assets/images/logos/33.webp" alt="Vedic Race">
+                  <div class="card-title">Vedic Race<br>‎</div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/33.png" alt="Vedic Race">
-                  <div class="card-title">Vedic <br /> Race </div>
-                </div>
-              
-                <div class="card">
-                  <img src="../assets/images/logos/25.png" alt="Chakra League">
-                  <div class="card-title">Chakra<br /> League<br /> </div>
-                </div>
+                <a href="/ChakraLeague" data-link class="card">
+                  <img src="../assets/images/logos/25.webp" alt="Chakra League">
+                  <div class="card-title">Chakra<br>League</div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/36.png" alt="IndraShock">
-                  <div class="card-title">IndraShock <br/> ‎ </div>
-                </div>
+                <a href="/IndraShock" data-link class="card">
+                  <img src="../assets/images/logos/36.webp" alt="IndraShock">
+                  <div class="card-title">IndraShock <br> ‎ </div>
+                </a>
 
-                <div class="card">
-                  <img src="../assets/images/logos/30.png" alt="Shiv Sadhna">
-                  <div class="card-title">Shiv<br /> Sadhna<br />  </div>
-                </div>
+                <a href="/ShivSadhna" data-link class="card">
+                  <img src="../assets/images/logos/30.webp" alt="Shiv Sadhna">
+                  <div class="card-title">Shiv<br>Sadhna</div>
+                </a>
+
 
               
           </div>

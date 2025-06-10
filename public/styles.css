@@ -19,7 +19,7 @@ body {
   display: none;
 }
 
-.homeBg, .events-page, .teamBg, .galleryBg, .events-page-day-2, .events-page-buffer {
+.homeBg, .events-page, .repsEvent, .teamBg, .galleryBg, .events-page-day-2, .events-page-buffer {
   background-image: 
     radial-gradient(
       circle at top center,
@@ -36,7 +36,7 @@ body {
 
 .home {height: 625vh; padding: 2rem;}
 .homeBg, .teamBg, .galleryBg {min-height: 100lvh; min-width: 100lvw; position: fixed; z-index: 0; top: 0; left: 0;}
-.events-page, .events-page-day-2, .events-page-buffer, .gallery-page, .team-page {height: 100vh;}
+.events-page, .repsEvent, .events-page-day-2, .events-page-buffer, .gallery-page, .team-page {height: 100vh;}
 .gallery, .team-page {padding: 2rem;}
 
 

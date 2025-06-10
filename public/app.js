@@ -5,6 +5,8 @@ import EventsBuffer from './pages/events/buffer.js';
 import Gallery from './pages/gallery.js';
 import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
+import repsEvent from './pages/events/repsEvent.js';
+import eventDetails from './pages/eventDetails.js'
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
 
@@ -22,11 +24,49 @@ function NotFound() {
 const routes = {
   '/': Home,
   '/home': Home,
+  '/repsEvent': repsEvent,
   '/eventsDay1': Events,
   '/eventsDay2': EventsDay2,
   '/eventsBuffer': EventsBuffer,
   '/gallery': Gallery,
   '/team': Team,
+  '/SudarshansSpin': eventDetails,
+  '/RudrasRacquet': eventDetails,
+  '/VaayuSmash': eventDetails,
+  '/Neeraganga': eventDetails,
+  '/RadiantRumble': eventDetails,
+  '/VedicRace': eventDetails,
+  '/ChakraLeague': eventDetails,
+  '/IndraShock': eventDetails,
+  '/ShivSadhna': eventDetails,
+  '/RaagaRock': eventDetails,
+  '/BodhaBlitz': eventDetails,
+  '/Nazakat': eventDetails,
+  '/LeelaManch': eventDetails,
+  '/Chitrakatha': eventDetails,
+  '/AppUrva': eventDetails,
+  '/VaigyanikVistaar': eventDetails,
+  '/VanijyaVerse': eventDetails,
+  '/Tarkanjali': eventDetails,
+  '/Shataranj': eventDetails,
+  '/NyayaYudh': eventDetails,
+  '/VyapaarYagna': eventDetails,
+  '/RaagaSangam': eventDetails,
+  '/Antakshari': eventDetails,
+  '/NrityaKatha': eventDetails,
+  '/Chakravyuh': eventDetails,
+  '/BheemsBhojnalay': eventDetails,
+  '/MechaYaan': eventDetails,
+  '/CyberSiddhanta': eventDetails,
+  '/Anveshan': eventDetails,
+  '/ArthashastrasArena': eventDetails,
+  '/IndrasInfluence': eventDetails,
+  '/KuberaCapital': eventDetails,
+  '/HanumansCombat': eventDetails,
+  '/Vrittanta': eventDetails,
+  '/NukkadNatak': eventDetails,
+  '/AgniStrikers': eventDetails,
+  '/MayaMandi': eventDetails,
 };
 
 // Normalize path (removes trailing slash, ensures fallback to "/")
