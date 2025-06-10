@@ -4,21 +4,38 @@ export default function eventDetails() {
   const path = window.location.pathname;
   const data = eventData[path];
 
+  const segmentStyles = {
+    'Kalpana': ['#FFA94D', '#7a3f00'],             // pastel orange, deep amber
+    'Karigari Hub': ['#B197FC', '#3f1d78'],        // lavender, dark violet
+    "Vikram's Vision": ['#63E6BE', '#1b5f48'],     // mint, forest green
+    "Chanakya's Council": ['#66D9E8', '#134b56'],  // cyan, deep teal
+    "Kartikeya's Combat": ['#FFD43B', '#665c00'],  // bright yellow, ochre
+    'Shastra-Byte': ['#FF6B6B', '#6b0000']          // coral, blood red
+  };
+
+  const [fontColor, glowColor] = segmentStyles[data.segment] || ['#FFFFFF', '#000000'];
+
   const container = document.createElement('div');
   container.className = 'eventDetails';
 
   container.innerHTML = `
     <div class="eventDetailsBg">
+      <div class="event-segment"
+           style="
+             color: ${fontColor};
+             font-weight: bold;
+             text-transform: uppercase;
+             text-shadow: 0 0 4px ${glowColor}, 0 0 6px ${glowColor};
+           ">
+        ${data.segment}
+      </div>
+      <img class="event-segmentFrame" src="${data.segmentFrame}"></img>
       <img class="event-logo" src="${data.logo}"></img>
       <div class="event-name">${data.name}</div>
-      <div class="event-segment">Segment: ${data.segment}</div>
-      <div class="event-segmentFrame">Frame: ${data.segmentFrame}</div>
-      <div class="event-subject">Subject: ${data.subject}</div>
+      <div class="event-subject">${data.subject}</div>
       <div class="event-description">${data.description}</div>
     </div>
   `;
 
   return container;
 }
-
- 

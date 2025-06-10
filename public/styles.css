@@ -38,6 +38,20 @@ body {
 .homeBg, .teamBg, .galleryBg, .eventDetailsBg {min-height: 100lvh; min-width: 100lvw; position: fixed; z-index: 0; top: 0; left: 0;}
 .events-page, .repsEvent, .events-page-day-2, .events-page-buffer, .gallery-page, .team-page {height: 100vh;}
 .gallery, .team-page {padding: 2rem;}
+.eventDetailsBg{
+  background-image: 
+    radial-gradient(
+      circle at top center,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(255, 255, 255, 0) 150%
+    ),
+    url('/assets/images/eventDetailsBg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+}
 
 
 
@@ -1122,9 +1136,58 @@ body {
 }
 
 /*Event Dteails*/
-.event-logo {
-  height: 10rem;
+.eventDetailsBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
+.event-logo {
+  margin-top: 9vh;
+  height: 42vh;
+  position: relative;
+  z-index: 2;
+}
+
+.event-segmentFrame {
+  height: 82vh;
+  width: 120vh;
+  top: 57vh;
+  transform: translate(-1.6%,-50%);
+  position: absolute;
+  z-index: 1;
+}
+
+.event-segment {
+  font-family: 'Kaivalya', sans-serif;
+  margin-top: 13vh;
+  position: relative;
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+  z-index: 3;
+}
+
+.event-name {
+  margin-top: 9vh;
+  font-family: 'Kaivalya', sans-serif;
+  position: relative;
+  font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+.event-subject {
+  font-size: 1.25rem;
+  position: relative;
+  opacity: 0.7;
+}
+
+.event-description {
+}
+
 
 
 

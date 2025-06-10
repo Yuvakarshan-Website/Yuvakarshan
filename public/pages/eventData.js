@@ -2,65 +2,65 @@ export const eventData = {
   // Kalpana
   '/Nazakat': {
     name: "Nazakat",
-    logo: "/assets/images/Nazakat.webp",
+    logo: "/assets/images/logos/14.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Fashion Show",
     description: ""
   },
   '/NrityaKatha': {
     name: "Nritya Katha",
-    logo: "/assets/images/NrityaKatha.webp",
+    logo: "/assets/images/logos/13.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Dance",
     description: ""
   },
   '/RaagaRock': {
     name: "Raaga Rock",
-    logo: "/assets/images/RaagaRock.webp",
+    logo: "/assets/images/logos/16.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Western Music",
     description: ""
   },
   '/RaagaSangam': {
     name: "Raaga Sangam",
-    logo: "/assets/images/RaagaSangam.webp",
+    logo: "/assets/images/logos/17.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Eastern Music",
     description: ""
   },
   '/LeelaManch': {
     name: "Leela Manch",
-    logo: "/assets/images/LeelaManch.webp",
+    logo: "/assets/images/logos/12.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Turncoat Debate Inspired Acting",
     description: ""
   },
   '/NukkadNatak': {
     name: "Nukkad Natak",
-    logo: "/assets/images/NukkadNatak.webp",
+    logo: "/assets/images/logos/15.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Street Play",
     description: ""
   },
   '/Vrittanta': {
     name: "Vrittanta",
-    logo: "/assets/images/Vrittanta.webp",
+    logo: "/assets/images/logos/18.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "E-Magazine + Photography",
     description: ""
   },
   '/Antakshari': {
     name: "Antakshari",
-    logo: "/assets/images/Antakshari.webp",
+    logo: "/assets/images/logos/11.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.webp",
+    segmentFrame: "/assets/images/Kalpana.png",
     subject: "Antakshari",
     description: ""
   },
@@ -68,41 +68,41 @@ export const eventData = {
   // Chanakya's Council
   '/VanijyaVerse': {
     name: "Vanijya Verse",
-    logo: "/assets/images/VanijyaVerse.webp",
+    logo: "/assets/images/logos/9.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.webp",
+    segmentFrame: "/assets/images/ChanakyasCouncil.png",
     subject: "All-Round Commerce Event",
     description: ""
   },
-  '/KuberaKapital': {
-    name: "Kubera Kapital",
-    logo: "/assets/images/KuberaKapital.webp",
+  '/KuberaCapital': {
+    name: "Kubera Capital",
+    logo: "/assets/images/logos/8.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.webp",
+    segmentFrame: "/assets/images/ChanakyasCouncil.png",
     subject: "Stock Exchange",
     description: ""
   },
-  '/ArthashashtraArena': {
-    name: "Arthashashtra Arena",
-    logo: "/assets/images/ArthashashtraArena.webp",
+  '/ArthashastrasArena': {
+    name: "Arthashastra's Arena",
+    logo: "/assets/images/logos/7.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.webp",
+    segmentFrame: "/assets/images/ChanakyasCouncil.png",
     subject: "Finance-Accounting IPO Based",
     description: ""
   },
   '/IndrasInfluence': {
-    name: "Indra’s Influence",
-    logo: "/assets/images/IndrasInfluence.webp",
+    name: "Indra's Influence",
+    logo: "/assets/images/logos/6.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.webp",
+    segmentFrame: "/assets/images/ChanakyasCouncil.png",
     subject: "Marketing & Advertising",
     description: ""
   },
   '/VyapaarYagna': {
     name: "Vyapaar Yagna",
-    logo: "/assets/images/VyapaarYagna.webp",
+    logo: "/assets/images/logos/10.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.webp",
+    segmentFrame: "/assets/images/ChanakyasCouncil.png",
     subject: "Shark Tank",
     description: ""
   },
@@ -110,49 +110,49 @@ export const eventData = {
   // Karigari Hub
   '/BodhaBlitz': {
     name: "Bodha Blitz",
-    logo: "/assets/images/BodhaBlitz.webp",
+    logo: "/assets/images/logos/20.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.webp",
+    segmentFrame: "/assets/images/KarigariHub.png",
     subject: "Quiz",
     description: ""
   },
-  '/BheemsBhojanalay': {
-    name: "Bheem’s Bhojanalay",
-    logo: "/assets/images/BheemsBhojanalay.webp",
+  '/BheemsBhojnalay': {
+    name: "Bheem's Bhojnalay",
+    logo: "/assets/images/logos/19.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.webp",
+    segmentFrame: "/assets/images/KarigariHub.png",
     subject: "Cookery",
     description: ""
   },
-  '/TarKanjali': {
-    name: "TarKanjali",
-    logo: "/assets/images/TarKanjali.webp",
+  '/Tarkanjali': {
+    name: "Tarkanjali",
+    logo: "/assets/images/logos/23.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.webp",
+    segmentFrame: "/assets/images/KarigariHub.png",
     subject: "Debate",
     description: ""
   },
-  '/Mayamandi': {
-    name: "Mayamandi",
-    logo: "/assets/images/Mayamandi.webp",
+  '/MayaMandi': {
+    name: "Maya Mandi",
+    logo: "/assets/images/logos/22.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.webp",
+    segmentFrame: "/assets/images/KarigariHub.png",
     subject: "Poster Making + Marketing",
     description: ""
   },
-  '/DharmaYudh': {
-    name: "Dharma Yudh",
-    logo: "/assets/images/DharmaYudh.webp",
+  '/NyayaYudh': {
+    name: "Nyaya Yudh",
+    logo: "/assets/images/logos/24.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.webp",
+    segmentFrame: "/assets/images/KarigariHub.png",
     subject: "Moot Court",
     description: ""
   },
   '/Chitrakatha': {
     name: "Chitrakatha",
-    logo: "/assets/images/Chitrakatha.webp",
+    logo: "/assets/images/logos/21.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.webp",
+    segmentFrame: "/assets/images/KarigariHub.png",
     subject: "Short Film",
     description: ""
   },
@@ -160,41 +160,41 @@ export const eventData = {
   // Vikram's Vision
   '/VaigyanikVistaar': {
     name: "Vaigyanik Vistaar",
-    logo: "/assets/images/VaigyanikVistaar.webp",
+    logo: "/assets/images/logos/5.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.webp",
+    segmentFrame: "/assets/images/VikramsVision.png",
     subject: "Product Designing / Model Making",
     description: ""
   },
   '/MechaYaan': {
     name: "Mecha Yaan",
-    logo: "/assets/images/MechaYaan.webp",
+    logo: "/assets/images/logos/4.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.webp",
+    segmentFrame: "/assets/images/VikramsVision.png",
     subject: "Robotics",
     description: ""
   },
   '/CyberSiddhanta': {
     name: "Cyber Siddhanta",
-    logo: "/assets/images/CyberSiddhanta.webp",
+    logo: "/assets/images/logos/3.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.webp",
+    segmentFrame: "/assets/images/VikramsVision.png",
     subject: "Competitive Coding",
     description: ""
   },
   '/AppUrva': {
     name: "AppUrva",
-    logo: "/assets/images/AppUrva.webp",
+    logo: "/assets/images/logos/2.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.webp",
+    segmentFrame: "/assets/images/VikramsVision.png",
     subject: "App Development",
     description: ""
   },
   '/Anveshan': {
     name: "Anveshan",
-    logo: "/assets/images/Anveshan.webp",
+    logo: "/assets/images/logos/1.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.webp",
+    segmentFrame: "/assets/images/VikramsVision.png",
     subject: "Cryptography",
     description: ""
   },
@@ -202,107 +202,107 @@ export const eventData = {
   // Shastra-Byte
   '/RadiantRumble': {
     name: "Radiant Rumble",
-    logo: "/assets/images/RadiantRumble.webp",
+    logo: "/assets/images/logos/37.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.webp",
+    segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "Valorant",
     description: ""
   },
   '/IndraShock': {
     name: "IndraShock",
-    logo: "/assets/images/IndraShock.webp",
+    logo: "/assets/images/logos/36.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.webp",
+    segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "Fortnite",
     description: ""
   },
-  '/Chakaryuh': {
-    name: "Chakaryuh",
-    logo: "/assets/images/Chakaryuh.webp",
+  '/Chakravyuh': {
+    name: "Chakravyuh",
+    logo: "/assets/images/logos/35.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.webp",
+    segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "BGMI",
     description: ""
   },
   '/AgniStrikers': {
     name: "Agni Strikers",
-    logo: "/assets/images/AgniStrikers.webp",
+    logo: "/assets/images/logos/34.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.webp",
+    segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "FIFA + Auction",
     description: ""
   },
 
   // Kartikeya's Combat
   '/HanumansCombat': {
-    name: "Hanuman’s Combat",
-    logo: "/assets/images/HanumansCombat.webp",
+    name: "Hanuman's Combat",
+    logo: "/assets/images/logos/26.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Karate",
     description: ""
   },
-  '/ShivaSadhna': {
-    name: "Shiva Sadhna",
-    logo: "/assets/images/ShivaSadhna.webp",
+  '/ShivSadhna': {
+    name: "Shiv Sadhna",
+    logo: "/assets/images/logos/30.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Yoga",
     description: ""
   },
   '/SudarshansSpin': {
     name: "Sudarshan's Spin",
-    logo: "/assets/images/SudarshansSpin.webp",
+    logo: "/assets/images/logos/31.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Cricket",
     description: ""
   },
   '/ChakraLeague': {
     name: "Chakra League",
-    logo: "/assets/images/ChakraLeague.webp",
+    logo: "/assets/images/logos/25.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Football",
     description: ""
   },
   '/VaayuSmash': {
     name: "Vaayu Smash",
-    logo: "/assets/images/VaayuSmash.webp",
+    logo: "/assets/images/logos/32.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Table Tennis",
     description: ""
   },
-  '/RudrasRaquet': {
-    name: "Rudra’s Raquet",
-    logo: "/assets/images/RudrasRaquet.webp",
+  '/RudrasRacquet': {
+    name: "Rudra's Racquet",
+    logo: "/assets/images/logos/28.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Lawn Tennis",
     description: ""
   },
   '/VedicRace': {
     name: "Vedic Race",
-    logo: "/assets/images/VedicRace.webp",
+    logo: "/assets/images/logos/33.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Relay Race",
     description: ""
   },
-  '/Neerangana': {
-    name: "Neerangana",
-    logo: "/assets/images/Neerangana.webp",
+  '/Neeraganga': {
+    name: "Neeraganga",
+    logo: "/assets/images/logos/27.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Swimming",
     description: ""
   },
-  '/Shatranj': {
-    name: "Shatranj",
-    logo: "/assets/images/Shatranj.webp",
+  '/Shataranj': {
+    name: "Shataranj",
+    logo: "/assets/images/logos/29.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.webp",
+    segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Chess",
     description: ""
   }
