@@ -290,8 +290,8 @@ export const eventData = {
     subject: "Relay Race",
     description: ""
   },
-  '/Neeraganga': {
-    name: "Neeraganga",
+  '/Neeragana': {
+    name: "Neeragana",
     logo: "/assets/images/logos/27.webp",
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
