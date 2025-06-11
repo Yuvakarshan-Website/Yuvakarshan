@@ -23,8 +23,6 @@ export default function eventDetails() {
       <div class="event-segment"
            style="
              color: ${fontColor};
-             font-weight: bold;
-             text-transform: uppercase;
              text-shadow: 0 0 4px ${glowColor}, 0 0 6px ${glowColor};
            ">
         ${data.segment}
