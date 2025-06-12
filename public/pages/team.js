@@ -6,11 +6,11 @@ export default function Team() {
     <div class="teamBg"></div>
     <section class="CoreCommittee">
       
-      <!--<div class="scroll-prompt">
+      <div class="scroll-prompt team">
         <span></span>
         <span></span>
         <span></span>
-      </div>-->
+      </div>
 
 
       <div class="CoreColumn Left">
@@ -30,11 +30,27 @@ export default function Team() {
         <div class="CoreCard Urjjosan" style="background-image: url('/assets/images/Urjjossan.webp'); "></div>
       </div>
     </section>
-
-    <section class="SarikaMaam">
-    </section>
-    
-    <section class="Website">
+    <section class="WebsiteTeam">
+      <div class="SectionTitle website">
+        Website Team
+      </div>
+      <div class="WTCardContainer">
+        <div class="WTCard left">
+          <div class="wtBg">
+            <div class="wtName">Riddhiman Ghosh</div>
+            <div class="wtDetails">XI-D</div>
+            <div class="wtFooter">Innovation Club Core</div>
+          </div>
+        </div>
+        <img class="wtFiller" src="/assets/images/wtFiller.png"></img>
+        <div class="WTCard right">
+          <div class="wtBg">
+            <div class="wtName">Aviral Kochgaway</div>
+            <div class="wtDetails">XI-B</div>
+            <div class="wtFooter">Innovation Club Core</div>
+          </div>
+        </div>
+      </div>
     </section>
   `;
 

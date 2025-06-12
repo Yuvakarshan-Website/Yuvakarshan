@@ -344,7 +344,28 @@ const bodyObserver = new MutationObserver(() => observeYuvaHist());
 bodyObserver.observe(document.body, { childList: true, subtree: true });
 
 
-//scroll prompt
+function observeCards() {
+  const cards = document.querySelectorAll('.WTCard.left, .WTCard.right');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('fly-in');
+      } else {
+        entry.target.classList.remove('fly-in'); // optional: remove if you want replay on scroll
+      }
+    });
+  }, { threshold: 0.2 });
+
+  cards.forEach(card => observer.observe(card));
+}
+
+// Observe on load and DOM changes
+document.addEventListener("DOMContentLoaded", observeCards);
+window.addEventListener("load", observeCards);
+const cardMutationObserver = new MutationObserver(() => observeCards());
+cardMutationObserver.observe(document.body, { childList: true, subtree: true });
+
 
 
 
