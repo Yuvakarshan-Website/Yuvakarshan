@@ -27,10 +27,11 @@ export default function eventDetails() {
            ">
         ${data.segment}
       </div>
-      <img class="event-segmentFrame" src="${data.segmentFrame}"></img>
-      <img class="event-logo" src="${data.logo}"></img>
-      <div class="event-name">${data.name}</div>
-      <div class="event-subject">${data.subject}</div>
+      <div class="logoContainer">
+        <img class="event-logo" src="${data.logo}"></img>
+      </div>
+      <div class="event-segmentFrame" style="background-image: url('${data.segmentFrame}'); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
+      <div class="event-name">${data.name}<div class="event-subject">${data.subject}</div></div>
       <div class="event-description">${data.description}</div>
     </div>
   `;

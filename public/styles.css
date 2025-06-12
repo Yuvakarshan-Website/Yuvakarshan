@@ -1137,51 +1137,64 @@ body {
 
 /*Event Dteails*/
 .eventDetailsBg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   position: fixed;
-  text-align: center;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.event-logo {
-  margin-top: 4.5rem;
-  height: 42vh;
-  position: relative;
+.logoContainer {
+  height: clamp(13rem, 15vw, 14rem);
+  width: clamp(13rem, 15vw, 14rem);
+  top: 54.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.event-logo {
+  height: 218%;
 }
 
 .event-segmentFrame {
-  height: 82vh;
-  width: 120vh;
-  top: clamp(25.6rem, 25.6vw, 30rem);
-  transform: translate(-1.6%,-50%);
-  position: absolute;
+  height: clamp(34rem, 36vw, 82rem);
+  width: clamp(34rem, 36vw, 82rem);
+  left: 50%;
+  transform: translate(-52.5%, -50%);
+  top: 58.4%;
+  position: fixed;
   z-index: 1;
 }
 
 .event-segment {
   font-family: 'Kaivalya', sans-serif;
-  margin-top: clamp(2rem, 5vw, 13rem);
-  position: relative;
+  position: fixed;
+  top: 18%;
+  width: 100%;
+  text-align: center;
   font-size: clamp(1.8rem, 2.5vw, 2.5rem);
   z-index: 3;
 }
 
 .event-name {
-  margin-top: 4.5rem;
   font-family: 'Kaivalya', sans-serif;
-  position: relative;
+  position: fixed;
+  top: 86%;
+  width: 100%;
+  text-align: center;
   font-size: clamp(1.8rem, 3vw, 3rem);
 }
 
 .event-subject {
-  font-size: 1.25rem;
-  position: relative;
+  width: 100vw;
+  margin-top: -0.3rem;
+  text-align: center;
+  font-size: clamp(1rem, 1.25vw, 1.25rem);
   opacity: 0.7;
 }
 
