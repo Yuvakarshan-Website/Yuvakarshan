@@ -1003,7 +1003,7 @@ body {
 }
 
 
-.WTCard:hover .wtBg {
+/* .WTCard:hover .wtBg {
   animation: crazySpin 1.2s ease forwards;
   transform: perspective(1000px) rotateX(8deg) rotateY(-8deg) scale(1.07) translateY(-10px);
   box-shadow:
@@ -1029,7 +1029,7 @@ body {
     transform: perspective(1000px) rotateY(360deg) rotateX(8deg) scale(1.07) translateY(-10px);
     opacity: 1;
   }
-}
+} */
 
 
 

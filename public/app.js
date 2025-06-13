@@ -253,6 +253,13 @@ function render(path) {
       glare: true,
       "max-glare": 0.07,
     });
+
+    VanillaTilt.init(document.querySelectorAll(".WTCard"), {
+      max: 30,
+      speed: 2000,
+      glare: true,
+      "max-glare": 0.6,
+    });
   }
 
   if (normalized === '/eventsDay1') {

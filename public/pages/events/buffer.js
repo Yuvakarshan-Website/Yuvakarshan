@@ -25,7 +25,7 @@ export default function EventsBuffer() {
 
                 <a href="/Neeraganga" data-link class="card">
                   <img src="/assets/images/logos/27.webp" alt="Neeragana">
-                  <div class="card-title">Neeraganga<br>‎</div>
+                  <div class="card-title">Neeragana<br>‎</div>
                 </a>
 
                 <a href="/RadiantRumble" data-link class="card">
