@@ -58,8 +58,8 @@ export default function Events() {
             </a>
 
             <a href="/ArthashastrasArena" data-link class="card">
-              <img src="/assets/images/logos/7.webp" alt="Arthashastra's Arena">
-              <div class="card-title" style="font-size: 0.8rem;">Arthashastra's <br /> Arena</div>
+              <img src="/assets/images/logos/7.webp" alt="Arthashastra Arena">
+              <div class="card-title" style="font-size: 0.8rem;">Arthashastra <br /> Arena</div>
             </a>
 
             <a href="/IndrasInfluence" data-link class="card">

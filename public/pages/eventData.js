@@ -82,8 +82,8 @@ export const eventData = {
     subject: "Stock Exchange",
     description: ""
   },
-  '/ArthashastrasArena': {
-    name: "Arthashastra's Arena",
+  '/ArthashastraArena': {
+    name: "Arthashastra Arena",
     logo: "/assets/images/logos/7.webp",
     segment: "Chanakya's Council",
     segmentFrame: "/assets/images/ChanakyasCouncil.png",
