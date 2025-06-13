@@ -100,7 +100,7 @@ export default function Events() {
         </div>
 
     <!-- Fixed Right Button -->
-    <button class="side-button left-button"><a href="/repsEvent" data-link>&larr; Rep's Event</a></button>
+    <button class="side-button left-button"><a href="/repsEvent" data-link>&larr; Rep's</a></button>
     <button class="side-button right-button"><a href="/eventsDay2" data-link>Day 2 &rarr;</a></button> 
  
     <!-- page Center Label -->

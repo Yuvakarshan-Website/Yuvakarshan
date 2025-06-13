@@ -3,7 +3,7 @@ export default function Team() {
   container.className = 'team-page';
 
   container.innerHTML = `
-    <div class="teamBg"></div>
+    <div class="homeBg"></div>
     <section class="CoreCommittee">
       
       <div class="scroll-prompt team">
@@ -41,6 +41,7 @@ export default function Team() {
             <div class="wtDetails">XI-D</div>
             <div class="wtFooter">Innovation Club Core</div>
           </div>
+          <div class="HoverPrompt"> HOVER </div>
         </div>
         <img class="wtFiller" src="/assets/images/wtFiller.png"></img>
         <div class="WTCard right">
@@ -49,6 +50,7 @@ export default function Team() {
             <div class="wtDetails">XI-B</div>
             <div class="wtFooter">Innovation Club Core</div>
           </div>
+          <div class="HoverPrompt"> HOVER </div>
         </div>
       </div>
     </section>

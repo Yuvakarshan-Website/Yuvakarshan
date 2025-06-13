@@ -180,7 +180,34 @@ export const eventData = {
     segment: "Vikram's Vision",
     segmentFrame: "/assets/images/VikramsVision.png",
     subject: "Competitive Coding",
-    description: ""
+    description:`   <strong>General Guidelines:</strong><br>
+                    <ul>
+                      <li>Number of participants: 2 per team</li>
+                      <li>Dress code: <em>School uniform (mandatory)</em></li>
+                      <li>No devices allowed inside the lab</li>
+                      <li>Schools must choose one programming language in advance: Java, Python, or C++</li>
+                      <li>The event will be held in two rounds, each of 45 minutes</li>
+                      <li><strong>Round 1:</strong> Error-solving (minor bugs in given code)</li>
+                      <li><strong>Round 2:</strong> Logical problem-solving (competitive coding style)</li>
+                      <li>Teams will be provided with two computers</li>
+                      <li>A digital question paper will be provided</li>
+                      <li>Same set of problems for both participants; time usage at team’s discretion</li>
+                      <li>All submissions to be made via the provided LAN network in the lab</li>
+                    </ul>
+                      <strong>Judgment Criteria:</strong><br><br>
+                      <strong>• Round 1 (Error-solving):</strong>
+                      <ul>
+                        <li>Points based on number of errors correctly fixed within the time limit</li>
+                      </ul>
+                      
+                      <strong>• Round 2 (Logical problem):</strong>
+                      <ul>
+                        <li>Accuracy of the output</li>
+                        <li>Efficiency of logic</li>
+                        <li>Time of submission</li>
+                        <li>Time complexity of the solution</li>
+                      </ul>
+                  `
   },
   '/AppUrva': {
     name: "AppUrva",

@@ -248,17 +248,19 @@ function render(path) {
     }
 
     VanillaTilt.init(document.querySelectorAll(".Highlighted"), {
-      max: 25,
+      max: 15,
       speed: 500,
       glare: true,
       "max-glare": 0.07,
+      scale: 1.08, 
     });
 
-    VanillaTilt.init(document.querySelectorAll(".WTCard"), {
-      max: 30,
+    VanillaTilt.init(document.querySelectorAll(".wtBg"), {
+      max: 22,
       speed: 2000,
       glare: true,
       "max-glare": 0.6,
+      scale: 1.08,
     });
   }
 
@@ -352,7 +354,7 @@ bodyObserver.observe(document.body, { childList: true, subtree: true });
 
 
 function observeCards() {
-  const cards = document.querySelectorAll('.WTCard.left, .WTCard.right');
+  const cards = document.querySelectorAll('.WTCard');
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -362,7 +364,7 @@ function observeCards() {
         entry.target.classList.remove('fly-in'); // optional: remove if you want replay on scroll
       }
     });
-  }, { threshold: 0.2 });
+  }, { threshold: 0.4 });
 
   cards.forEach(card => observer.observe(card));
 }
@@ -372,7 +374,32 @@ document.addEventListener("DOMContentLoaded", observeCards);
 window.addEventListener("load", observeCards);
 const cardMutationObserver = new MutationObserver(() => observeCards());
 cardMutationObserver.observe(document.body, { childList: true, subtree: true });
+function eventDetailsScroll() {
+  const desc = document.querySelector('.event-description');
+  const scrollContainer = document.querySelector('.eventDetailsBg');
 
+  if (!desc || !scrollContainer) return;
 
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const ratio = entry.intersectionRatio;
 
+      if (ratio > 0.7) {
+        desc.classList.add('unscrolled');
+      } else if (ratio < 0.2) {
+        desc.classList.remove('unscrolled');
+      }
 
+      // Optional: console.log visibility for debugging
+      // console.log("Visibility:", ratio);
+    });
+  }, {
+    root: scrollContainer,
+    threshold: [0, 0.2, 0.7, 1] // observe at key %s
+  });
+
+  observer.observe(desc);
+}
+
+document.addEventListener("DOMContentLoaded", eventDetailsScroll);
+window.addEventListener("load", eventDetailsScroll);

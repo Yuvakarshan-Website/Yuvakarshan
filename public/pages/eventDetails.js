@@ -32,7 +32,15 @@ export default function eventDetails() {
       </div>
       <div class="event-segmentFrame" style="background-image: url('${data.segmentFrame}'); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
       <div class="event-name">${data.name}<div class="event-subject">${data.subject}</div></div>
-      <div class="event-description">${data.description}</div>
+      <div class="event-overlay">
+        <div class="event-description">
+          <div class="event-desc-title">EVENT DETAILS</div>
+            <br><br>
+            <div class="event-desc-text">
+            ${data.description}
+            </div>
+          </div>
+      </div>
     </div>
   `;
 
