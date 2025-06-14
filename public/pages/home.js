@@ -63,7 +63,7 @@ export default function Home() {
           <a href="/gallery" data-link>Gallery</a>
         </div>
         <div class="grid-item right" style="grid-row: 2; grid-column: 2;">
-          <a href="/lottery" data-link>LOTTERY RESULTS</a>
+          <a href="/lotteryResults" data-link>LOTTERY RESULTS</a>
         </div>
         <div class="grid-item right" style="grid-row: 3; grid-column: 2;">
           <a href="https://instagram.com/yuvakarshan2k25/">Socials</a>

@@ -6,7 +6,8 @@ import Gallery from './pages/gallery.js';
 import Team from './pages/team.js';
 import Navbar from './components/navbar.js';
 import repsEvent from './pages/events/repsEvent.js';
-import eventDetails from './pages/eventDetails.js'
+import eventDetails from './pages/eventDetails.js';
+import LotteryResults from './pages/lotteryResults.js';
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
 
@@ -30,6 +31,7 @@ const routes = {
   '/eventsBuffer': EventsBuffer,
   '/gallery': Gallery,
   '/team': Team,
+  '/lotteryResults': LotteryResults,
   '/SudarshansSpin': eventDetails,
   '/RudrasRacquet': eventDetails,
   '/VaayuSmash': eventDetails,
