@@ -317,8 +317,8 @@ export const eventData = {
     subject: "Relay Race",
     description: ""
   },
-  '/Neeragana': {
-    name: "Neeragana",
+  '/Neerangana': {
+    name: "Neerangana",
     logo: "/assets/images/logos/27.webp",
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
