@@ -1,4 +1,5 @@
 import Home from './pages/home.js';
+import GeneralGuidelines from './pages/generalGuidelines.js';
 import Events from './pages/events/day1.js';
 import EventsDay2 from './pages/events/day2.js';
 import EventsBuffer from './pages/events/buffer.js';
@@ -25,6 +26,7 @@ function NotFound() {
 const routes = {
   '/': Home,
   '/home': Home,
+  'generalGuidelines': GeneralGuidelines,
   '/repsEvent': repsEvent,
   '/eventsDay1': Events,
   '/eventsDay2': EventsDay2,
@@ -253,7 +255,7 @@ function render(path) {
       max: 15,
       speed: 500,
       glare: true,
-      "max-glare": 0.07,
+      "max-glare": 0.0,
       scale: 1.08, 
     });
 

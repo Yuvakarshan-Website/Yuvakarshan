@@ -18,6 +18,7 @@ export default function Navbar() {
     <div class="nav-right">
       <ul class="nav-list">
         <li><a href="/" class="nav-link" data-link>Home</a></li>
+        <li><a href="/generalGuidelines" class="nav-link" data-link>Guidelines</a></li>
         <li><a href="/eventsDay1" class="nav-link" data-link>Events</a></li>
         <li><a href="/gallery" class="nav-link" data-link>Gallery</a></li>
         <li><a href="/team" class="nav-link" data-link>Team</a></li>

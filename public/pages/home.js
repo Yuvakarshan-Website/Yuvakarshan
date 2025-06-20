@@ -30,21 +30,15 @@ export default function Home() {
          This year, we immerse our fest in the timeless wisdom, valor, and mystique of ancient Indian mythology not as a nod to the past, but as a bridge to the future. The epics and legends that shaped civilizations, forged moral codes, and inspired generations now take center stage, reminding us of the power of stories rooted in culture, values, and spiritual depth. 
       </p>
       <p class="YuvaHist">
-        In an age driven by algorithms and ambition, revisiting these narratives is more than homage it is a reclamation of identity. It is our tribute to the richness of Indian heritage, a celebration of symbolism, archetypes, and cosmic battles that still echo in our collective consciousness. It is through these stories that we hope to awaken in every participant a deeper understanding of leadership, strategy, art, justice, and most of all purpose. 
-      </p>
-      <p class="YuvaHist">
         But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
           <br><br> 
-           <span style='color:#ffd700'> &emsp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
-          <span style='color:rgb(102, 222, 255)'> &emsp;  ✧	Chanakya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
-          <span style='color:rgb(222, 108, 42)'> &emsp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
-          <span style='color:rgb(255, 74, 74)'> &emsp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
-          <span style='color:rgb(170, 110, 255)'> &emsp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
-          <span style='color:rgb(63, 227, 23)'> &emsp;  ✧	Vikram's Vision </span > <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Innovation) </span> <br><br>
+           <span style='color:#ffd700'> &ensp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
+          <span style='color:rgb(102, 222, 255)'> &ensp;  ✧	Chanakya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
+          <span style='color:rgb(222, 108, 42)'> &ensp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
+          <span style='color:rgb(255, 74, 74)'> &ensp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
+          <span style='color:rgb(170, 110, 255)'> &ensp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
+          <span style='color:rgb(63, 227, 23)'> &ensp;  ✧	Vikram's Vision </span > <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Innovation) </span> <br><br>
         Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
-      </p>
-      <p class="YuvaHist">
-      Yuvakarshan is not just a fest it is an experience. A confluence of intellect and imagination. A platform where legends are not just remembered, but reimagined. And in this convergence, we invite schools from across the country to participate, to create, and to carve their own legacy in the grand tapestry of Yuvakarshan on the 24th and 25th of July.
       </p>
     </div>
     <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
@@ -69,7 +63,7 @@ export default function Home() {
           <a href="https://instagram.com/yuvakarshan2k25/">Socials</a>
         </div>
       </div>
-      <img class="HomeNavFrame" src="/assets/images/HomeNavFrame.webp"></img>
+      <img class="HomeNavFrame" loading="eager" src="/assets/images/HomeNavFrame.webp"></img>
     </div>
     <div class="dpsnHist">
       <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>
