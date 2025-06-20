@@ -41,7 +41,6 @@ export default function Home() {
         Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
       </p>
     </div>
-    <div class="YuvaVid"> YUVA EVENT INTRO VIDEO </div>
     <div class="HomeNav">
       <div class="HomeNavGrid">
         <div class="grid-item left" style="grid-row: 1; grid-column: 1;">

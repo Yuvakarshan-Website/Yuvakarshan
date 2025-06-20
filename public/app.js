@@ -26,7 +26,7 @@ function NotFound() {
 const routes = {
   '/': Home,
   '/home': Home,
-  'generalGuidelines': GeneralGuidelines,
+  '/generalGuidelines': GeneralGuidelines,
   '/repsEvent': repsEvent,
   '/eventsDay1': Events,
   '/eventsDay2': EventsDay2,
