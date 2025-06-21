@@ -674,6 +674,15 @@ body {
 
 
 /* EVENTS PAGE */
+
+
+.get-ready{
+  font-family: 'Kaivalya', sans-serif;
+  margin: 8rem;
+  color: #ffd900;
+  text-align: center;
+}
+
 .eventClickPrompt {
   position: fixed;
   top: 8rem;
