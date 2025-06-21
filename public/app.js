@@ -63,7 +63,7 @@ const routes = {
   '/MechaYaan': eventDetails,
   '/CyberSiddhanta': eventDetails,
   '/Anveshan': eventDetails,
-  '/ArthashastrasArena': eventDetails,
+  '/ArthashastraArena': eventDetails,
   '/IndrasInfluence': eventDetails,
   '/KuberaCapital': eventDetails,
   '/HanumansCombat': eventDetails,
