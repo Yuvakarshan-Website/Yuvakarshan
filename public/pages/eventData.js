@@ -388,8 +388,8 @@ export const eventData = {
       </li>
       <li><strong>Round 4 – Music Video Scene:</strong>
         <ul>
-          <li>A scene from a Bollywood music video will be shown</li>
-          <li>Participants must identify the song and sing it</li>
+          <li>A short scene will be shown just before the Bollywood song segment</li>
+          <li>Teams must carefully observe the scene and identify the correct song that follows in the film</li>
         </ul>
       </li>
     </ol>
@@ -735,7 +735,7 @@ export const eventData = {
     </ul>
   `
   },
-  '/BheemsBhojnalay': {
+  '/sBhojnalay': {
     name: "Bheem's Bhojnalay",
     logo: "/assets/images/logos/19.webp",
     segment: "Karigari Hub",
@@ -751,7 +751,7 @@ export const eventData = {
       <li><strong>Total Duration:</strong> 90 minutes
         <ul>
           <li>15 minutes for preparation</li>
-          <li>60 minutes for cooking</li>
+          <li>60 minutes for assembling</li>
           <li>15 minutes for plating</li>
         </ul>
       </li>
