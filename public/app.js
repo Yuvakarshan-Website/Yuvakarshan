@@ -37,7 +37,7 @@ const routes = {
   '/SudarshansSpin': eventDetails,
   '/RudrasRacquet': eventDetails,
   '/VaayuSmash': eventDetails,
-  '/Neeraganga': eventDetails,
+  '/Neerangana': eventDetails,
   '/RadiantRumble': eventDetails,
   '/VedicRace': eventDetails,
   '/ChakraLeague': eventDetails,
