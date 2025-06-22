@@ -140,7 +140,7 @@ function render(path) {
 
       if (isPortrait) {
           app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
-
+          document.getElementById('loader').classList.add('fade-out');
           const targetObject = app.findObjectByName('yuva');
           handlePortraitScroll(targetObject, window.scrollY || window.pageYOffset);
           window.addEventListener('scroll', () => {
@@ -151,7 +151,7 @@ function render(path) {
       } 
       else {
         app.load('https://prod.spline.design/UYbxlgt2QCwCQTMH/scene.splinecode').then(() => {
-      
+        document.getElementById('loader').classList.add('fade-out');
         let size = (window.innerWidth/1366)*2.6;
         app.setVariable('Size', size);
         const targetObject = app.findObjectByName('yuva');

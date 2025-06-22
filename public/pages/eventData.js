@@ -735,7 +735,7 @@ export const eventData = {
     </ul>
   `
   },
-  '/sBhojnalay': {
+  '/BheemsBhojnalay': {
     name: "Bheem's Bhojnalay",
     logo: "/assets/images/logos/19.webp",
     segment: "Karigari Hub",
