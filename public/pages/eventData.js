@@ -12,7 +12,7 @@ export const eventData = {
       <li><strong>Number of Participants per School:</strong> 6 main participants + 2 support members</li>
       <li><strong>Time Limit:</strong> 5 minutes for performance + 1 minute for setup/exit</li>
       <li><strong>Theme:</strong> Mythologies – Indian Twist</li>
-      <li><strong>Theme Allotment:</strong> Each school will receive a mythology theme via online lottery on 19th June 2025</li>
+      <li><strong>Theme Allotment:</strong> Each school will receive a mythology theme via online lottery</li>
       <li>The collection must be inspired by key elements of the mythology — deities, symbols, folklore, etc.</li>
       <li><strong>Interpretation Style:</strong>
         <ul>
@@ -32,7 +32,7 @@ export const eventData = {
       <li>Instrumental music is permitted</li>
       <li><strong>Media Submission:</strong>
         <ul>
-          <li>All music and visuals must be submitted in MP4 format by 18th July 2025</li>
+          <li>All music and visuals must be submitted in MP4 format by 20th July 2025</li>
           <li>Teams must carry a backup pen drive with all files on the day of the event</li>
         </ul>
       </li>
@@ -76,7 +76,7 @@ export const eventData = {
       <li><strong>Music & Visuals:</strong>
         <ul>
           <li>Must be submitted in MP4 format</li>
-          <li>Submission deadline: All files must be sent to the host school in advance</li>
+          <li>Submission deadline: All files must be sent to the host school by 20th July</li>
           <li>Teams must carry a backup pen drive with all files on the event day</li>
         </ul>
       </li>
@@ -135,7 +135,12 @@ export const eventData = {
           <li>Special technical requests must be submitted at least <strong>7 days in advance</strong>; none accepted on the event day</li>
         </ul>
       </li>
-      <li><strong>Backdrop Submission:</strong> Submit MP4 file by <strong>18th July 2025</strong>; default will be used if not submitted</li>
+      <li><strong>Backdrop Submission:</strong> 
+        <ul>
+          <li>Submit MP4 file by <strong>20th July 2025</strong>; default will be used if not submitted</li>
+          <li>No inappropriate text/video is to be displayed; will result in immediate disqualification</li>
+        </ul>
+      </li>
       <li><strong>Judges' decisions are final and binding</strong></li>
     </ul>
 
@@ -171,7 +176,7 @@ export const eventData = {
       <li>Participants are responsible for their own instruments; the host school is not liable for any loss or theft</li>
       <li><strong>Backdrop Submission:</strong>
         <ul>
-          <li>Must be elegant and submitted in .mp4 format by 20th July 2025</li>
+          <li>Must be elegant and submitted in .mp4 format by 15th July 2025</li>
           <li>Host school will provide a default if none is submitted</li>
           <li>Inappropriate backdrops will result in marks deduction</li>
         </ul>
@@ -258,13 +263,13 @@ export const eventData = {
         <ul>
           <li>Allowed, but must be carried by participants</li>
           <li>Tables and chairs can be provided if informed 3 days in advance</li>
-          <li>List of props to be shared beforehand with event incharges</li>
+          <li>List of props to be shared beforehand with event incharges by 20th July</li>
         </ul>
       </li>
       <li><strong>Musical Instruments:</strong>
         <ul>
           <li>Light instruments allowed (no heavy electronic ones)</li>
-          <li>Must be declared 3 days in advance</li>
+          <li>Must be declared by 20th July</li>
         </ul>
       </li>
       <li><strong>Title:</strong>
@@ -436,10 +441,9 @@ export const eventData = {
       <li><strong>Dress Code:</strong> School Uniform</li>
       <li><strong>Devices:</strong> Max 2 laptops per team (self-managed)</li>
       <li><strong>Internet:</strong> To be arranged by participants</li>
-      <li><strong>Props:</strong> Allowed with prior notice <em>(at least 3 days in advance, with references)</em></li>
+      <li><strong>Props:</strong> Allowed with prior notice <em>(Final date to inform: 20th July)</em></li>
       <li><strong>Company Allotment:</strong> Via lottery at the Representatives’ Meet</li>
       <li><strong>PPT Submission Deadline (Rounds 1 & 2):</strong> 20th July 2025</li>
-      <li><strong>Event Segment:</strong> Business (under <em>Founders’ Union</em> or <em>Chanakya’s Council</em>, Yuvakarshan 2K25)</li>
     </ul>
 
     <strong>Round 1 – Company Research Presentation:</strong><br>
@@ -481,7 +485,7 @@ export const eventData = {
       <li><strong>Dress Code:</strong> School Uniform</li>
       <li><strong>Devices:</strong> To be submitted as instructed</li>
       <li><strong>Stationery:</strong> Notebooks and pens (optional)</li>
-      <li><strong>Excel Submission Deadline (Round 3):</strong> 17th July 2025</li>
+      <li><strong>Excel Submission Deadline (Round 3):</strong> 20th July 2025</li>
       <li><strong>Timing:</strong>
         <ul>
           <li><strong>Round 2:</strong> 2 minutes Reading + 3 minutes Writing</li>
@@ -541,9 +545,15 @@ export const eventData = {
       <li><strong>Devices Allowed:</strong> Laptops, phones, power banks, mobile data, etc.</li>
       <li><strong>File Types Accepted:</strong> .docx, .ppt, .mp4/.mov, .jpg/.png/.jpeg, .xlsx</li>
       <li><strong>Props:</strong> Allowed</li>
-      <li><strong>IPO Submission Deadline (Screening Round):</strong> 15th July 2025</li>
-      <li><strong>Round 1 Presentation Submission:</strong> 23rd July 2025</li>
-      <li><strong>Company Profiles Released:</strong> 20th July 2025</li>
+      <li><strong>Important Dates:</strong>
+        <ul>
+          <li><strong>Screening Profile Released:</strong> 13th July</li>
+          <li><strong>IPO Submission Deadline (Screening Round):</strong> 15th July 2025</li>
+          <li><strong>Announcement of Top 8:</strong> 17th July 2025</li>
+          <li><strong>Company Profiles Released:</strong> 19th July 2025</li>
+          <li><strong>Round 1 Presentation Submission:</strong> 22nd July 2025</li>
+        <ul>
+      </li>
       <li><strong>Roles:</strong>
         <ul>
           <li><strong>CEO:</strong> Presents in Round 1</li>
@@ -593,14 +603,14 @@ export const eventData = {
       <li><strong>Dress Code:</strong> School uniform</li>
       <li><strong>Devices Allowed:</strong> Maximum 1 laptop per participant; necessary props for demonstration are allowed <em>(must be communicated at least 2 days in advance)</em></li>
       <li><strong>Internet:</strong> To be arranged by participants</li>
-      <li><strong>Topic Allotment (Industry + 2 States):</strong> 19th June 2025</li>
+      <li><strong>Topic Allotment (Industry + 2 States):</strong> 26th June 2025</li>
       <li><strong>Social Media Campaign Launch:</strong> Must begin within 72 hours of receiving the topic</li>
     </ul>
 
     <strong>Round 0 – Preliminary (Social Media Campaign):</strong><br>
     <ul>
       <li><strong>Campaign Duration:</strong> 3 weeks</li>
-      <li><strong>Final Submission Deadline:</strong> 14th July 2025</li>
+      <li><strong>Final Submission Deadline:</strong> 15th July 2025</li>
       <li><strong>Submission must include:</strong>
         <ul>
           <li>A comprehensive overview of the campaign</li>
@@ -654,7 +664,7 @@ export const eventData = {
       <li><strong>Round 2 – Business Pitch:</strong>
         <ul>
           <li>Pitch your business idea supported by a PPT</li>
-          <li><strong>Submission Deadline:</strong> 18th July 2025</li>
+          <li><strong>Submission Deadline:</strong> 20th July 2025</li>
           <li><strong>Time:</strong> 6 minutes presentation + 1 minute buffer</li>
         </ul>
       </li>
@@ -909,7 +919,7 @@ export const eventData = {
       <li><strong>Dress Code:</strong> School uniform</li>
       <li><strong>Devices & Internet:</strong> Participants must bring their own devices and manage internet connectivity themselves</li>
       <li><strong>Props are not allowed</strong></li>
-      <li><strong>Memorial Submission Deadline:</strong> 18th July 2025 by 11:59 a.m. via the school-provided submission link</li>
+      <li><strong>Memorial Submission Deadline:</strong> 20th July 2025 by 11:59 a.m. via the school-provided submission link</li>
       <li>Memorials must be prepared from both the <strong>prosecution and defence</strong> perspectives</li>
       <li>Two <strong>hard copies each</strong> must be brought for the judges on the event day</li>
       <li>Cases will be allotted during the <em>representatives’ meet</em></li>
@@ -973,8 +983,8 @@ export const eventData = {
       <li><strong>Participants:</strong> 10 per school (maximum 7 actors; must include the director, scriptwriter, and editor)</li>
       <li><strong>Only the Director and Scriptwriter</strong> are to be present on the main day (25th July)</li>
       <li><strong>Film Duration:</strong> 8–10 minutes; final submission in <code>.mp4</code> format</li>
-      <li><strong>Theme:</strong> To be revealed on <strong>11th July</strong> (Reps Meet)</li>
-      <li><strong>School Code Dispatch:</strong> 16th July via official channels</li>
+      <li><strong>Theme:</strong> To be revealed on <strong>15th July</strong> (Reps Meet)</li>
+      <li><strong>School Code Dispatch:</strong> 15th July via official channels</li>
       
       <li><strong>Submissions:</strong>
         <ul>
@@ -1031,7 +1041,7 @@ export const eventData = {
       <li><strong>No internet usage</strong> allowed during the event</li>
       <li>A PowerPoint presentation outlining the product design, uniqueness, and technical feasibility must be:
         <ul>
-          <li><strong>Submitted by 23rd July</strong></li>
+          <li><strong>Submitted by 15th July</strong></li>
           <li>Brought on the event day via pendrive</li>
         </ul>
       </li>
@@ -1153,10 +1163,13 @@ export const eventData = {
       <li>Topics will be announced <em>3 weeks prior</em> to the event</li>
       <li>A fully deployable, <strong>original</strong> app must be developed beforehand</li>
       <li>Use of all resources is permitted; <strong>presenting an existing app will lead to disqualification</strong></li>
-      <li><strong>Submission requirements</strong> (before the deadline):
+      <li><strong>Submission Deadline:</strong> 20th July</li>
+      <li><strong>Submission requirements:</strong>
         <ul>
           <li>Entire codebase, raw files, and documentation (including tools used and code comments)</li>
           <li>Executable file (APK or equivalent) in a single ZIP folder</li>
+          <li>Any Supporting softwares needed to run the code (IDE etc.)</li>
+          <li>7 mins explanatory video of the working of app (Recording of the app)</li>
         </ul>
       </li>
       <li><strong>On event day:</strong>
