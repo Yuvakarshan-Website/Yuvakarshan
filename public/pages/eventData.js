@@ -1281,7 +1281,58 @@ export const eventData = {
     segment: "Shastra-Byte",
     segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "Valorant",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants:</strong> 5 players + 1 substitute per school</li>
+      <li><strong>Dress Code:</strong> School uniform</li>
+      <li><strong>Format:</strong> Knockout</li>
+      <li><strong>Match Duration:</strong> 40–45 minutes</li>
+      <li><strong>Venue:</strong> Online</li>
+      
+      <li><strong>Device & Internet:</strong>
+        <ul>
+          <li>Stable internet is mandatory</li>
+          <li>Reconnection allowed within 5 minutes of disconnection; failure may result in disqualification</li>
+          <li>Functional camera required throughout the match (secondary device permitted)</li>
+        </ul>
+      </li>
+    
+      <li><strong>Registration:</strong>
+        <ul>
+          <li>Teams must register with school name, player IDs, and Discord usernames</li>
+          <li>No last-minute substitutions without prior approval</li>
+          <li>Players will be added to the Discord server one week prior to the event</li>
+        </ul>
+      </li>
+    
+      <li><strong>Pre-Match Protocol:</strong>
+        <ul>
+          <li>Teams must check in on Discord 15 minutes before their scheduled match</li>
+          <li>Late arrival beyond 10 minutes may lead to disqualification</li>
+          <li>Match schedules and brackets will be shared in advance</li>
+        </ul>
+      </li>
+    
+      <li><strong>In-Game Rules:</strong>
+        <ul>
+          <li>Map selection via map-ban method – each captain bans one map; remaining map is played</li>
+          <li>No public POV streaming allowed to prevent ghosting</li>
+          <li>Discord voice channels will be monitored</li>
+          <li>Toxicity, harassment, or misconduct will result in strict action</li>
+        </ul>
+      </li>
+    </ul>
+    
+    <hr>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li>The match is won by the team that secures a <strong>2-point lead</strong> over the opponent</li>
+      <li>Final result is based on this rule irrespective of match duration</li>
+      <li>In case of technical issues, <strong>rematch or rescheduling</strong> will be at the discretion of the moderators</li>
+    </ul>
+  `
   },
   '/IndraShock': {
     name: "IndraShock",
@@ -1289,7 +1340,58 @@ export const eventData = {
     segment: "Shastra-Byte",
     segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "Fortnite",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Teams:</strong> 4 players per school (no mid-match substitutions; only pre-registered substitutes allowed)</li>
+      <li><strong>Dress Code:</strong> School uniform</li>
+      <li><strong>Mode:</strong> Squads – Battle Royale (PC, Console, or Mobile; one platform per player throughout)</li>
+      <li><strong>Rounds:</strong>
+        <ul>
+          <li><strong>Round 1 (Qualifiers):</strong> Battle Royale – 15 teams → Top 10 advance</li>
+          <li><strong>Round 2 (Semis):</strong> Reload Mode – 10 teams → Top 5 advance</li>
+          <li><strong>Round 3 (Finals):</strong> Reload Mode – Best of 3 matches (5 teams)</li>
+        </ul>
+      </li>
+      <li><strong>Communication:</strong>
+        <ul>
+          <li><strong>Discord:</strong> Match coordination, lobby codes, check-ins</li>
+          <li><strong>Google Meet:</strong> Briefings, announcements, final results</li>
+        </ul>
+      </li>
+      <li><strong>Match Maps:</strong> Custom lobbies on Middle East servers</li>
+      <li><strong>Device & Connectivity:</strong>
+        <ul>
+          <li>No iPads/Tablets allowed</li>
+          <li>Stable personal internet connection required</li>
+          <li>Use of VPNs, exploits, or cheats is strictly prohibited</li>
+          <li>No livestreaming by players; only organizers may stream</li>
+        </ul>
+      </li>
+      <li><strong>Check-in:</strong> 15 minutes before match start via Discord</li>
+      <li><strong>Grace Period:</strong> 10 minutes for technical issues</li>
+      <li><strong>Player Conduct:</strong> Inappropriate behavior/usernames, abusive language, or false accusations of cheating will result in penalties or disqualification</li>
+      <li><strong>Age & Consent:</strong> Players under 18 must submit parental consent forms via school</li>
+    </ul>
+    
+    <hr>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Scoring per Match:</strong>
+        <ul>
+          <li><strong>Victory Royale:</strong> 10 points</li>
+          <li><strong>Top 5 Finish:</strong> 7 points</li>
+          <li><strong>Top 10 Finish:</strong> 5 points</li>
+          <li><strong>Eliminations:</strong> 1 point per kill</li>
+        </ul>
+      </li>
+      <li><strong>Final Placement:</strong> Based on cumulative score across all rounds</li>
+      <li><strong>Tie-breaker:</strong> Additional match or moderator evaluation if needed</li>
+      <li><strong>Cheating/Glitching:</strong> Immediate ban and disqualification</li>
+      <li><strong>Match Restarts:</strong> Allowed only if 50%+ players are disconnected or valid emergency (e.g., server outage, verified disaster)</li>
+    </ul>
+  `
   },
   '/Chakravyuh': {
     name: "Chakravyuh",
@@ -1297,7 +1399,61 @@ export const eventData = {
     segment: "Shastra-Byte",
     segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "BGMI",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Team Composition:</strong> 4 players + 1 optional substitute</li>
+      <li><strong>Device Requirements:</strong> Only mobile phones allowed. No iPads or tablets.</li>
+      <li><strong>Bring Your Own Gear:</strong> Devices, earphones, chargers, power banks. School will not provide equipment or internet.</li>
+      <li><strong>Account Requirements:</strong>
+        <ul>
+          <li>Minimum Level: 30</li>
+          <li>No inappropriate usernames</li>
+          <li>Use your school’s clan tag (e.g., DPSNxPlayerName)</li>
+        </ul>
+      </li>
+      <li><strong>Uniform:</strong> Full school uniform mandatory</li>
+      <li><strong>Behavior:</strong> Abusive language will result in point deductions</li>
+      <li><strong>Power Backup:</strong> Carry personal power banks; no backup will be provided</li>
+      <li><strong>Technical Issues:</strong> School not responsible for device loss or tech failures</li>
+      <li><strong>Accessories:</strong> Bring your own pillows/accessories; none will be provided</li>
+      <li><strong>Power Supply:</strong> Each team must bring one extension cord due to limited power points</li>
+      <li><strong>Audio Equipment:</strong> Speaker mode not allowed; use of earphones/headphones/earbuds is compulsory</li>
+      <li><strong>Match Maps:</strong>
+        <ul>
+          <li>Round 1 – Sanhok</li>
+          <li>Round 2 – Livik</li>
+          <li>Round 3 – Vikendi</li>
+          <li>Round 4 – Livik</li>
+          <li>Round 5 – Sanhok/Livik</li>
+          <li>Round 6 – Livik</li>
+          <li><strong>Final Round (Onstage):</strong> Livik</li>
+        </ul>
+      </li>
+      <li><strong>Extras:</strong> Final round may include live commentary and player walk-ins for audience engagement (if permitted)</li>
+    </ul>
+    
+    <hr>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Placement Points:</strong>
+        <ul>
+          <li>1st Place – 10 points</li>
+          <li>2nd – 6 points</li>
+          <li>3rd – 5 points</li>
+          <li>4th – 4 points</li>
+          <li>5th – 3 points</li>
+          <li>6th – 2 points</li>
+          <li>7th – 1 point</li>
+          <li>8th to Last – 0 points</li>
+        </ul>
+      </li>
+      <li><strong>Finish Points:</strong> 1 point per kill</li>
+      <li><strong>Final Score:</strong> Team with the highest total points wins</li>
+      <li><strong>Tie-Breaker:</strong> A 5–6 minute TDM match will be held between tied teams</li>
+    </ul>
+  `
   },
   '/AgniStrikers': {
     name: "Agni Strikers",
@@ -1305,7 +1461,68 @@ export const eventData = {
     segment: "Shastra-Byte",
     segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "FIFA + Auction",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 2 (1 player + 1 auction advisor)</li>
+      <li><strong>Dress Code:</strong> School uniform</li>
+      <li><strong>Controllers:</strong> Allowed (optional)</li>
+      <li><strong>Auction Timer:</strong> 1 minute per player; auto-sold to highest bidder if time exceeds</li>
+      <li><strong>Eligible Classes:</strong> 9 to 12</li>
+      <li><strong>Structure:</strong> Auction → Knockout Rounds → Semi Finals → Final</li>
+      <li><strong>Squad Requirements:</strong> 14 players (11 starters + 3 substitutes) covering all key categories:
+        <ul>
+          <li>Strikers</li>
+          <li>Wingers</li>
+          <li>Midfielders</li>
+          <li>Defenders</li>
+          <li>Goalkeepers</li>
+        </ul>
+      </li>
+      <li><strong>Auction Budget:</strong> ₹800 million (virtual)</li>
+      <li><strong>Match Format:</strong> EAFC 25, 4-minute halves, knockout system</li>
+      <li><strong>Gameplay Rules:</strong>
+        <ul>
+          <li><strong>Camera Angle:</strong> Tele Broadcast (as per FIFA official tournaments)</li>
+          <li><strong>Injuries:</strong> Off</li>
+          <li><strong>Delays:</strong> May result in penalties or loss of players</li>
+          <li><strong>Drawn Matches:</strong> Go directly to penalties</li>
+          <li><strong>Pauses:</strong> No unnecessary pauses allowed; fair play is mandatory</li>
+        </ul>
+      </li>
+    </ul>
+    
+    <hr>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Initial Knockout (12 Teams):</strong>
+        <ul>
+          <li>6 matches based on draw</li>
+          <li>6 winners proceed to next round</li>
+        </ul>
+      </li>
+      <li><strong>Second Knockout (Top 6):</strong>
+        <ul>
+          <li>3 winners proceed to semifinals</li>
+          <li>1 additional team qualifies based on:
+            <ol>
+              <li>Goal Difference</li>
+              <li>Most Goals Scored</li>
+              <li>Fewest Goals Conceded</li>
+            </ol>
+            <em>If tie persists, a qualification match will be held.</em>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Semifinals and Final:</strong>
+        <ul>
+          <li>2 semifinal matches – winners advance to the final</li>
+          <li>Final match determines the overall winner</li>
+        </ul>
+      </li>
+    </ul>
+  `
   },
 
   // Kartikeya's Combat
@@ -1315,7 +1532,34 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Karate",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 2 (1 boy and 1 girl)</li>
+      <li><strong>Batches:</strong> Separate batches for boys and girls</li>
+      <li><strong>Rounds:</strong> 4 rounds per batch – Selection, Qualifiers, Semi-final, Final</li>
+      <li><strong>Match Duration:</strong> 2 minutes per kumite</li>
+      <li><strong>Dress Code:</strong> Clean karate uniform (gi) with belt</li>
+      <li><strong>Equipment:</strong> Karate kit with protective guards (leg, head, chest, teeth) and Aka/Aao gloves and belts (<em>no sharp objects allowed</em>)</li>
+      <li><strong>Respect & Conduct:</strong>
+        <ul>
+          <li>Bowing before each fight is mandatory as a sign of respect</li>
+          <li>Disobedience of rules results in immediate disqualification</li>
+        </ul>
+      </li>
+      <li><strong>Weight Class:</strong> Must be mentioned during registration for fair match-ups</li>
+      <li><strong>Breaks:</strong> 15-minute break after the selection round for participants and judges</li>
+      <li><strong>Rules Followed:</strong> As per World Karate Federation (WKF) guidelines</li>
+      <li><strong>Prohibited Actions:</strong> Open hand attacks to the face are strictly not allowed</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Scoring System:</strong> Points declared by judges determine qualification to the next round</li>
+      <li><strong>Tie-Breaker:</strong> In case of a tie, decision is made by majority vote of judges and referees</li>
+      <li><strong>Assessment Standard:</strong> All matches are judged as per WKF rules</li>
+    </ul>
+  `
   },
   '/ShivSadhna': {
     name: "Shiv Sadhna",
@@ -1323,7 +1567,60 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Yoga",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 4 total – 2 girls and 2 boys (no substitutes allowed)</li>
+      <li>Participants will perform individually; group performances are not permitted</li>
+      <li>Participants must mention their age class (Under 16 or Above 16) while registering</li>
+      <li><strong>Divisions:</strong>
+        <ul>
+          <li><strong>Junior:</strong> Under 16 years</li>
+          <li><strong>Senior:</strong> 16 years and above</li>
+        </ul>
+      </li>
+      <li>Each participant will demonstrate 6 postures within 3 minutes</li>
+      <li>A warning bell will ring at 2 minutes 50 seconds</li>
+      <li><strong>Posture Categories:</strong> Must include one each from: back-bending, front-bending, traction, twist, lift, and inversion</li>
+      <li><strong>Repetition:</strong> Repeating any category will lead to disqualification</li>
+      <li><strong>Posture Name Submission:</strong>
+        <ul>
+          <li>Deadline: 15th July</li>
+          <li>Submit via Word file to the official Yuva email ID, with name and category of each posture</li>
+          <li>Changes allowed up to 1 day before the event</li>
+        </ul>
+      </li>
+      <li><strong>Equipment:</strong> Participants must bring their own yoga mats (approx. 173 x 61 cm)</li>
+      <li><strong>Dress Code:</strong> Sports attire only – full-length tights and tight-fitting tops (leotards, unitards, fitted t-shirts with leggings/cycling shorts/swimwear)</li>
+      <li>No wristbands or external aids are allowed</li>
+      <li><strong>Music:</strong> If used, must be submitted at least 15 days in advance</li>
+      <li><strong>Rounds:</strong> There will be a total of 2 rounds in the event</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Scoring Breakdown:</strong>
+        <ul>
+          <li>Accuracy – 30%</li>
+          <li>Balance & Control – 30%</li>
+          <li>Execution – 30%</li>
+          <li>Difficulty – 10%</li>
+        </ul>
+      </li>
+      <li>Each posture is judged out of 10 points (maximum total: 60 points)</li>
+      <li>Each posture must be held for at least 5 seconds</li>
+      <li>Bonus points may be awarded for routines completed closest to the 3-minute mark</li>
+    </ul>
+    
+    <strong>Deductions:</strong><br>
+    <ul>
+      <li>Exceeding time limit: –0.5 points</li>
+      <li>Not adhering to time range: –0.5 points</li>
+      <li>Not beginning with a traditional yoga salutation (Namaste): –0.5 points</li>
+      <li>Loss of balance: –1 point per instance</li>
+      <li>Abrupt or sloppy movements: –1 point per instance, or as per judges' discretion</li>
+    </ul>
+  `
   },
   '/SudarshansSpin': {
     name: "Sudarshan's Spin",
@@ -1331,7 +1628,47 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Cricket",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Team Composition:</strong> 12 players per school (8 playing + 4 substitutes)</li>
+      <li><strong>Format:</strong> Knockout tournament</li>
+      <li><strong>Match Type:</strong> Headly ball cricket, following CAB (Cricket Association of Bengal) rules</li>
+      <li><strong>Match Duration:</strong> 12 overs per match (6 overs per innings)</li>
+      <li><strong>Bowling Rule:</strong>
+        <ul>
+          <li>Each team must field 4 bowlers</li>
+          <li>2 bowlers bowl 2 overs each, and 2 bowlers bowl 1 over each</li>
+        </ul>
+      </li>
+      <li><strong>Over Time Limit:</strong> Bowling side must complete their overs within 30 minutes</li>
+      <li><strong>Penalty for Delay:</strong> Penalty = Batting Run Rate × 2 × Overs Short</li>
+      <li><strong>Dress Code:</strong> Full-length trousers and half-sleeved shirts or PT uniforms — all team members must be in the same attire</li>
+      <li><strong>Equipment:</strong> Players must bring their own bats and abdominal guards</li>
+      <li><strong>Toss Timing:</strong> 5–10 minutes before the match</li>
+      <li><strong>Safety:</strong> Use of abdominal guards is <em>mandatory</em></li>
+      <li><strong>Code of Conduct:</strong>
+        <ul>
+          <li>No intimidation, assault, or offensive language/gestures toward umpires, opponents, or officials</li>
+          <li>Misconduct will lead to disciplinary action, including disqualification</li>
+        </ul>
+      </li>
+      <li><strong>Umpire Decisions:</strong> Final and binding</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Match Outcome:</strong> Determined by the team with the higher score at the end of the match</li>
+      <li><strong>Over Rate Compliance:</strong> Teams are penalized for not completing overs within the time limit</li>
+      <li><strong>Wide Balls:</strong> Each wide ball counts and gives 5 runs to the batting team</li>
+      <li><strong>Discipline & Sportsmanship:</strong>
+        <ul>
+          <li>Teams will be evaluated on adherence to rules and respectful behavior</li>
+          <li>Any form of misconduct will affect the team's standing and may lead to disqualification</li>
+        </ul>
+      </li>
+    </ul>
+  `
   },
   '/ChakraLeague': {
     name: "Chakra League",
@@ -1339,7 +1676,44 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Football",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Team Composition:</strong> 12 participants per school – 7 players (including goalkeeper) and up to 5 substitutes</li>
+      <li><strong>Format:</strong> Knockout; 4 rounds – Round of 16, Quarter-finals, Semi-finals, Final</li>
+      <li><strong>Match Duration:</strong> 20 minutes per match (2 halves of 10 mins), with a 5-minute halftime</li>
+      <li><strong>Total Matches:</strong> 15 matches across 2 grounds (8 on Ground 1, 7 on Ground 2)</li>
+      <li><strong>Dress Code:</strong> School jerseys with visible jersey numbers</li>
+      <li><strong>Equipment:</strong> Shin guards and studs are <em>mandatory</em></li>
+      <li><strong>Rules:</strong> Standard FIFA 7-a-side rules (no offside)</li>
+      <li><strong>Substitutions:</strong> Rolling substitutions allowed only during stoppages with referee approval</li>
+      <li><strong>Disciplinary Actions:</strong>
+        <ul>
+          <li><strong>Yellow Card:</strong> Warning; two in one match = red card</li>
+          <li><strong>Red Card:</strong> Expulsion; team plays with one fewer player</li>
+        </ul>
+      </li>
+      <li><strong>Tiebreakers (Quarter-finals onwards):</strong>
+        <ul>
+          <li>No extra time</li>
+          <li>3-player penalty shootout</li>
+          <li>If still tied: sudden death</li>
+          <li>If still tied: coin toss</li>
+        </ul>
+      </li>
+      <li><strong>Punctuality:</strong> Teams must report 15 minutes before match time; late arrivals receive a walkover</li>
+      <li><strong>Referee Decisions:</strong> Final and binding</li>
+      <li><strong>Conduct:</strong> Misconduct by players or coaches may lead to disqualification</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Match Outcome:</strong> Number of goals scored; winning team progresses</li>
+      <li><strong>Fair Play:</strong> Adherence to rules, sportsmanship, and behavior (yellow/red cards affect score)</li>
+      <li><strong>Teamwork & Strategy:</strong> Coordination, positioning, and passing effectiveness</li>
+      <li><strong>Goal Scoring Efficiency:</strong> Conversion of chances into goals</li>
+    </ul>
+  `
   },
   '/VaayuSmash': {
     name: "Vaayu Smash",
@@ -1347,7 +1721,44 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Table Tennis",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 4 total (3 playing + 1 substitute)</li>
+      <li>Each school must submit a list of players with their age, class, and relevant details</li>
+      <li>Only one team per school is allowed to participate</li>
+      <li><strong>Format:</strong> Knockout tournament</li>
+      <li><strong>Match Format:</strong>
+        <ul>
+          <li>Best of 3 sets for regular rounds (1st Singles, 2nd Singles, Doubles)</li>
+          <li>Finals will follow the Swaythling Cup format with best of 5 sets</li>
+          <li>A minimum of 3 players must take part in the first 3 sets</li>
+        </ul>
+      </li>
+      <li><strong>Game Format:</strong> Each set played to 11 points</li>
+      <li><strong>Reporting:</strong> Players must arrive on time for scheduled matches</li>
+      <li><strong>Attire:</strong> Players must avoid white jerseys or t-shirts</li>
+      <li><strong>Equipment Provided:</strong>
+        <ul>
+          <li>2 TT tables</li>
+          <li>3-star TT balls</li>
+          <li>Score sheets</li>
+          <li>Proper lighting and seating arrangements</li>
+        </ul>
+      </li>
+      <li><strong>Players Must Bring:</strong> Approved rackets and coverings</li>
+      <li>Matches will be conducted under official ITTF (International Table Tennis Federation) rules</li>
+      <li>All matches will be officiated by designated referees</li>
+      <li><strong>Misconduct:</strong> Unsportsmanlike behavior will result in penalties, including possible disqualification</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Regular Matches (Best of 3 Sets):</strong> The school that wins 2 sets moves to the next round</li>
+      <li><strong>Finals (Best of 5 Sets):</strong> The school that wins 3 sets will be declared the winner</li>
+      <li><strong>Judging:</strong> Matches will be judged strictly according to ITTF rules</li>
+    </ul>
+  `
   },
   '/RudrasRacquet': {
     name: "Rudra's Racquet",
@@ -1355,7 +1766,31 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Lawn Tennis",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 6 (3 boys and 3 girls)</li>
+      <li><strong>Format:</strong> Davis Cup style — 2 singles matches and 1 doubles match</li>
+      <li><strong>Match Type:</strong> Knockout rounds</li>
+      <li><strong>Match Duration:</strong> Each match will be played for 5–10 minutes</li>
+      <li><strong>Final Selection:</strong> Top 4 players will qualify for the semi-finals through the knockout process</li>
+      <li><strong>Reporting Time:</strong> All participants must report to the tennis court by 9:00 AM</li>
+      <li><strong>Dress Code:</strong> Sports attire with school jersey displaying the school logo</li>
+      <li><strong>Equipment:</strong> Participants must bring their own racquets</li>
+      <li><strong>Note:</strong> <em>No substitutes allowed</em></li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Final Ranking:</strong>
+        <ul>
+          <li>The winner of the final match secures 1st place</li>
+          <li>The runner-up in the final is awarded 2nd place</li>
+          <li>A separate match will be conducted to determine the 3rd place winner, ensuring fair podium opportunities for all semi-finalists</li>
+        </ul>
+      </li>
+    </ul>
+  `
   },
   '/VedicRace': {
     name: "Vedic Race",
@@ -1363,7 +1798,38 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Relay Race",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 1 girls’ team and 1 boys’ team, with 4 participants per team (total: 8 participants)</li>
+      <li>The 4×100m relay race will be conducted on a 200m track on the school field</li>
+      <li>Participants are advised to wear running shoes with spikes for better performance</li>
+      <li><strong>False Starts:</strong> Starting before the signal will result in disqualification</li>
+      <li><strong>Baton Rules:</strong>
+        <ul>
+          <li>The baton must be handed over, not thrown</li>
+          <li>If dropped, it must be picked up by the same runner unless it falls within the exchange zone</li>
+        </ul>
+      </li>
+      <li><strong>Lane Instructions:</strong> Lane-change guidelines will be provided on the day of the event</li>
+      <li><strong>Disqualification Conditions:</strong>
+        <ul>
+          <li>Changing lanes without following instructions</li>
+          <li>Interfering with other runners</li>
+        </ul>
+      </li>
+      <li><strong>Conduct:</strong> Participants must show sportsmanlike behavior and treat other teams and volunteers with respect</li>
+      <li><strong>Dress Code:</strong> All team members must wear school-identifiable jerseys</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Format:</strong> Time-trial</li>
+      <li><strong>Attempts:</strong> Each team will run once only; no reruns will be permitted</li>
+      <li><strong>Final Result:</strong> Based on the timing recorded for each team</li>
+      <li><strong>Winners:</strong> Determined by comparing times across all heats</li>
+    </ul>
+  `
   },
   '/Neerangana': {
     name: "Neerangana",
@@ -1371,7 +1837,42 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Swimming",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> Maximum 6 each for boys and girls. No minimum limit (minimum 4 participants required for relay).</li>
+      <li><strong>Event Limit:</strong> Each student may participate in up to 4 individual events (team events not included).</li>
+      <li><strong>Entry Limit:</strong> Maximum of 2 participants per school in each event.</li>
+      <li><strong>Documentation:</strong> Schools must submit a list of participants with age, class, and Aadhar card/Birth Certificate by <strong>12th July</strong>.</li>
+      <li><strong>Warm-Up:</strong> 30-minute warm-up session will be provided before events begin.</li>
+      <li><strong>Reporting:</strong> Participants must arrive on time for their respective events.</li>
+      <li><strong>Events:</strong>
+        <ul>
+          <li><strong>Freestyle:</strong> 50m, 100m, 200m</li>
+          <li><strong>Backstroke:</strong> 50m, 100m, 200m</li>
+          <li><strong>Breaststroke:</strong> 50m, 100m</li>
+          <li><strong>Butterfly:</strong> 50m</li>
+          <li><strong>Individual Medley (IM):</strong> 200m</li>
+          <li><strong>Relay:</strong> Medley Relay (4x50m)</li>
+        </ul>
+      </li>
+      <li><strong>Rules:</strong>
+        <ul>
+          <li>All events will follow <strong>FINA</strong> rules.</li>
+          <li>Jury decisions are final unless a formal protest is lodged within 30 minutes of the event’s completion.</li>
+          <li>Use of any unfair means will result in <strong>Disqualification (DQ)</strong>.</li>
+        </ul>
+      </li>
+      <li><strong>Swimming Gear:</strong> Participants must wear proper swimming costumes and bring their own swim kits (caps and goggles).</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Time Trials:</strong> All events will be conducted as time trials with official timings recorded.</li>
+      <li><strong>Point System:</strong> Points will be awarded to the top 3 finishers based on their timings (1st, 2nd, 3rd positions).</li>
+      <li><strong>Relay Weightage:</strong> Relay events will carry higher point value than individual events.</li>
+    </ul>
+  `
   },
   '/Shataranj': {
     name: "Shataranj",
@@ -1379,6 +1880,37 @@ export const eventData = {
     segment: "Kartikeya's Combat",
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Chess",
-    description: "<strong> Will be uploaded soon. </strong>"
+    description:`
+    <strong>General Guidelines:</strong><br>
+    <ul>
+      <li><strong>Participants per School:</strong> 2</li>
+      <li><strong>Dress Code:</strong> School uniform</li>
+      <li><strong>Format:</strong> Swiss-system tournament as per FIDE rules</li>
+      <li><strong>Date:</strong> 25th July 2025 (Day 2)</li>
+      <li><strong>Reporting Time:</strong>
+        <ul>
+          <li>To school by 8:15 a.m.</li>
+          <li>To chess room by 9:00 a.m.</li>
+        </ul>
+      </li>
+      <li><strong>Start Time:</strong> First round begins at 9:30 a.m.</li>
+      <li><strong>Rounds:</strong> Maximum of 5 rounds</li>
+      <li><strong>Time Control:</strong> 15 minutes + 0 seconds per player (Rapid Chess format)</li>
+      <li><strong>Entry Conditions:</strong>
+        <ul>
+          <li>Organizers reserve the right to accept/reject any entry</li>
+          <li>Only eligible participants allowed; entries violating rules will be rejected</li>
+        </ul>
+      </li>
+      <li><strong>Authority:</strong> Chief Arbiter’s decision is final and binding</li>
+    </ul>
+    
+    <strong>Judgment Criteria:</strong><br>
+    <ul>
+      <li><strong>Scoring:</strong> Based on performance across all rounds in the Swiss-system</li>
+      <li><strong>Tie-Breaker:</strong> In case of a tie, latest FIDE tie-break rules will be applied</li>
+      <li><strong>Fair Play:</strong> Strict adherence to FIDE rules is expected throughout the tournament</li>
+    </ul>
+  `
   }
 };
