@@ -287,6 +287,8 @@ function render(path) {
       });
     }
   }
+
+  document.getElementById('loader').classList.add('fade-out');
 }
 
 
