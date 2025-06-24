@@ -1282,7 +1282,7 @@ export const eventData = {
     segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "Valorant",
     description:`
-    <strong>Date:</strong> 16th July<br>
+    <strong>Date:</strong> 16th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants:</strong> 5 players + 1 substitute per school</li>
@@ -1341,7 +1341,7 @@ export const eventData = {
     segmentFrame: "/assets/images/Shastra-Byte.png",
     subject: "Fortnite",
     description:`
-    <strong>Date:</strong> 17th July<br>
+    <strong>Date:</strong> 17th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Teams:</strong> 4 players per school (no mid-match substitutions; only pre-registered substitutes allowed)</li>
@@ -1566,7 +1566,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Yoga",
     description:`
-    <strong>Date:</strong> 17th July<br>
+    <strong>Date:</strong> 17th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 4 total – 2 girls and 2 boys (no substitutes allowed)</li>
@@ -1628,7 +1628,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Cricket",
     description:`
-    <strong>Date:</strong> 16th July<br>
+    <strong>Date:</strong> 16th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Team Composition:</strong> 12 players per school (8 playing + 4 substitutes)</li>
@@ -1677,7 +1677,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Football",
     description:`
-    <strong>Date:</strong> 17th July<br>
+    <strong>Date:</strong> 17th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Team Composition:</strong> 12 participants per school – 7 players (including goalkeeper) and up to 5 substitutes</li>
@@ -1723,7 +1723,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Table Tennis",
     description:`
-    <strong>Date:</strong> 16th July<br>
+    <strong>Date:</strong> 16th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 4 total (3 playing + 1 substitute)</li>
@@ -1769,7 +1769,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Lawn Tennis",
     description:`
-    <strong>Date:</strong> 15th July<br>
+    <strong>Date:</strong> 15th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 6 (3 boys and 3 girls)</li>
@@ -1802,7 +1802,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Relay Race",
     description:`
-    <strong>Date:</strong> 16th July<br>
+    <strong>Date:</strong> 16th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 1 girls’ team and 1 boys’ team, with 4 participants per team (total: 8 participants)</li>
@@ -1842,7 +1842,7 @@ export const eventData = {
     segmentFrame: "/assets/images/KartikeyasCombat.png",
     subject: "Swimming",
     description:`
-    <strong>Date:</strong> 15th July<br>
+    <strong>Date:</strong> 15th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> Maximum 6 each for boys and girls. No minimum limit (minimum 4 participants required for relay).</li>
