@@ -9,6 +9,11 @@ export default function GeneralGuidelines() {
         <div class="YuvaHist Title">General Guidelines</div>
         <p class="YuvaHist">
         To ensure a smooth and memorable experience for all, students attending Yuvakarshan 2K25 are requested to strictly adhere to the following guidelines:
+        </p>  
+        
+        <p class="YuvaHist">
+        <span class='header'>Eligibility</span><br>
+        • Participation in Yuvakarshan is strictly limited to students from Classes IX to XII.
         </p>
 
         <p class="YuvaHist">
