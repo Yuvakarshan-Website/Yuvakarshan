@@ -1325,7 +1325,6 @@ export const eventData = {
       </li>
     </ul>
     
-    <hr>
     
     <strong>Judgment Criteria:</strong><br>
     <ul>
@@ -1376,7 +1375,6 @@ export const eventData = {
       <li><strong>Age & Consent:</strong> Players under 18 must submit parental consent forms via school</li>
     </ul>
     
-    <hr>
     
     <strong>Judgment Criteria:</strong><br>
     <ul>
@@ -1435,7 +1433,6 @@ export const eventData = {
       <li><strong>Extras:</strong> Final round may include live commentary and player walk-ins for audience engagement (if permitted)</li>
     </ul>
     
-    <hr>
     
     <strong>Judgment Criteria:</strong><br>
     <ul>
@@ -1494,7 +1491,6 @@ export const eventData = {
       </li>
     </ul>
     
-    <hr>
     
     <strong>Judgment Criteria:</strong><br>
     <ul>
