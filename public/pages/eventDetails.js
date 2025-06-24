@@ -20,9 +20,11 @@ export default function eventDetails() {
 
   container.innerHTML = `
     <div class="eventDetailsBg">
-      <div id="eventClickPrompt" class="eventClickPrompt hidden">
-          Scroll down to see details.
-        </div>
+      <div class="scroll-prompt">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
       <div class="event-segment"
            style="
