@@ -24,21 +24,21 @@ export default function Home() {
         From the Yuvakarshan Directors' Desk
       </div>
       <p class="YuvaHist">
-         Derived from the Sanskrit word “Yuvakarshan,” meaning “the magnetic pull of the youth,” our fest stands as a celebration of youthful energy, intellect, artistry, and unyielding spirit. What distinguishes Yuvakarshan 2K25 is not just its scale or spirit but the soul of its theme, Indian Mythology. 
-      </p>
-      <p class="YuvaHist">  
-         This year, we immerse our fest in the timeless wisdom, valor, and mystique of ancient Indian mythology not as a nod to the past, but as a bridge to the future. The epics and legends that shaped civilizations, forged moral codes, and inspired generations now take center stage, reminding us of the power of stories rooted in culture, values, and spiritual depth. 
+         Derived from the Sanskrit term Yuvakarshan, meaning “the magnetic pull of the youth”, this fest serves as a tribute to youthful energy, intellectual curiosity, artistic expression, and an indomitable spirit. Yuvakarshan 2K25 distinguishes itself not merely by its scale or enthusiasm, but by the profound significance of its theme: Indian Mythology.
       </p>
       <p class="YuvaHist">
-        But Yuvakarshan is not one-dimensional. It is a vibrant tapestry woven from diverse threads of human potential. To ensure that every domain of creativity and skill receives its rightful spotlight, we have curated the fest into six distinct and thoughtfully structured segments
-          <br><br> 
-           <span style='color:#ffd700'> &ensp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
+      In 2025, the fest explores the enduring wisdom, courage, and mystique embedded in ancient Indian mythology. This thematic focus is not intended as a nostalgic reflection on the past, but as a meaningful engagement with narratives that continue to influence cultural identity and ethical values. The epics and legends that once shaped civilizations and inspired generations are revisited, revealing their relevance in a contemporary context and their capacity to inspire thought, purpose, and creativity.
+      </p>
+      <p class="YuvaHist">
+        Yuvakarshan is conceived as a multidimensional celebration of human potential. To ensure a comprehensive platform for diverse forms of talent and expression, the fest is structured into six distinct and purposefully curated segments:
+        <br><br> 
+          <span style='color:#ffd700'> &ensp;  ✧	Kartikeya’s Combat </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Sports) </span> <br>
           <span style='color:rgb(102, 222, 255)'> &ensp;  ✧	Chanakya’s Council </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Business) </span> <br>
           <span style='color:rgb(222, 108, 42)'> &ensp;  ✧	Kalpana </span>  <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Creativity) </span> <br>
           <span style='color:rgb(255, 74, 74)'> &ensp;  ✧	Shastra Byte </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (E-Sports) </span> <br>
           <span style='color:rgb(170, 110, 255)'> &ensp;  ✧	Karigari Hub </span> <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Skill-Based) </span> <br>
           <span style='color:rgb(63, 227, 23)'> &ensp;  ✧	Vikram's Vision </span > <span style='color:rgba(255, 255, 255, 0.59); font-style: italic'> (Innovation) </span> <br><br>
-        Each segment is rooted in mythological essence and yet designed to challenge and captivate the contemporary mind.
+        Each segment draws inspiration from mythological archetypes, yet is designed to resonate with the aspirations and intellectual pursuits of the present generation.
       </p>
     </div>
     <div class="HomeNav">
