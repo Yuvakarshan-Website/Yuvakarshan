@@ -287,8 +287,8 @@ function render(path) {
       });
     }
   }
-
-  document.getElementById('loader').classList.add('fade-out');
+  if (normalized !== '/home' && normalized!== '/') {
+  document.getElementById('loader').classList.add('fade-out');}
 }
 
 

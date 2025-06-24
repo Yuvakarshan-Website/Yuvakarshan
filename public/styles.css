@@ -298,8 +298,8 @@ body {
   z-index: 1;
   left: 5%;
   right: 5%;
-  width: clamp(20rem, 90vw, 90rem);
-  height: clamp(4rem, 23vw, 90rem);
+  width: 90vw;
+  height: 23vw;
 
 }
 
