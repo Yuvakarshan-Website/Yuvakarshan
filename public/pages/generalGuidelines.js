@@ -109,7 +109,7 @@ export default function GeneralGuidelines() {
             <span>The Shastra Byte Segment:</span> Urjjossan Samanta <br>
             &emsp; — <span class="phone-number">+91 8337-075025</span><br><br>
 
-            <span>The Kaigari Hub Segment:</span> Visesh Nair <br>
+            <span>The Karigari Hub Segment:</span> Visesh Nair <br>
             &emsp; — <span class="phone-number">+91 89285 35210</span><br><br>
 
             <span>General Queries and Doubts:</span class='header'> Richa Dikshit <br>
