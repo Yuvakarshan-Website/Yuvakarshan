@@ -4,7 +4,7 @@ export default function Navbar() {
 
   nav.innerHTML = `
     <div class="nav-left">
-      <img class="nav-image" src="/assets/images/navbarImage.webp" alt="Logo" />
+      <img class="nav-image" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/navbarImage.webp" alt="Logo" />
       <div class="nav-title-container">
         <a href="/" class="nav-title" data-link>YUVAKARSHAN</a>
         <a href="/" class="nav-subtitle" data-link>2K25</a>

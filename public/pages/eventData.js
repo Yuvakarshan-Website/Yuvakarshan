@@ -131,7 +131,7 @@ export const eventData = {
       <li><strong>Technical Notes:</strong>
         <ul>
           <li>Participants must bring necessary adapters/converters</li>
-          <li>Borrowing equipment is discouraged; damages to borrowed gear will be chargeable</li>
+          <li>Borrowing equipment is discouraged</li>
           <li>Special technical requests must be submitted at least <strong>7 days in advance</strong>; none accepted on the event day</li>
         </ul>
       </li>

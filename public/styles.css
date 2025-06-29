@@ -28,7 +28,7 @@ body {
       rgba(0, 0, 0, 0.8) 0%,
       rgba(255, 255, 255, 0) 200%
     ),
-    url('/assets/images/homeBackground.webp');
+    url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/homeBackground.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body {
       rgba(0, 0, 0, 0.6) 0%,
       rgba(255, 255, 255, 0) 150%
     ),
-    url('/assets/images/eventDetailsBg.png');
+    url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/eventDetailsBg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,12 +73,16 @@ body {
   left: 50%;
   user-select: none;
   cursor: pointer;
-  z-index: 100;
+  z-index: 999;
   transition: all 0.2s;
 }
 
 .scroll-prompt.team {
   left: 56% !important;
+}
+
+.scroll-prompt.eventDetails {
+  top: 95.5vh !important;
 }
 
 .scroll-prompt.active {
@@ -305,7 +309,7 @@ body {
 
 
 .grid-item {
-  background-image: url("/assets/images/HomeNavItem.webp");
+  background-image: url("https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/HomeNavItem.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -367,7 +371,7 @@ body {
   content: "";
   position: relative;
   inset: 0;
-  background-image: url("/assets/images/dpsnBuilding.webp");
+  background-image: url("https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/dpsnBuilding.webp");
   background-position: bottom;
   border-radius: 40px;
   background-size: contain;
@@ -1401,7 +1405,7 @@ body {
 .event-description {
   max-height: 5vh;
   width: 50vw;
-  background-image: url('/assets/images/scrollParchment.webp');
+  background-image: url('https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/scrollParchment.webp');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

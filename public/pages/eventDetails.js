@@ -20,11 +20,6 @@ export default function eventDetails() {
 
   container.innerHTML = `
     <div class="eventDetailsBg">
-      <div class="scroll-prompt">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
 
       <div class="event-segment"
            style="
