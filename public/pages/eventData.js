@@ -183,14 +183,6 @@ export const eventData = {
       </li>
       <li><strong>Judge’s Decision:</strong> Final and binding</li>
     </ul>
-
-    <strong>Judgement Criteria:</strong><br>
-    <ul>
-      <li>Relevance to the Theme</li>
-      <li>Originality</li>
-      <li>Emotional Expression</li>
-      <li>Technical Mastery</li>
-    </ul>
   `
   },
   '/LeelaManch': {
