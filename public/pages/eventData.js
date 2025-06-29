@@ -1082,8 +1082,11 @@ export const eventData = {
         <li>Number of participants per school: 2</li>
         <li>Dress code: <em>School uniform</em></li>
         <li>Time allotted per team: 10 minutes</li>
-        <li>Each team must manufacture an autonomous, sensor-based robot capable of navigating a maze with free-range turns</li>
+        <li>Each team must manufacture an autonomous robot capable of navigating through passages with 12cm high walls.</li>
+        <li>Robots need not have a path finding algorithm but must not back-track along the same path</li>
+        <li>Robots must be proximity sensor based, not line followers</li>
         <li>Only one round will be held — fastest completions will be declared winners</li>
+        <li>The maze shall be revealed to contestants 30 minutes prior and participants may utilize the time to fine tune their robot</li>
         <li>Teams may carry:
           <ul>
             <li>1 laptop (optional)</li>
@@ -1099,8 +1102,7 @@ export const eventData = {
             <li>Extension cords</li>
           </ul>
         </li>
-        <li>Maximum allowed dimensions of the robot chassis: <strong>16 cm × 16 cm</strong> (Length × Breadth)</li>
-        <li>Topics related to the challenge will be provided <em>3 weeks prior</em> to the event</li>
+        <li>Maximum allowed dimensions of the robot chassis (full body excluding wheels): <strong>16 cm × 16 cm</strong> (Length × Breadth)</li>
       </ul>
 
       <strong>Judgment Criteria:</strong><br><br>
@@ -1108,6 +1110,7 @@ export const eventData = {
       <strong>• Fastest Maze Completion:</strong>
       <ul>
         <li>Winners will be decided based on the fastest maze completion time</li>
+        <li>Tie breaker round to be held on account of a tie</li>
       </ul>
 
       <strong>• Disqualification if:</strong>
@@ -1132,23 +1135,30 @@ export const eventData = {
                       <li>The event will be held in two rounds, each of 45 minutes</li>
                       <li><strong>Round 1:</strong> Error-solving (minor bugs in given code)</li>
                       <li><strong>Round 2:</strong> Logical problem-solving (competitive coding style)</li>
+                      <li><strong>Maximum difficulty of problems: Codeforces - 1300</li>
                       <li>Teams will be provided with two computers</li>
                       <li>A digital question paper will be provided</li>
                       <li>Same set of problems for both participants; time usage at team’s discretion</li>
                       <li>All submissions to be made via the provided LAN network in the lab</li>
+                      <li>No application except the IDE and the calculator to be used</li>
                     </ul>
                       <strong>Judgment Criteria:</strong><br><br>
                       <strong>• Round 1 (Error-solving):</strong>
                       <ul>
                         <li>Points based on number of errors correctly fixed within the time limit</li>
+                        <li>Minimum changes to be considered in case of ties</li>
                       </ul>
                       
                       <strong>• Round 2 (Logical problem):</strong>
                       <ul>
-                        <li>Accuracy of the output</li>
+                        <li>Accuracy of the output when compared to expected results</li>
                         <li>Efficiency of logic</li>
                         <li>Time of submission</li>
                         <li>Time complexity of the solution</li>
+                      </ul>
+                      <strong>• Disqualification:</strong>
+                      <ul>
+                        <li>Use of unfair means shall lead to disqualification</li>
                       </ul>
                   `
   },
