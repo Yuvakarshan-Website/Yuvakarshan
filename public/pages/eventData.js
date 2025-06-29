@@ -1207,16 +1207,20 @@ export const eventData = {
     Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop.
 
     <strong>Topic: </strong>
-
+    
     <i> Innovate for Impact – Build the Future Through Apps That Matter </i> <br />
 
-    This challenge is about more than ideas — it’s about bringing those ideas to life. Identify a real-world problem and build a fully functional app that addresses it in a meaningful, practical way. <br />
+    <ul>
 
-    Participants are invited to think like app entrepreneurs: focused on solving relevant issues through technology that is not only innovative, but also usable, scalable, and ready to deploy. Whether the problem lies in healthcare, education, sustainability, accessibility, or daily life, the solution should reflect a clear understanding of the need and a well-thought-out path to impact. <br />
+    <li> This challenge is about more than ideas — it’s about bringing those ideas to life. Identify a real-world problem and build a fully functional app that addresses it in a meaningful, practical way. </li> 
 
-    The app is the core of your solution. It should be designed, developed, and delivered as a working solution — supported by thoughtful features, strong user experience, and a clear integration into the real-world systems it aims to improve. This isn’t just about prototypes or concepts; it’s about building something that can actually be used. <br />
+    <li> Participants are invited to think like app entrepreneurs: focused on solving relevant issues through technology that is not only innovative, but also usable, scalable, and ready to deploy. Whether the problem lies in healthcare, education, sustainability, accessibility, or daily life, the solution should reflect a clear understanding of the need and a well-thought-out path to impact.  </li> 
 
-    This is your opportunity to combine purpose-driven innovation with technical excellence — and shape the future, one app at a time. <br />
+    <li> The app is the core of your solution. It should be designed, developed, and delivered as a working solution — supported by thoughtful features, strong user experience, and a clear integration into the real-world systems it aims to improve. This isn’t just about prototypes or concepts; it’s about building something that can actually be used.  </li> 
+
+    <li> This is your opportunity to combine purpose-driven innovation with technical excellence — and shape the future, one app at a time.  </li> 
+
+    </ul>
   `
   },
   '/Anveshan': {
