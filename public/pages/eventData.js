@@ -1204,7 +1204,8 @@ export const eventData = {
       <li><strong>Bonus (+5):</strong> For outstanding innovation or creative tech use</li>
     </ul>
 
-    Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop.
+    <strong> Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop. </strong>
+    <p>
 
     <strong>Topic: </strong>
     
@@ -1238,23 +1239,23 @@ export const eventData = {
       <li><strong>Time Slot:</strong> Each school gets 1.5 hours for their starting round</li>
       <li><strong>Devices:</strong>
         <ul>
-          <li>Participants must bring a mobile phone for clue communication in the online round</li>
-          <li><strong>Internet use during the offline treasure hunt is strictly prohibited</strong> and will lead to disqualification</li>
+          <li>Participants must bring a mobile phone for clue communication via an online platform.</li>
+          <li><strong>Internet usage for help during the treasure hunt is strictly prohibited</strong> and will lead to disqualification</li>
         </ul>
       </li>
       <li><strong>Communication & Clue System:</strong>
         <ul>
-          <li>A dedicated online platform will be used for puzzle clues and progress tracking</li>
-          <li>Participants will be added to the communication channel before the event</li>
-          <li>Only this platform may be used for queries and hint requests</li>
-          <li>Yes/No Questions: Max 20 questions allowed</li>
+          <li>A dedicated online platform will be used for puzzle clues and progress tracking.</li>
+          <li>Participants will be added to the communication channel before the event. </li>
+          <li>Only this platform may be used for queries and lead requests</li>
+          <li>Yes/No Questions: Max 20 questions allowed for the entire day.</li>
         </ul>
       </li>
       <li><strong>Puzzles:</strong>
         <ul>
-          <li>Puzzles are sequential and location-based, each leading to the next</li>
-          <li>Hints and leads will be regulated by the event in-charge</li>
-          <li>Surprises and twists will unfold during the event — participants must stay alert and adaptive</li>
+          <li>Puzzles are sequential and location-based, each leading to the next.</li>
+          <li>Hints and leads will be regulated by the event in-charge.</li>
+          <li>Surprises and twists will unfold during the event — participants must stay alert and adaptive.</li>
         </ul>
       </li>
     </ul>
@@ -1266,17 +1267,17 @@ export const eventData = {
       <li>The first school to complete all puzzles in a group will be the group winner</li>
       <li>If no school completes all puzzles:
         <ul>
-          <li>School that reaches the furthest puzzle wins</li>
-          <li>If tied, the one that reached that level first wins</li>
+          <li>School that reaches the furthest puzzle wins (to be determined via point system)</li>
+          <li>If tied, the one that reached the furthest level first wins</li>
         </ul>
       </li>
       <li>In rare cases, more than one school per group may qualify for finals</li>
       <li>The three winning schools will compete in the final round (approx. 1.5 to 2 hours)</li>
-      <li>No time limit in final round unless no school completes it</li>
-      <li>Round structure may be slightly adjusted to ensure fairness</li>
+      <li>No time limit in final round unless no school completes it.</li>
+      <li>Round structure may be slightly adjusted to ensure fairness.</li>
     </ul>
 
-    <strong>Judgement Criteria:</strong><br>
+    <strong>Judgement Criteria (if no school is able to finish a round):</strong><br>
     <ul>
       <li><strong>Puzzle Completion:</strong> Each correctly solved puzzle = 10 points</li>
       <li><strong>Speed Bonus (per puzzle level):</strong>
