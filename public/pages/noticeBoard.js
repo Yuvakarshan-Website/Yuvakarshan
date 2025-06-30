@@ -16,6 +16,15 @@ export default function NoticeBoard() {
                   </div>
                 </div>
             </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Lottery Results Out! <span style='color: rgba(182, 182, 182, 0.68); font-size: 1.2rem;'> on 1st July </span></button>
+                  <div class="accordion-content">
+                    <p>Lottery results are out for the events - Nazakat, Nritya Katha and Indra's Influence. Check it out - <a href='/lotteryResults' class='notice-board-link' data-link>here.</a></p>
+                  </div>
+                </div>
+            </div>
         </div>
     </section>
 

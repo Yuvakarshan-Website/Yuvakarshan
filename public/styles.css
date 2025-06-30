@@ -1849,6 +1849,7 @@ body {
   align-items: center;
 }
 
+
 .lotteryMessage {
   border-radius: 30px;
   border: 3px solid #ffd700;
@@ -1870,7 +1871,7 @@ body {
   text-align: center;
   --border-angle: 0turn;
   /* Static background (does NOT animate) */
-  --main-bg: conic-gradient(
+   --main-bg: conic-gradient(
   from 0turn,
   rgba(33, 26, 3, 0.164),
   rgba(33, 26, 3, 0.164) 5%,
@@ -1908,9 +1909,47 @@ body {
   initial-value: 0turn;
 }
 
+.lottery .heading{
+  color: #ffd700;
+  font-family: 'Kaivalya', sans-serif;
+  text-align: center;
+  font-size: 1.7rem;
+  
+}
 
+.lottery-header{
+  margin-top: 22rem;
+}
 
+.result{
+  overflow:visible;
+  height: fit-content;
+}
 
+.table {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.662);
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  border: 1px solid #ffd9008a;
+  border-radius: 15px;
+}
+
+.table td {
+  border: 1px solid #ffd9008a;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #ffca6f; /* subtle tint for header */
+}
+
+.table th {
+  font-weight: bold;
+}
 
 
 /*preloader*/
