@@ -10,9 +10,9 @@ export default function NoticeBoard() {
         <div class="notice-container">
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">No notices yet! <span style='color: rgba(182, 182, 182, 0.68); font-size: 1.2rem;'> on 1st July </span></button>
+                  <button class="accordion-button">AppUrva & Vaigyaanik Vistaar - Themes announced! <span style='color: rgba(182, 182, 182, 0.68); font-size: 1.2rem;'> on 30th June </span></button>
                   <div class="accordion-content">
-                    <p>Our magical phoenix has nothing to deliver for now!</p>
+                    <p>The themes of the two events - AppUrva and Vaigyaanik Vistaar, have been announced. Schools are requested to check the respective event pages for details.</p>
                   </div>
                 </div>
             </div>
