@@ -11,6 +11,7 @@ import eventDetails from './pages/eventDetails.js';
 import LotteryResults from './pages/lotteryResults.js';
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
+import NoticeBoard from './pages/noticeBoard.js';
 
 let ClickPromptShown = false;
 
@@ -34,6 +35,7 @@ const routes = {
   '/gallery': Gallery,
   '/team': Team,
   '/lotteryResults': LotteryResults,
+  '/noticeBoard': NoticeBoard,
   '/SudarshansSpin': eventDetails,
   '/RudrasRacquet': eventDetails,
   '/VaayuSmash': eventDetails,

@@ -10,6 +10,11 @@ export default function GeneralGuidelines() {
         <p class="YuvaHist">
         To ensure a smooth and memorable experience for all, students attending Yuvakarshan 2K25 are requested to strictly adhere to the following guidelines:
         </p>  
+
+         <p class="YuvaHist">
+        <span class='header'>Notice Board</span><br>
+        • All schools are requested to regularly check the <a href='/noticeBoard' class='notice-board-link' data-link>notice board</a> of this website for updates.
+        </p>
         
         <p class="YuvaHist">
         <span class='header'>Eligibility</span><br>
