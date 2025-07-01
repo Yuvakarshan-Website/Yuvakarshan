@@ -54,6 +54,60 @@ export default function LotteryResults() {
                 </table>
             </div>
         </div>
+
+
+        <div class="notice-container result">
+            <div class="lottery">
+                <h1 class='heading'> INDRA'S INFLUENCE </h1>
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>School</th>
+                      <th>Industry</th>
+                      <th>Associated Cities</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>St. Francis Xavier</td>
+                      <td>Chemical &amp; Fertilizers</td>
+                      <td>Vadodara &amp; Mahabaleshwar</td>
+                    </tr>
+                    <tr>
+                      <td>Delhi Public School Newtown</td>
+                      <td>Information Technology &amp; ITES</td>
+                      <td>Bhubaneswar &amp; Patna</td>
+                    </tr>
+                    <tr>
+                      <td>National English School, Baguiati</td>
+                      <td>Handicraft</td>
+                      <td>Jaipur &amp; Hassan</td>
+                    </tr>
+                    <tr>
+                      <td>Salt Lake School</td>
+                      <td>Pharmaceutical &amp; Biotech</td>
+                      <td>Pune &amp; Chhindwara</td>
+                    </tr>
+                    <tr>
+                      <td>Delhi Public School Rubypark</td>
+                      <td>Real Estate</td>
+                      <td>Ayodhya &amp; Darbanga</td>
+                    </tr>
+                    <tr>
+                      <td>St. Xavier's Collegiate School</td>
+                      <td>Education</td>
+                      <td>Kota &amp; Muzaffarpur</td>
+                    </tr>
+                    <tr>
+                      <td>Delhi Public School Megacity</td>
+                      <td>Renewable Energy</td>
+                      <td>Tirunelveli &amp; Kohima</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
     </section>
   `;
 
