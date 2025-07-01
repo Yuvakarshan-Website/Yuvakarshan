@@ -43,7 +43,7 @@ export default function Team() {
           </div>
           <div class="HoverPrompt"> HOVER </div>
         </div>
-        <img class="wtFiller" src="/assets/images/wtFiller.png"></img>
+        <img class="wtFiller" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/wtFiller.png"></img>
         <div class="WTCard right">
           <div class="wtBg">
             <div class="wtName">Aviral Kochgaway</div>

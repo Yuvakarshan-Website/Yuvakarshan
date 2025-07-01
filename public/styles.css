@@ -1538,7 +1538,7 @@ body {
 
 .noticeBoard{
   overflow: hidden;
-  height: 100vh;
+  height: 90vh;
 }
 
 .notice-board-link{
@@ -1549,21 +1549,20 @@ body {
 }
 
 .noticeBoardContainer{
+  top: 16vh;
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   width: 100vw;
-  height: fit-content;
-  padding: 8rem 0rem;
   gap: 0.2rem
 
 }
 
 .noticeBoardContainer .additional {
   text-align: center;
-  font-size: 2.0rem;
+  font-size: clamp(1.5rem, 2.7vw, 2.7rem);
 }
 
 
@@ -1580,7 +1579,7 @@ body {
   border-radius: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  height: 60vh;
+  height: 62vh;
   scrollbar-width: 0.8rem; /* Firefox */
   scrollbar-color: rgb(255, 217, 0) rgba(0 0 0 / 0.1); /* thumb and track */
 }
@@ -1608,7 +1607,7 @@ body {
   text-align: left;
   border: none;
   outline: none;
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
   font-weight: bold;
   transition: 0.3s ease;
 }
@@ -1630,6 +1629,7 @@ body {
 
 .accordion-content p{
   color: white;
+  font-size: clamp(0.8rem, 1vw, 1rem);
 }
 
 .accordion-button.active + .accordion-content {
@@ -1643,6 +1643,12 @@ body {
   height: 1px;
   background-color: rgba(255, 255, 255, 0.2); /* or any color */
   margin: 20px 0; /* spacing above and below the line */
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .noticeBoardContainer{
+    top: 11vh;
+  }
 }
 
 

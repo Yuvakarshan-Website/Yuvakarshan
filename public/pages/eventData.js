@@ -1076,7 +1076,7 @@ export const eventData = {
         <li>Time allotted per team: 10 minutes</li>
         <li>Each team must manufacture an autonomous robot capable of navigating through passages with 12cm high walls.</li>
         <li>Robots need not have a path finding algorithm but must not back-track along the same path</li>
-        <li>Robots must be proximity sensor based, not line followers</li>
+        <li>Robots must not line followers</li>
         <li>Only one round will be held — fastest completions will be declared winners</li>
         <li>The maze shall be revealed to contestants 30 minutes prior and participants may utilize the time to fine tune their robot</li>
         <li>Teams may carry:
@@ -1094,7 +1094,7 @@ export const eventData = {
             <li>Extension cords</li>
           </ul>
         </li>
-        <li>Maximum allowed dimensions of the robot chassis (full body excluding wheels): <strong>16 cm × 16 cm</strong> (Length × Breadth)</li>
+        <li>Maximum allowed dimensions of the robot chassis (full body including wheels): <strong>16 cm × 16 cm</strong> (Length × Breadth)</li>
       </ul>
 
       <strong>Judgment Criteria:</strong><br><br>
