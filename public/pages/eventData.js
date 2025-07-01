@@ -1902,7 +1902,7 @@ export const eventData = {
   `
   },
   '/Shataranj': {
-    name: "Shataranj",
+    name: "Shatranj",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/29.webp",
     segment: "Kartikeya's Combat",
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
