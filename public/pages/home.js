@@ -62,7 +62,7 @@ export default function Home() {
           <a href="https://instagram.com/yuvakarshan2k25/">Socials</a>
         </div>
       </div>
-      <img class="HomeNavFrame" loading="eager" src="/assets/images/HomeNavFrame.webp"></img>
+      <img class="HomeNavFrame" loading="eager" src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/HomeNavFrame.webp"></img>
     </div>
     <div class="dpsnHist">
       <div class="dpsnHistText"> DPS Newtown, under the aegis of the DPS society is a state-of-the-art modern school, the only DPS situated in the heart of Newtown. Spread over a sprawling 12-acre plush campus, the school is equipped with the best of amenities, giving the students ample opportunities to manifest their talents. <br><br>

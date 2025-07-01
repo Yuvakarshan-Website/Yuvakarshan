@@ -306,6 +306,7 @@ function setupRouter() {
       const path = new URL(e.target.href).pathname;
       const normalized = normalizePath(path);
       history.pushState(null, '', normalized);
+      document.getElementById('loader').classList.remove('fade-out');
       render(normalized);
     }
   });
