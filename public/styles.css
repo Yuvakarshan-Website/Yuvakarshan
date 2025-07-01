@@ -1850,7 +1850,7 @@ body {
 
 .lottery-page, .lotteryBg{
   display: flex;
-  height: 300vh;
+  height: 400vh;
   justify-content: center;
   align-items: center;
 }
