@@ -2,9 +2,9 @@ export const eventData = {
   // Kalpana
   '/Nazakat': {
     name: "Nazakat",
-    logo: "/assets/images/logos/14.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/14.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Fashion Show",
     description:`
     <strong>Guidelines:</strong><br>
@@ -51,9 +51,9 @@ export const eventData = {
   },
   '/NrityaKatha': {
     name: "Nritya Katha",
-    logo: "/assets/images/logos/13.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/13.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Dance",
     description:`
     <strong>Guidelines:</strong><br>
@@ -100,9 +100,9 @@ export const eventData = {
   },
   '/RaagaRock': {
     name: "Raaga Rock",
-    logo: "/assets/images/logos/16.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/16.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Western Music",
     description:`
     <strong>Guidelines:</strong><br>
@@ -155,9 +155,9 @@ export const eventData = {
   },
   '/RaagaSangam': {
     name: "Raaga Sangam",
-    logo: "/assets/images/logos/17.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/17.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Eastern Music",
     description:`
     <strong>Guidelines:</strong><br>
@@ -187,9 +187,9 @@ export const eventData = {
   },
   '/LeelaManch': {
     name: "Leela Manch",
-    logo: "/assets/images/logos/12.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/12.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Turncoat Debate Inspired Acting",
     description:`
     <strong>Guidelines:</strong><br>
@@ -237,9 +237,9 @@ export const eventData = {
   },
   '/NukkadNatak': {
     name: "Nukkad Natak",
-    logo: "/assets/images/logos/15.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/15.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Street Play",
     description:`
     <strong>Guidelines:</strong><br>
@@ -294,9 +294,9 @@ export const eventData = {
   },
   '/Vrittanta': {
     name: "Vrittanta",
-    logo: "/assets/images/logos/18.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/18.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "E-Magazine + Photography",
     description: `
     <strong>Guidelines:</strong><br>
@@ -356,9 +356,9 @@ export const eventData = {
   },
   '/Antakshari': {
     name: "Antakshari",
-    logo: "/assets/images/logos/11.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/11.webp",
     segment: "Kalpana",
-    segmentFrame: "/assets/images/Kalpana.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Kalpana.png",
     subject: "Antakshari",
     description:`
     <strong>Guidelines:</strong><br>
@@ -422,9 +422,9 @@ export const eventData = {
   // Chanakya's Council
   '/VanijyaVerse': {
     name: "Vanijya Verse",
-    logo: "/assets/images/logos/9.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/9.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
     subject: "All-Round Commerce Event",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -466,9 +466,9 @@ export const eventData = {
   },
   '/KuberaCapital': {
     name: "Kubera Capital",
-    logo: "/assets/images/logos/8.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
     subject: "Stock Exchange",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -523,9 +523,9 @@ export const eventData = {
   },
   '/ArthashastraArena': {
     name: "Arthashastra Arena",
-    logo: "/assets/images/logos/7.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/7.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
     subject: "Finance-Accounting IPO Based",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -584,9 +584,9 @@ export const eventData = {
   },
   '/IndrasInfluence': {
     name: "Indra's Influence",
-    logo: "/assets/images/logos/6.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/6.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
     subject: "Marketing & Advertising",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -634,9 +634,9 @@ export const eventData = {
   },
   '/VyapaarYagna': {
     name: "Vyapaar Yagna",
-    logo: "/assets/images/logos/10.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/10.webp",
     segment: "Chanakya's Council",
-    segmentFrame: "/assets/images/ChanakyasCouncil.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
     subject: "Shark Tank",
     description:`
     <strong>General Rules:</strong><br>
@@ -710,9 +710,9 @@ export const eventData = {
   // Karigari Hub
   '/BodhaBlitz': {
     name: "Bodha Blitz",
-    logo: "/assets/images/logos/20.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/20.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Quiz",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -739,9 +739,9 @@ export const eventData = {
   },
   '/BheemsBhojnalay': {
     name: "Bheem's Bhojnalay",
-    logo: "/assets/images/logos/19.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/19.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Cookery",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -795,9 +795,9 @@ export const eventData = {
   },
   '/Tarkanjali': {
     name: "Tarkanjali",
-    logo: "/assets/images/logos/23.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/23.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Debate",
    description:`
     <strong>General Guidelines:</strong><br>
@@ -839,9 +839,9 @@ export const eventData = {
   },
   '/MayaMandi': {
     name: "Maya Mandi",
-    logo: "/assets/images/logos/22.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/22.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Poster Making + Marketing",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -900,9 +900,9 @@ export const eventData = {
   },
   '/NyayaYudh': {
     name: "Nyaya Yudh",
-    logo: "/assets/images/logos/24.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/24.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Moot Court",
    description:`
     <strong>General Guidelines:</strong><br>
@@ -965,9 +965,9 @@ export const eventData = {
   },
   '/Chitrakatha': {
     name: "Chitrakatha",
-    logo: "/assets/images/logos/21.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/21.webp",
     segment: "Karigari Hub",
-    segmentFrame: "/assets/images/KarigariHub.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Short Film",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1018,9 +1018,9 @@ export const eventData = {
   // Vikram's Vision
   '/VaigyanikVistaar': {
     name: "Vaigyanik Vistaar",
-    logo: "/assets/images/logos/5.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/5.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
     subject: "Product Designing / Model Making",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1064,9 +1064,9 @@ export const eventData = {
   },
   '/MechaYaan': {
     name: "Mecha Yaan",
-    logo: "/assets/images/logos/4.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/4.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
     subject: "Robotics",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1076,7 +1076,7 @@ export const eventData = {
         <li>Time allotted per team: 10 minutes</li>
         <li>Each team must manufacture an autonomous robot capable of navigating through passages with 12cm high walls.</li>
         <li>Robots need not have a path finding algorithm but must not back-track along the same path</li>
-        <li>Robots must not be line followers</li>
+        <li>Robots must be proximity sensor based, not line followers</li>
         <li>Only one round will be held — fastest completions will be declared winners</li>
         <li>The maze shall be revealed to contestants 30 minutes prior and participants may utilize the time to fine tune their robot</li>
         <li>Teams may carry:
@@ -1094,7 +1094,7 @@ export const eventData = {
             <li>Extension cords</li>
           </ul>
         </li>
-        <li>Maximum allowed dimensions of the robot chassis (full body including wheels): <strong>16 cm × 16 cm</strong> (Length × Breadth)</li>
+        <li>Maximum allowed dimensions of the robot chassis (full body excluding wheels): <strong>16 cm × 16 cm</strong> (Length × Breadth)</li>
       </ul>
 
       <strong>Judgment Criteria:</strong><br><br>
@@ -1114,9 +1114,9 @@ export const eventData = {
   },
   '/CyberSiddhanta': {
     name: "Cyber Siddhanta",
-    logo: "/assets/images/logos/3.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/3.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
     subject: "Competitive Coding",
     description:`   <strong>General Guidelines:</strong><br>
                     <ul>
@@ -1156,9 +1156,9 @@ export const eventData = {
   },
   '/AppUrva': {
     name: "AppUrva",
-    logo: "/assets/images/logos/2.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/2.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
     subject: "App Development",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1168,7 +1168,7 @@ export const eventData = {
       <li>Event type: <strong>App development</strong></li>
       <li>Topics will be announced <em>3 weeks prior</em> to the event</li>
       <li>A fully deployable, <strong>original</strong> app must be developed beforehand</li>
-      <li>Use of all resources is permitted; <strong>presenting an existing app will lead to disqualification</strong></li>
+      <li>Use of all resources except templates is permitted; <strong>presenting a previously designed app or any plagiarism will lead to disqualification</strong></li>
       <li><strong>Submission Deadline:</strong> 20th July</li>
       <li><strong>Submission requirements:</strong>
         <ul>
@@ -1204,8 +1204,7 @@ export const eventData = {
       <li><strong>Bonus (+5):</strong> For outstanding innovation or creative tech use</li>
     </ul>
 
-    <strong> Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop. </strong>
-    <p>
+    Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop. <br><br>
 
     <strong>Topic: </strong>
     
@@ -1226,9 +1225,9 @@ export const eventData = {
   },
   '/Anveshan': {
     name: "Anveshan",
-    logo: "/assets/images/logos/1.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/1.webp",
     segment: "Vikram's Vision",
-    segmentFrame: "/assets/images/VikramsVision.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
     subject: "Cryptography",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1239,23 +1238,23 @@ export const eventData = {
       <li><strong>Time Slot:</strong> Each school gets 1.5 hours for their starting round</li>
       <li><strong>Devices:</strong>
         <ul>
-          <li>Participants must bring a mobile phone for clue communication via an online platform.</li>
-          <li><strong>Internet usage for help during the treasure hunt is strictly prohibited</strong> and will lead to disqualification</li>
+          <li>Participants must bring a mobile phone for clue communication in the online round</li>
+          <li><strong>Internet use during the offline treasure hunt is strictly prohibited</strong> and will lead to disqualification</li>
         </ul>
       </li>
       <li><strong>Communication & Clue System:</strong>
         <ul>
-          <li>A dedicated online platform will be used for puzzle clues and progress tracking.</li>
-          <li>Participants will be added to the communication channel before the event. </li>
-          <li>Only this platform may be used for queries and lead requests</li>
-          <li>Yes/No Questions: Max 20 questions allowed for the entire day.</li>
+          <li>A dedicated online platform will be used for puzzle clues and progress tracking</li>
+          <li>Participants will be added to the communication channel before the event</li>
+          <li>Only this platform may be used for queries and hint requests</li>
+          <li>Yes/No Questions: Max 20 questions allowed</li>
         </ul>
       </li>
       <li><strong>Puzzles:</strong>
         <ul>
-          <li>Puzzles are sequential and location-based, each leading to the next.</li>
-          <li>Hints and leads will be regulated by the event in-charge.</li>
-          <li>Surprises and twists will unfold during the event — participants must stay alert and adaptive.</li>
+          <li>Puzzles are sequential and location-based, each leading to the next</li>
+          <li>Hints and leads will be regulated by the event in-charge</li>
+          <li>Surprises and twists will unfold during the event — participants must stay alert and adaptive</li>
         </ul>
       </li>
     </ul>
@@ -1267,17 +1266,17 @@ export const eventData = {
       <li>The first school to complete all puzzles in a group will be the group winner</li>
       <li>If no school completes all puzzles:
         <ul>
-          <li>School that reaches the furthest puzzle wins (to be determined via point system)</li>
-          <li>If tied, the one that reached the furthest level first wins</li>
+          <li>School that reaches the furthest puzzle wins</li>
+          <li>If tied, the one that reached that level first wins</li>
         </ul>
       </li>
       <li>In rare cases, more than one school per group may qualify for finals</li>
       <li>The three winning schools will compete in the final round (approx. 1.5 to 2 hours)</li>
-      <li>No time limit in final round unless no school completes it.</li>
-      <li>Round structure may be slightly adjusted to ensure fairness.</li>
+      <li>No time limit in final round unless no school completes it</li>
+      <li>Round structure may be slightly adjusted to ensure fairness</li>
     </ul>
 
-    <strong>Judgement Criteria (if no school is able to finish a round):</strong><br>
+    <strong>Judgement Criteria:</strong><br>
     <ul>
       <li><strong>Puzzle Completion:</strong> Each correctly solved puzzle = 10 points</li>
       <li><strong>Speed Bonus (per puzzle level):</strong>
@@ -1300,9 +1299,9 @@ export const eventData = {
   // Shastra-Byte
   '/RadiantRumble': {
     name: "Radiant Rumble",
-    logo: "/assets/images/logos/37.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/37.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
     subject: "Valorant",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1359,9 +1358,9 @@ export const eventData = {
   },
   '/IndraShock': {
     name: "IndraShock",
-    logo: "/assets/images/logos/36.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/36.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
     subject: "Fortnite",
     description:`
     <strong>Date:</strong> 17th July<br><br>
@@ -1418,9 +1417,9 @@ export const eventData = {
   },
   '/Chakravyuh': {
     name: "Chakravyuh",
-    logo: "/assets/images/logos/35.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/35.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
     subject: "BGMI",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1479,9 +1478,9 @@ export const eventData = {
   },
   '/AgniStrikers': {
     name: "Agni Strikers",
-    logo: "/assets/images/logos/34.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/34.webp",
     segment: "Shastra-Byte",
-    segmentFrame: "/assets/images/Shastra-Byte.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
     subject: "FIFA + Auction",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1549,9 +1548,9 @@ export const eventData = {
   // Kartikeya's Combat
   '/HanumansCombat': {
     name: "Hanuman's Combat",
-    logo: "/assets/images/logos/26.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/26.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Karate",
     description:`
     <strong>General Guidelines:</strong><br>
@@ -1584,9 +1583,9 @@ export const eventData = {
   },
   '/ShivSadhna': {
     name: "Shiv Sadhna",
-    logo: "/assets/images/logos/30.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/30.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Yoga",
     description:`
     <strong>Date:</strong> 17th July<br><br>
@@ -1646,9 +1645,9 @@ export const eventData = {
   },
   '/SudarshansSpin': {
     name: "Sudarshan's Spin",
-    logo: "/assets/images/logos/31.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/31.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Cricket",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1695,9 +1694,9 @@ export const eventData = {
   },
   '/ChakraLeague': {
     name: "Chakra League",
-    logo: "/assets/images/logos/25.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/25.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Football",
     description:`
     <strong>Date:</strong> 17th July<br><br>
@@ -1741,9 +1740,9 @@ export const eventData = {
   },
   '/VaayuSmash': {
     name: "Vaayu Smash",
-    logo: "/assets/images/logos/32.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/32.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Table Tennis",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1787,9 +1786,9 @@ export const eventData = {
   },
   '/RudrasRacquet': {
     name: "Rudra's Racquet",
-    logo: "/assets/images/logos/28.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/28.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Lawn Tennis",
     description:`
     <strong>Date:</strong> 15th July<br><br>
@@ -1820,9 +1819,9 @@ export const eventData = {
   },
   '/VedicRace': {
     name: "Vedic Race",
-    logo: "/assets/images/logos/33.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/33.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Relay Race",
     description:`
     <strong>Date:</strong> 16th July<br><br>
@@ -1860,9 +1859,9 @@ export const eventData = {
   },
   '/Neerangana': {
     name: "Neerangana",
-    logo: "/assets/images/logos/27.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/27.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Swimming",
     description:`
     <strong>Date:</strong> 15th July<br><br>
@@ -1904,9 +1903,9 @@ export const eventData = {
   },
   '/Shataranj': {
     name: "Shataranj",
-    logo: "/assets/images/logos/29.webp",
+    logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/29.webp",
     segment: "Kartikeya's Combat",
-    segmentFrame: "/assets/images/KartikeyasCombat.png",
+    segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Chess",
     description:`
     <strong>General Guidelines:</strong><br>
