@@ -1849,94 +1849,36 @@ body {
 /* lottery results page */
 
 .lottery-page, .lotteryBg{
-  height: 100vh;
   display: flex;
+  height: 300vh;
   justify-content: center;
   align-items: center;
-}
-
-
-.lotteryMessage {
-  border-radius: 30px;
-  border: 3px solid #ffd700;
-  box-shadow:
-    0 0 15px rgba(255, 215, 0, 0.6),
-    inset 0 0 10px rgba(255, 255, 255, 0.2);
-  background-color: rgba(0, 0, 0, 0.15);
-  position: absolute;
-  backdrop-filter: blur(10px);
-  padding: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Kaivalya', sans-serif;
-  font-size: clamp(2.2rem, 4.6vw, 4.5rem);
-  z-index: 0;
-  color: #ffffff;
-  width: 40%;
-  text-align: center;
-  --border-angle: 0turn;
-  /* Static background (does NOT animate) */
-   --main-bg: conic-gradient(
-  from 0turn,
-  rgba(33, 26, 3, 0.164),
-  rgba(33, 26, 3, 0.164) 5%,
-  rgba(33, 26, 3, 0.164) 60%,
-  rgba(33, 26, 3, 0.164) 95% 
-  );
-
-
-  border: solid 5px transparent;
-  border-radius: 2em;
-
-  --gradient-border: conic-gradient(from var(--border-angle2), transparent 25%, rgba(214, 150, 0, 0.344), rgba(135, 102, 4, 0.502) 99%, transparent);
-
-  background:
-    var(--main-bg) padding-box,
-    var(--gradient-border) border-box,
-    var(--main-bg) border-box;
-
-  background-position: center center;
-
-  animation: bg-spin2 3s linear infinite;
-  
-}
-
-@keyframes bg-spin2 {
-  to {
-    --border-angle2: 1turn;
-  }
-}
-
-
-@property --border-angle2 {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0turn;
 }
 
 .lottery .heading{
   color: #ffd700;
   font-family: 'Kaivalya', sans-serif;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: clamp(1.2rem, 1.7vw, 1.7rem);
   
 }
 
 .lottery-header{
-  margin-top: 22rem;
 }
 
 .result{
   overflow:visible;
   height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .table {
   font-family: 'Montserrat', sans-serif;
   color: rgba(255, 255, 255, 0.662);
-  width: 90%;
-  max-width: 800px;
+  width: 70vw;
+  font-size: clamp(0.8rem, 1.4vw, 1.4rem);
   margin: 40px auto;
   border-collapse: collapse;
   border: 1px solid #ffd9008a;
