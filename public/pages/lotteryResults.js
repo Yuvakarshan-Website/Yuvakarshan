@@ -37,19 +37,21 @@ export default function LotteryResults() {
 
                 <table class="table">
                   <tbody>
-                    <tr><td>St. Xaviers Collegiate School</td><td>Mesopotamian</td></tr>
-                    <tr><td>National English School, Baguiati</td><td>Native American</td></tr>
-                    <tr><td>St. Francis Xavier's</td><td>Japanese</td></tr>
-                    <tr><td>St. Augustine Day School Barrackpore</td><td>Russian</td></tr>
-                    <tr><td>Delhi Public School Megacity</td><td>Aztec</td></tr>
-                    <tr><td>Delhi Public School Newtown</td><td>Greek</td></tr>
-                    <tr><td>Methodist School Dankuni</td><td>Korean</td></tr>
-                    <tr><td>St. Augustine Day School, Shyamnagar</td><td>Norse</td></tr>
-                    <tr><td>Mangalam Vidya Niketan</td><td>Celtic</td></tr>
-                    <tr><td>The Bhawanipur Gujrati Education Society</td><td>Egyptian</td></tr>
-                    <tr><td>Narayana School Newtown</td><td>Mayan</td></tr>
-                    <tr><td>Salt Lake School</td><td>Chinese</td></tr>
-                    <tr><td>North Point</td><td>Persian</td></tr>
+                    <tr><td>Delhi Public School Megacity</td><td>R &amp; B Music</td></tr>
+                    <tr><td>QMS</td><td>Indian Classical Music</td></tr>
+                    <tr><td>Methodist School Dankuni</td><td>Jazz Music</td></tr>
+                    <tr><td>Delhi Public School Ruby Park</td><td>Phonk Music</td></tr>
+                    <tr><td>The BGES</td><td>Latin Music</td></tr>
+                    <tr><td>St. Xavier's Collegiate School</td><td>Pop Music</td></tr>
+                    <tr><td>Pramila Memorial Advanced School</td><td>Disco Music</td></tr>
+                    <tr><td>Delhi Public School Newtown</td><td>Hip Hop Music</td></tr>
+                    <tr><td>St. Augustine School, Barrackpore</td><td>Reggae Music</td></tr>
+                    <tr><td>St. Francis Xavier School</td><td>Electronic Dance Music</td></tr>
+                    <tr><td>Mangalam Vidya Niketan</td><td>Indie Music</td></tr>
+                    <tr><td>Salt Lake School</td><td>Country Music</td></tr>
+                    <tr><td>Narayana</td><td>Gothic Music</td></tr>
+                    <tr><td>NES, Baguiati</td><td>Folk Music</td></tr>
+                    <tr><td>NES, Rajarhat</td><td>Rock Music</td></tr>
                   </tbody>
                 </table>
             </div>
