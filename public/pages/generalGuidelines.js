@@ -13,7 +13,7 @@ export default function GeneralGuidelines() {
 
          <p class="YuvaHist">
         <span class='header'>Notice Board</span><br>
-        • All schools are requested to regularly check the <a href='/noticeBoard' class='notice-board-link' data-link>notice board</a> of this website for updates.
+        • All schools are requested to regularly check the <a href='/noticeBoard' class='notice-board-link' data-link>notice board</a> of this website for updates. Refresh that page when you open it to ensure that all updates reach you.
         </p>
         
         <p class="YuvaHist">
