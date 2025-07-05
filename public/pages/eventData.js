@@ -464,8 +464,8 @@ export const eventData = {
     </ul>
   `
   },
-  '/KuberaCapital': {
-    name: "Kubera Capital",
+  '/KuberaKapital': {
+    name: "Kubera Kapital",
     logo: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp",
     segment: "Chanakya's Council",
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
