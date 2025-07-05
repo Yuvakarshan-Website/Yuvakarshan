@@ -67,7 +67,7 @@ export default function Events() {
               <div class="card-title">Indra's <br /> Influence</div>
             </a>
 
-            <a href="/KuberaCapital" data-link class="card">
+            <a href="/KuberaKapital" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp" alt="Kubera Capital">
               <div class="card-title">Kubera <br />Capital</div>
             </a>
