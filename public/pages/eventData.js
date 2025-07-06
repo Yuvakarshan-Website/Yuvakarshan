@@ -1431,7 +1431,7 @@ export const eventData = {
         <ul>
           <li>Minimum Level: 30</li>
           <li>No inappropriate usernames</li>
-          <li>Use your school’s clan tag (e.g., DPSNxPlayerName)</li>
+          <li>Atleast 3 Players Should have the same Clan Tag. If you fail to do so 2 Points will be deducted</li>
         </ul>
       </li>
       <li><strong>Uniform:</strong> Full school uniform mandatory</li>
@@ -1441,17 +1441,36 @@ export const eventData = {
       <li><strong>Accessories:</strong> Bring your own pillows/accessories; none will be provided</li>
       <li><strong>Power Supply:</strong> Each team must bring one extension cord due to limited power points</li>
       <li><strong>Audio Equipment:</strong> Speaker mode not allowed; use of earphones/headphones/earbuds is compulsory</li>
-      <li><strong>Match Maps:</strong>
+      <li><strong>Prilimnary Round Maps:</strong>
         <ul>
-          <li>Round 1 – Sanhok</li>
-          <li>Round 2 – Livik</li>
-          <li>Round 3 – Vikendi</li>
-          <li>Round 4 – Livik</li>
-          <li>Round 5 – Sanhok/Livik</li>
-          <li>Round 6 – Livik</li>
-          <li><strong>Final Round (Onstage):</strong> Livik</li>
+          <li>Round 1 – Erangle</li>
+          <li>Round 2 – Miramar</li>
+          <li>Round 3 – Sanhok</li>
+          <li>Round 4 – Vikendi</li>
+          <li>Round 5 – Erangle/Livik</li>
         </ul>
       </li>
+      <li><strong>Finale - The Overall Top 3 Teams after the Preliminary Round will go for a TDM Battle On Stage:</strong>
+        <ul>
+          <li>Format:</li>
+            <ul>
+              <li>A vs B</li>
+              <li>B vs C</li>
+              <li>A vs C</li>
+            </ul>
+          <li>1 Tie Breaker TDM Match May be held in case of a Tie</li>
+          <li>Rules of TDM:</li>
+            <ul>
+              <li>ONLY M416</li>
+              <li>No Melee Weapon</li>
+              <li>No Throwables</li>
+              <li>No Level 3 Helmet-Vest</li>
+              <li>No Pistol Weapon Allowed</li>
+              <li>Double M4 Allowed</li>
+            </ul>
+        </ul>
+      </li>
+      <li>If found Cheating, Stream sniping or use of any Unfair means, a warning with a deduction of -2 will be given. Repeated offenders will be Disqualified.</li>
       <li><strong>Extras:</strong> Final round may include live commentary and player walk-ins for audience engagement (if permitted)</li>
     </ul>
     
@@ -1472,7 +1491,6 @@ export const eventData = {
       </li>
       <li><strong>Finish Points:</strong> 1 point per kill</li>
       <li><strong>Final Score:</strong> Team with the highest total points wins</li>
-      <li><strong>Tie-Breaker:</strong> A 5–6 minute TDM match will be held between tied teams</li>
     </ul>
   `
   },
