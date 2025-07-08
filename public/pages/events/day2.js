@@ -57,7 +57,7 @@ export default function EventsDay2() {
               <div class="card-title">Tarkanjali <br /> ‎ </div>
             </a>
 
-            <a href="/Shataranj" data-link class="card">
+            <a href="/Shatranj" data-link class="card">
               <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/29.webp" alt="Shataranj">
               <div class="card-title">Shataranj <br /> ‎ </div>
             </a>
