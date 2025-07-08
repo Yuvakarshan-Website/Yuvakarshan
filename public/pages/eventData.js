@@ -1236,45 +1236,35 @@ export const eventData = {
       <li><strong>Team Size:</strong> 2 participants per school</li>
       <li><strong>Dress Code:</strong> <em>School uniform is mandatory</em></li>
       <li><strong>Event Duration:</strong> 1 day (approx. 4 to 4.5 hours)</li>
-      <li><strong>Time Slot:</strong> Each school gets 1.5 hours for their starting round</li>
+      <li><strong>Time Slot:</strong> All schools will be going on the hunt simultaneously. </li>
       <li><strong>Devices:</strong>
         <ul>
-          <li>Participants must bring a mobile phone for clue communication in the online round</li>
-          <li><strong>Internet use during the offline treasure hunt is strictly prohibited</strong> and will lead to disqualification</li>
+          <li>Participants must bring a mobile phone for clue communication via an online platform.</li>
+          <li>Internet usage by the participants is allowed to assist themselves in solving the puzzles.</li>
         </ul>
       </li>
       <li><strong>Communication & Clue System:</strong>
         <ul>
-          <li>A dedicated online platform will be used for puzzle clues and progress tracking</li>
-          <li>Participants will be added to the communication channel before the event</li>
-          <li>Only this platform may be used for queries and hint requests</li>
-          <li>Yes/No Questions: Max 20 questions allowed</li>
+          <li>A dedicated online platform will be used for puzzle clues and progress tracking.</li>
+          <li>Participants will be added to the communication channel before the event.</li>
+          <li>Only this platform may be used for queries and hint requests.</li>
+          <li>Yes/No Questions: Max 20 questions allowed for the entire day.</li>
         </ul>
       </li>
       <li><strong>Puzzles:</strong>
         <ul>
-          <li>Puzzles are sequential and location-based, each leading to the next</li>
-          <li>Hints and leads will be regulated by the event in-charge</li>
-          <li>Surprises and twists will unfold during the event — participants must stay alert and adaptive</li>
+          <li>Puzzles will be sequential and location-based, each leading to the next.</li>
+          <li>Hints and leads will be regulated by the event in-charges, shared via the online platform.</li>
+          <li>Surprises and twists will unfold during the event — participants must stay alert and adaptive.</li>
         </ul>
       </li>
     </ul>
 
     <strong>Round Details:</strong><br>
     <ul>
-      <li>Schools will be divided into 3 groups of 5 schools each (via lottery)</li>
-      <li>Each group will compete in a 45-minute internal round</li>
-      <li>The first school to complete all puzzles in a group will be the group winner</li>
-      <li>If no school completes all puzzles:
-        <ul>
-          <li>School that reaches the furthest puzzle wins</li>
-          <li>If tied, the one that reached that level first wins</li>
-        </ul>
-      </li>
-      <li>In rare cases, more than one school per group may qualify for finals</li>
-      <li>The three winning schools will compete in the final round (approx. 1.5 to 2 hours)</li>
-      <li>No time limit in final round unless no school completes it</li>
-      <li>Round structure may be slightly adjusted to ensure fairness</li>
+      <li>UPDATED: One singular round for all the schools.</li>
+      <li>The school which finishes all the puzzles the first will be declared the winner, irrespective of the points. </li>
+      <li>In case no school succeeds at finishing all the puzzles within the stipulated time, the school with the highest points will be declared the winner.</li>
     </ul>
 
     <strong>Judgement Criteria:</strong><br>
