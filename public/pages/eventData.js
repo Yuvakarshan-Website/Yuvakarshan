@@ -886,6 +886,7 @@ export const eventData = {
       <li><strong>No school names or identifiers</strong> should be included on the artwork</li>
       <li>Judges will assess both the <strong>artwork and pitch</strong></li>
       <li>Carry your own drawing boards and required materials</li>
+      <li> Products will have a budget of minimum Rs. 2500 to maximum Rs. 6500 </li>
     </ul>
 
     <strong>Judgement Criteria:</strong><br>
@@ -1369,13 +1370,50 @@ export const eventData = {
       <li><strong>Teams:</strong> 4 players per school (no mid-match substitutions; only pre-registered substitutes allowed)</li>
       <li><strong>Dress Code:</strong> School uniform</li>
       <li><strong>Mode:</strong> Squads – Battle Royale (PC, Console, or Mobile; one platform per player throughout)</li>
-      <li><strong>Rounds:</strong>
-        <ul>
-          <li><strong>Round 1 (Qualifiers):</strong> Battle Royale – 15 teams → Top 10 advance</li>
-          <li><strong>Round 2 (Semis):</strong> Reload Mode – 10 teams → Top 5 advance</li>
-          <li><strong>Round 3 (Finals):</strong> Reload Mode – Best of 3 matches (5 teams)</li>
-        </ul>
-      </li>
+
+      
+      <strong>IndraShock – Fortnite Reload Scoring System</strong><br><br>
+      <ul>
+        <li><strong>Match Format:</strong> 7 teams, 7 matches of Fortnite Reload</li>
+
+        <li><strong>Placement Points (per match):</strong>
+          <ul>
+            <li><strong>1st:</strong> 12 points</li>
+            <li><strong>2nd:</strong> 9 points</li>
+            <li><strong>3rd:</strong> 7 points</li>
+            <li><strong>4th:</strong> 5 points</li>
+            <li><strong>5th:</strong> 3 points</li>
+            <li><strong>6th:</strong> 2 points</li>
+            <li><strong>7th:</strong> 1 point</li>
+          </ul>
+        </li>
+
+        <li><strong>Elimination Points:</strong>
+          <ul>
+            <li>1 point per elimination</li>
+            <li>All team eliminations in a match are added to the match score</li>
+          </ul>
+        </li>
+
+        <li><strong>Total Match Score:</strong>
+          <ul>
+            <li>Match Score = Placement Points + Elimination Points</li>
+          </ul>
+        </li>
+
+        <li><strong>Final Scoring:</strong>
+          <ul>
+            <li>All match scores from 7 matches are added for final ranking</li>
+            <li><strong>Winner:</strong> Team with the highest cumulative score</li>
+            <li><strong>Tie-breaker:</strong>
+              <ol>
+                <li>Team with the highest total eliminations</li>
+                <li>If still tied, team with the better average placement</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+      </ul>
       <li><strong>Communication:</strong>
         <ul>
           <li><strong>Discord:</strong> Match coordination, lobby codes, check-ins</li>
