@@ -639,71 +639,49 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/ChanakyasCouncil.png",
     subject: "Shark Tank",
     description:`
-    <strong>General Rules:</strong><br>
-    <ul>
-      <li><strong>Number of Participants:</strong> 2</li>
-      <li><strong>Dress Code:</strong> School Uniform</li>
-      <li><strong>Props:</strong> Allowed (must be informed 3 days in advance)</li>
-      <li><strong>Devices:</strong> Only 1 laptop per team allowed</li>
-      <li><strong>Internet:</strong> To be self-managed by participants</li>
-      <li><strong>Sector Allotment:</strong> Via lottery at the Representatives’ Meet</li>
-    </ul>
+    <strong>Important Rules:</strong><br>
+  <ul>
+    <li>Carry own devices for internet connection for necessary usage required for Round 1. Devices not allowed to be used for any other round.</li>
+    <li>1 laptop per team allowed + Mobile phones as per requirement.</li>
+    <li>6 schools will qualify for the 3rd Round.</li>
+    <li>Points deduction for late submission, exceeding time in presentation, and not adhering to the instructions.</li>
+    <li>Submission of PPT on 20th July.</li>
+    <li>Idea must be original and not a copy of an existing company.</li>
+    <li>Use of AI is not accepted. PPTs will be checked for AI Scanning, should not be more than 10%.</li>
+    <li>Props—if carrying, to be informed on 20TH JULY itself. – Not Necessary</li>
+    <li> Number of Participants: &emsp;2</li>
+  </ul>
 
-    <strong>Rounds:</strong><br>
-    <ul>
-      <li><strong>Round 1 – Surprise Round</strong></li>
+  <strong>Event Details:</strong><br>
+  <ul>
+    <li><strong>ROUND 1: SURPRISE ROUND :</strong> Devices Required</li>
+    
+    <li><strong>ROUND 2: PITCH- PRESENTATION – 6 minutes per team</strong>
+      <ul>
+        <li><strong>NECESSARY IN PPT:</strong>
+          <ul>
+            <li>Business Lifetime</li>
+            <li>Founders’ background</li>
+            <li>Commodity description</li>
+            <li>Unique Selling Proposition</li>
+            <li>Pricing Criteria</li>
+            <li>Financial Model—Revenue, Expenses, Return on Investment, Cash Flow projection.</li>
+            <li>Growth Trend Graph - COMPULSORY</li>
+            <li>Proposed Investment Offer</li>
+          </ul>
+        </li>
+        <li>Note: Above mentioned are necessary to be included in your presentation. Participants can include anything else if they want to but extra points not allotted for it.</li>
+      </ul>
+    </li>
 
-      <li><strong>Round 2 – Business Pitch:</strong>
-        <ul>
-          <li>Pitch your business idea supported by a PPT</li>
-          <li><strong>Submission Deadline:</strong> 20th July 2025</li>
-          <li><strong>Time:</strong> 6 minutes presentation + 1 minute buffer</li>
-        </ul>
-      </li>
-
-      <li><strong>Round 3 – Investment Offers:</strong>
-        <ul>
-          <li>Q&amp;A and Investment session with judges to defend your pitch</li>
-          <li><strong>Time:</strong> 6 minutes</li>
-          <li><strong>Only 7 teams</strong> qualify for this final round</li>
-        </ul>
-      </li>
-    </ul>
-
-    <strong>Important Information:</strong><br>
-    <ul>
-      <li>Teams receive sectors via lottery and must prepare a unique business and PPT including:
-        <ul>
-          <li>Business lifetime</li>
-          <li>Founders’ background</li>
-          <li>Product/service description</li>
-          <li>Unique Selling Proposition (USP)</li>
-          <li>Pricing criteria</li>
-          <li>Financial model</li>
-          <li>Proposed investment offer</li>
-        </ul>
-      </li>
-    </ul>
-
-    <strong>Judging Criteria:</strong><br>
-    <ul>
-      <li><strong>Round 1:</strong> Effective handling of the challenge – 10 points</li>
-      <li><strong>Round 2:</strong>
-        <ul>
-          <li>PPT design & creativity – 10 points</li>
-          <li>Innovation – 5 points</li>
-          <li>Financial model – 5 points</li>
-        </ul>
-      </li>
-      <li><strong>Round 3:</strong> Convincing and communication skills – 10 points</li>
-      <li><strong>Overall:</strong>
-        <ul>
-          <li>Entrepreneurial skills and teamwork – 10 points</li>
-          <li>Discipline and adherence to guidelines – 10 points</li>
-        </ul>
-      </li>
-      <li><strong>Total:</strong> 60 points</li>
-    </ul>
+    <li><strong>ROUND 3: FIGHT FOR YOUR DEAL – 7 Minutes each qualifying team</strong>
+      <ul>
+        <li>It includes answering questions from judges and audience.</li>
+        <li>Judge will propose investment offer.</li>
+        <li>Points will be allotted for your entrepreneurial skills in this round and not for getting investment only.</li>
+      </ul>
+    </li>
+  </ul>
   `
   },
 
@@ -1134,6 +1112,9 @@ export const eventData = {
                       <li>Same set of problems for both participants; time usage at team’s discretion</li>
                       <li>All submissions to be made via the provided LAN network in the lab</li>
                       <li>No application except the IDE and the calculator to be used</li>
+                      <li>Submissions will be checked manually by external judges</li>
+                      <li>IDEs for respective languages will be provided on School Computers. Language to be informed on the day of the competition.</li>
+
                     </ul>
                       <strong>Judgment Criteria:</strong><br><br>
                       <strong>• Round 1 (Error-solving):</strong>

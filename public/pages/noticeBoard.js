@@ -11,9 +11,25 @@ export default function NoticeBoard() {
 
             <div class="notice">
                 <div class="accordion">
+                  <button class="accordion-button">Vyapaar Yagna and CyberSiddhanta - details updated! <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 10th July </span></button>
+                  <div class="accordion-content">
+                    <p>Kindly note a few minor changes in the event details of <a href="/VyapaarYagna" data-link style="color: #ffd700;">Vyapaar Yagna</a> and <a href="/CyberSiddhanta" data-link style="color: #ffd700;">CyberSiddhanta</a> by visiting their respective event pages.</a></p>
+                  </div>
+                </div>
+            </div>
+        
+            <div class="notice">
+                <div class="accordion">
                   <button class="accordion-button">IndraShock, Anveshan, Chakravyuh & Sudarshan's Spin - a change in details! <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 8th July </span></button>
                   <div class="accordion-content">
-                    <p>Kindly note a few minor changes in the event details of Anveshan, IndraShock, Chakravyuh and Sudarshan's Spin by visiting their respective event pages.</a></p>
+                      <p>
+                      Kindly note a few minor changes in the event details of 
+                      <a href="/Anveshan" data-link style="color: #ffd700;">Anveshan</a>, 
+                      <a href="/IndraShock" data-link style="color: #ffd700;">IndraShock</a>, 
+                      <a href="/Chakravyuh" data-link style="color: #ffd700;">Chakravyuh</a> and 
+                      <a href="/SudarshansSpin" data-link style="color: #ffd700;">Sudarshan's Spin</a> 
+                      by visiting their respective event pages.
+                    </p>
                   </div>
                 </div>
             </div>
