@@ -1263,7 +1263,7 @@ export const eventData = {
     <strong>Round Details:</strong><br>
     <ul>
       <li>UPDATED: One singular round for all the schools.</li>
-      <li>The school which finishes all the puzzles the first will be declared the winner, irrespective of the points. </li>
+      <li>The school which finishes all the puzzles (including surprise ones) the first will be declared the winner, irrespective of the points. </li>
       <li>In case no school succeeds at finishing all the puzzles within the stipulated time, the school with the highest points will be declared the winner.</li>
     </ul>
 
