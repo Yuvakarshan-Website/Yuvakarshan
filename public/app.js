@@ -67,7 +67,7 @@ const routes = {
   '/Anveshan': eventDetails,
   '/ArthashastraArena': eventDetails,
   '/IndrasInfluence': eventDetails,
-  '/KuberaCapital': eventDetails,
+  '/KuberaKapital': eventDetails,
   '/HanumansCombat': eventDetails,
   '/Vrittanta': eventDetails,
   '/NukkadNatak': eventDetails,
