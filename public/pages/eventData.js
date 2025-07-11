@@ -954,7 +954,7 @@ export const eventData = {
       <li><strong>Participants:</strong> 10 per school (maximum 7 actors; must include the director, scriptwriter, and editor)</li>
       <li><strong>Only the Director and Scriptwriter</strong> are to be present on the main day (25th July)</li>
       <li><strong>Film Duration:</strong> 8–10 minutes; final submission in <code>.mp4</code> format</li>
-      <li><strong>Theme:</strong> To be revealed on <strong>11th July</strong> (Reps Meet)</li>
+      <li><strong>Theme:</strong> <strong>In the Blink of an Eye</strong></li>
       <li><strong>School Code Dispatch:</strong> 11th July via official channels</li>
       
       <li><strong>Submissions:</strong>
