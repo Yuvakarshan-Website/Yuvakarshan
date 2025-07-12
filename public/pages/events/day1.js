@@ -68,7 +68,7 @@ export default function Events() {
             </a>
 
             <a href="/KuberaKapital" data-link class="card">
-              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp" alt="Kubera Capital">
+              <img src="https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/logos/8.webp" alt="Kubera Kapital">
               <div class="card-title">Kubera <br />Capital</div>
             </a>
 
