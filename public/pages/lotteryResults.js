@@ -189,7 +189,7 @@ export default function LotteryResults() {
                     </tr>
                     <tr>
                       <td>St Augustine's Day School, Barrackpore</td>
-                      <td>Battles, quests, and endless lives— where reality pauses and game begins. </td>
+                      <td>Wears adventure like skin, lives between suitcases, movement and flights to catch.</td>
                     </tr>
                   </tbody>
                 </table>
