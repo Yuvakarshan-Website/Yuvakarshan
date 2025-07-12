@@ -1226,7 +1226,7 @@ export const eventData = {
           <li>A dedicated online platform will be used for puzzle clues and progress tracking.</li>
           <li>Participants will be added to the communication channel before the event.</li>
           <li>Only this platform may be used for queries and hint requests.</li>
-          <li>Yes/No Questions: Max 20 questions allowed for the entire day.</li>
+          <li>Yes/No Questions: Max 30 questions allowed for the entire day per school. (may be varied based on circumstances)</li>
         </ul>
       </li>
       <li><strong>Puzzles:</strong>
