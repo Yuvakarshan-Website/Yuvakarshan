@@ -54,7 +54,7 @@ const routes = {
   '/VaigyanikVistaar': eventDetails,
   '/VanijyaVerse': eventDetails,
   '/Tarkanjali': eventDetails,
-  '/Shataranj': eventDetails,
+  '/Shatranj': eventDetails,
   '/NyayaYudh': eventDetails,
   '/VyapaarYagna': eventDetails,
   '/RaagaSangam': eventDetails,
