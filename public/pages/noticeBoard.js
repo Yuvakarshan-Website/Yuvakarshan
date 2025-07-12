@@ -11,9 +11,45 @@ export default function NoticeBoard() {
 
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">Theme for Chitrakatha out! <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 11th July </span></button>
+                  <button class="accordion-button">🚨 All events on July 17th postponed to July 18th<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
                   <div class="accordion-content">
-                    <p>The theme for Chitrakatha has been declared. Check it out<a href="/Chitrakatha" data-link style="color: #ffd700;"> here</a>.</p>
+                    <p>Due to clashes with CISCE events, all events scheduled in the buffer section on the <b style="color: #ffd700;">17th of July</b> will now be held on the <b style="color: #ffd700;">18th of July</b></p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Theme for Chitrakatha out! <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
+                  <div class="accordion-content">
+                    <p>The theme for Chitrakatha has been declared. Check it out <a href="/Chitrakatha" data-link style="color: #ffd700;">here</a>.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Final Date for Chakra League confirmed!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
+                  <div class="accordion-content">
+                    <p>To clear all confusion regarding the rescheduling of Chakra League, the final date of the event is <b style="color: #ffd700;">18th July</b></p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Nyaya Yudh Case Files out!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
+                  <div class="accordion-content">
+                    <p>Please find the case files for Nyaya Yudh, shared on the Whatsapp Group</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Kubera Kapital resources out!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
+                  <div class="accordion-content">
+                    <p>Please find the mock retirement plan and case study for Kubera Kapital, shared on the Whatsapp Group</p>
                   </div>
                 </div>
             </div>

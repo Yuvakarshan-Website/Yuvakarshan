@@ -538,7 +538,7 @@ export const eventData = {
         <ul>
           <li><strong>Screening Profile Released:</strong> 13th July</li>
           <li><strong>IPO Submission Deadline (Screening Round):</strong> 15th July 2025</li>
-          <li><strong>Announcement of Top 8:</strong> 17th July 2025</li>
+          <li><strong>Announcement of Top 8:</strong> 18th July 2025</li>
           <li><strong>Company Profiles Released:</strong> 19th July 2025</li>
           <li><strong>Round 1 Presentation Submission:</strong> 22nd July 2025</li>
         <ul>
@@ -946,12 +946,12 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KarigariHub.png",
     subject: "Short Film",
     description:`
+    <strong>Theme: <strong>In the Blink of an Eye</strong><br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants:</strong> 10 per school (maximum 7 actors; must include the director, scriptwriter, and editor)</li>
       <li><strong>Only the Director and Scriptwriter</strong> are to be present on the main day (25th July)</li>
       <li><strong>Film Duration:</strong> 8–10 minutes; final submission in <code>.mp4</code> format</li>
-      <li><strong>Theme:</strong> <strong>In the Blink of an Eye</strong></li>
       <li><strong>School Code Dispatch:</strong> 11th July via official channels</li>
       
       <li><strong>Submissions:</strong>
@@ -1332,7 +1332,7 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/Shastra-Byte.png",
     subject: "Fortnite",
     description:`
-    <strong>Date:</strong> 17th July<br><br>
+    <strong>Date:</strong> 18th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Teams:</strong> 4 players per school (no mid-match substitutions; only pre-registered substitutes allowed)</li>
@@ -1612,7 +1612,7 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Yoga",
     description:`
-    <strong>Date:</strong> 17th July<br><br>
+    <strong>Date:</strong> 18th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 4 total – 2 girls and 2 boys (no substitutes allowed)</li>
@@ -1723,7 +1723,7 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Football",
     description:`
-    <strong>Date:</strong> 17th July<br><br>
+    <strong>Date:</strong> 18th July<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Team Composition:</strong> 12 participants per school – 7 players (including goalkeeper) and up to 5 substitutes</li>
