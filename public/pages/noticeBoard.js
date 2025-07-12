@@ -92,7 +92,7 @@ export default function NoticeBoard() {
                 <div class="accordion">
                   <button class="accordion-button">AppUrva & Vaigyaanik Vistaar - Themes announced! <span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem)'> on 30th June </span></button>
                   <div class="accordion-content">
-                    <p>The themes of the two events - data-link style="color: #ffd700;">AppUrva</a> and data-link style="color: #ffd700;">Vaigyaanik Vistaar</a>, have been announced. Schools are requested to check the respective event pages for details.</p>
+                    <p>The themes of the two events - <a href="/AppUrva" data-link style="color: #ffd700;">AppUrva</a> and <a href="/VaigyaanikVistaar" data-link style="color: #ffd700;">Vaigyaanik Vistaar</a>, have been announced. Schools are requested to check the respective event pages for details.</p>
                   </div>
                 </div>
             </div>
