@@ -8,12 +8,22 @@ export default function NoticeBoard() {
         <div class="YuvaHist Title additional">NOTICE BOARD</div>
         
         <div class="notice-container">
+        
 
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">🚨 All events on July 17th postponed to July 18th<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
+                  <button class="accordion-button">🚨 📌 All events on July 17th postponed to July 18th<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
                   <div class="accordion-content">
                     <p>Due to clashes with CISCE events, all events scheduled in the buffer section on the <b style="color: #ffd700;">17th of July</b> will now be held on the <b style="color: #ffd700;">18th of July</b></p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Vaniya Verse, Vyaapar Yagna and Leela Manch - Lottery Results uploaded!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 13th July </span></button>
+                  <div class="accordion-content">
+                    <p>Lottery results have been uploaded for the events - Vaniya Verse, Vyaapar Yagna and Leela Manch. Check it out - <a href='/lotteryResults' class='notice-board-link' data-link>here.</a></p>
                   </div>
                 </div>
             </div>
