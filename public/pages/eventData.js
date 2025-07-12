@@ -146,10 +146,7 @@ export const eventData = {
 
     <strong>Judgement Criteria:</strong><br>
     <ul>
-      <li>Coordination</li>
-      <li>Stage Presence</li>
-      <li>Song Selection & Difficulty</li>
-      <li><strong>Negative Marking:</strong> Marks deducted for every extra minute</li>
+      <li>To be decided by the Judges</li>
     </ul>
   `
   },
