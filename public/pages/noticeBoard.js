@@ -23,6 +23,15 @@ export default function NoticeBoard() {
                 <div class="accordion">
                   <button class="accordion-button">Vaniya Verse, Vyaapar Yagna and Leela Manch - Lottery Results uploaded!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 13th July </span></button>
                   <div class="accordion-content">
+                    <p>The order of performance which will be followed has been uploaded on the website. Check it out - <a href='/generalGuidelines' class='notice-board-link' data-link>here.</a></p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">Vaniya Verse, Vyaapar Yagna and Leela Manch - Lottery Results uploaded!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 13th July </span></button>
+                  <div class="accordion-content">
                     <p>Lottery results have been uploaded for the events - Vaniya Verse, Vyaapar Yagna and Leela Manch. Check it out - <a href='/lotteryResults' class='notice-board-link' data-link>here.</a></p>
                   </div>
                 </div>

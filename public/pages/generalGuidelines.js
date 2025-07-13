@@ -11,6 +11,31 @@ export default function GeneralGuidelines() {
         To ensure a smooth and memorable experience for all, students attending Yuvakarshan 2K25 are requested to strictly adhere to the following guidelines:
         </p>  
 
+        <p class="YuvaHist">
+        <span class='header'>Order of Performance</span><br>
+        • The order of performance will be -  <br /> <br />
+
+ ⁠1.	BGES School <br />
+	2.	DPS Megacity <br />
+	3.	DPS Newtown <br />
+	4.	DPS Ruby Park <br />
+	5.	Mangalam Vidya Niketan <br />
+	6.	Methodist School <br />
+	7.	Narayana School <br />
+	8.	NES Baguiati <br />
+	9.	NES Rajarhat <br />
+	10.	North Point <br />
+	11.	Pramila Memorial <br />
+	12.	Salt Lake School <br />
+	13.	St. Augustine School, Barrackpore <br />
+	14.	St. Augustine School, Shyamnagar <br />
+	15.	St. Francis Xaviers <br />
+	16.	St. Xavier’s Collegiate <br />
+	17.	The Future Foundation <br />
+	18.	The Heritage School <br />
+	19.	The Newtown School <br />
+        </p>
+
          <p class="YuvaHist">
         <span class='header'>Notice Board</span><br>
         • All schools are requested to regularly check the <a href='/noticeBoard' class='notice-board-link' data-link>notice board</a> of this website for updates. Refresh the page when you open it to ensure that all updates reach you.
