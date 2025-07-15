@@ -173,7 +173,7 @@ export const eventData = {
       <li>Participants are responsible for their own instruments; the host school is not liable for any loss or theft</li>
       <li><strong>Backdrop Submission:</strong>
         <ul>
-          <li>Must be elegant and submitted in .mp4 format by 15th July 2025</li>
+          <li>Must be elegant and submitted in .mp4 format by 20th July 2025</li>
           <li>Host school will provide a default if none is submitted</li>
           <li>Inappropriate backdrops will result in marks deduction</li>
         </ul>
