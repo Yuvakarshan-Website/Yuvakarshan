@@ -9,7 +9,15 @@ export default function NoticeBoard() {
         
         <div class="notice-container">
         
-
+            <div class="notice">
+                <div class="accordion">
+                  <button class="accordion-button">🚨 📌 Rudra's Racquet and Vedic Race postponed till further notice<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 14th July </span></button>
+                  <div class="accordion-content">
+                    <p>Due to rain forecast, Rudra's Racquet and Vedic Race has been postponed till further notice </p>
+                  </div>
+                </div>
+            </div>
+            
             <div class="notice">
                 <div class="accordion">
                   <button class="accordion-button">🚨 📌 All events on July 17th postponed to July 18th<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 12th July </span></button>
