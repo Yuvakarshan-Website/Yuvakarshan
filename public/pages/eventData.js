@@ -1053,13 +1053,13 @@ export const eventData = {
         <li>Each team must manufacture an autonomous robot capable of navigating through passages with 12cm high walls.</li>
         <li>Robots need not have a path finding algorithm but must not back-track along the same path</li>
         <li>Robots must not line followers</li>
-        <li>Only one round will be held — fastest completions will be declared winners</li>
-        <li>The maze shall be revealed to contestants 30 minutes prior and participants may utilize the time to fine tune their robot</li>
+        <li>Two rounds will be held a 1.Trial round, which is not counted for judgement, robots may map out the maze — 2. Final round whereing fastest completions will be declared winners</li>
+        <li>There will be a duration between the trial round and final round. Prticipants may utilize the time to fine tune their robot</li>
         <li>Teams may carry:
           <ul>
             <li>1 laptop (optional)</li>
             <li>1 repair toolkit (optional)</li>
-            <li>To be used <em>outside</em> the arena only</li>
+            <li>To be used <em>outside</em> the arena only (between trial and final rounds)</li>
           </ul>
         </li>
         <li>No electronic devices, repair kits, or communication with the robot allowed inside the arena</li>
@@ -1140,12 +1140,26 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/VikramsVision.png",
     subject: "App Development",
     description:`
+    <strong>Topic: </strong>
+    
+    <i> Innovate for Impact – Build the Future Through Apps That Matter </i> <br />
+
+    <ul>
+
+    <li> This challenge is about more than ideas — it’s about bringing those ideas to life. Identify a real-world problem and build a fully functional app that addresses it in a meaningful, practical way. </li> 
+
+    <li> Participants are invited to think like app entrepreneurs: focused on solving relevant issues through technology that is not only innovative, but also usable, scalable, and ready to deploy. Whether the problem lies in healthcare, education, sustainability, accessibility, or daily life, the solution should reflect a clear understanding of the need and a well-thought-out path to impact.  </li> 
+
+    <li> The app is the core of your solution. It should be designed, developed, and delivered as a working solution — supported by thoughtful features, strong user experience, and a clear integration into the real-world systems it aims to improve. This isn’t just about prototypes or concepts; it’s about building something that can actually be used.  </li> 
+
+    <li> This is your opportunity to combine purpose-driven innovation with technical excellence — and shape the future, one app at a time.  </li> 
+
+    </ul><br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li>Number of participants per school: 2</li>
       <li>Dress code: <em>School uniform</em></li>
       <li>Event type: <strong>App development</strong></li>
-      <li>Topics will be announced <em>3 weeks prior</em> to the event</li>
       <li>A fully deployable, <strong>original</strong> app must be developed beforehand</li>
       <li>Use of all resources except templates is permitted; <strong>presenting a previously designed app or any plagiarism will lead to disqualification</strong></li>
       <li><strong>Submission Deadline:</strong> 20th July</li>
@@ -1183,23 +1197,7 @@ export const eventData = {
       <li><strong>Bonus (+5):</strong> For outstanding innovation or creative tech use</li>
     </ul>
 
-    Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop. <br><br>
-
-    <strong>Topic: </strong>
-    
-    <i> Innovate for Impact – Build the Future Through Apps That Matter </i> <br />
-
-    <ul>
-
-    <li> This challenge is about more than ideas — it’s about bringing those ideas to life. Identify a real-world problem and build a fully functional app that addresses it in a meaningful, practical way. </li> 
-
-    <li> Participants are invited to think like app entrepreneurs: focused on solving relevant issues through technology that is not only innovative, but also usable, scalable, and ready to deploy. Whether the problem lies in healthcare, education, sustainability, accessibility, or daily life, the solution should reflect a clear understanding of the need and a well-thought-out path to impact.  </li> 
-
-    <li> The app is the core of your solution. It should be designed, developed, and delivered as a working solution — supported by thoughtful features, strong user experience, and a clear integration into the real-world systems it aims to improve. This isn’t just about prototypes or concepts; it’s about building something that can actually be used.  </li> 
-
-    <li> This is your opportunity to combine purpose-driven innovation with technical excellence — and shape the future, one app at a time.  </li> 
-
-    </ul>
+    Judging will be based on a <strong>live demo, hands-on interaction, and code review</strong> on the participant’s laptop.
   `
   },
   '/Anveshan': {

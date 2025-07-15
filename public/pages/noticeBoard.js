@@ -11,9 +11,9 @@ export default function NoticeBoard() {
         
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">🚨 📌 Rudra's Racquet and Vedic Race postponed till further notice<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 14th July </span></button>
+                  <button class="accordion-button">🚨 📌 Rudra's Racquet and Vedic Race postponed until further notice<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 14th July </span></button>
                   <div class="accordion-content">
-                    <p>Due to rain forecast, Rudra's Racquet and Vedic Race has been postponed till further notice </p>
+                    <p>Due to rain forecast, Rudra's Racquet and Vedic Race has been postponed until further notice </p>
                   </div>
                 </div>
             </div>
@@ -29,16 +29,16 @@ export default function NoticeBoard() {
 
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">Vaniya Verse, Vyaapar Yagna and Leela Manch - Lottery Results uploaded!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 13th July </span></button>
+                  <button class="accordion-button">Mecha Yaan - Minor change in format.<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 16th July </span></button>
                   <div class="accordion-content">
-                    <p>The order of performance which will be followed has been uploaded on the website. Check it out - <a href='/generalGuidelines' class='notice-board-link' data-link>here.</a></p>
+                    <p>Please refer to the updated details for <a href="/MechaYaan" data-link style="color: #ffd700;">MechaYaan</a>, Minor changes in the format of rounds has been made.</p>
                   </div>
                 </div>
             </div>
 
             <div class="notice">
                 <div class="accordion">
-                  <button class="accordion-button">Vaniya Verse, Vyaapar Yagna and Leela Manch - Lottery Results uploaded!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 13th July </span></button>
+                  <button class="accordion-button">Vanijya Verse, Vyaapar Yagna and Leela Manch - Lottery Results uploaded!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 13th July </span></button>
                   <div class="accordion-content">
                     <p>Lottery results have been uploaded for the events - Vaniya Verse, Vyaapar Yagna and Leela Manch. Check it out - <a href='/lotteryResults' class='notice-board-link' data-link>here.</a></p>
                   </div>
