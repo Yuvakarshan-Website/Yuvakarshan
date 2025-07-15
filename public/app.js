@@ -10,7 +10,7 @@ import repsEvent from './pages/events/repsEvent.js';
 import eventDetails from './pages/eventDetails.js';
 import LotteryResults from './pages/lotteryResults.js';
 
-import { Application } from 'https://unpkg.com/@splinetool/runtime@latest/build/runtime.js';
+import { Application } from 'https://unpkg.com/@splinetool/runtime@1.10.27/build/runtime.js';
 import NoticeBoard from './pages/noticeBoard.js';
 
 let ClickPromptShown = false;
