@@ -205,11 +205,18 @@ body {
   position: relative;
 }
 
-#canvas3d {
+#canvasContainer {
+  height: 100svh !important;
+  width: 100vw !important;
+  overflow-x: hidden;
   position: fixed;
   top: 0;
   left: 0;
-  max-height: 100svh; 
+  pointer-events: none;
+  z-index: 5;
+}
+#canvas3d {
+  height: 100svh !important;
   width: 100vw;
   display: block;
   z-index: 5;
@@ -217,7 +224,7 @@ body {
   overflow: hidden;
 }
 
-#canvas3d.active {
+#canvasContainer.active {
   position: absolute;
   top: 360vh;
 }
@@ -526,7 +533,9 @@ body {
   .home {
     height: 580lvh;
     padding: 1rem;
+    overflow-x: hidden;
   }
+
 
   .home-banner {
   top: 10lvh;
@@ -571,10 +580,13 @@ body {
   }
 
   #canvas3d {
+    width: 190vw !important;
+    transform: translateX(-45vw);
   }
 
-  #canvas3d.active {
-    top: 320vh;
+  #canvasContainer.active {
+    position: absolute;
+    top: 320vh !important;
   }
 
 

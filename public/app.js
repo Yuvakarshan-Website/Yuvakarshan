@@ -136,13 +136,13 @@ function render(path) {
 
 
   if (normalized === '/' || normalized === '/home') {
-
+      const container = document.getElementById('canvasContainer');
       const canvas = document.getElementById('canvas3d');
       const app = new Application(canvas);
 
       if (isPortrait) {
           app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
-          //document.getElementById('loader').classList.add('fade-out');
+          document.getElementById('loader').classList.add('fade-out');
           const targetObject = app.findObjectByName('yuva');
           handlePortraitScroll(targetObject, window.scrollY || window.pageYOffset);
           window.addEventListener('scroll', () => {
@@ -163,7 +163,8 @@ function render(path) {
           const scrollY = window.scrollY || window.pageYOffset;
           handleLandscapeScroll(targetObject, scrollY);
         });
-        });      
+        });   
+        
       }
 
 
@@ -191,7 +192,7 @@ function render(path) {
             state = "down";
           }
         }
-        canvas.classList.toggle("active", scrollY >= h * 3.6);
+        container.classList.toggle("active", scrollY >= h * 3.6);
       } 
 
       function handlePortraitScroll(targetObject, scrollY) {
@@ -216,8 +217,10 @@ function render(path) {
             state = "down";
           }
         }
-        canvas.classList.toggle("active", scrollY >= h * 3.2);
+        container.classList.toggle("active", scrollY >= h * 3.2);
       } 
+
+
   }
 
   if (normalized === '/team') {

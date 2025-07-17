@@ -5,7 +5,7 @@ export default function Home() {
 
   container.innerHTML = `
     <div class="homeBg"></div>
-    <canvas id="canvas3d"></canvas>
+    <div id="canvasContainer"><canvas id="canvas3d"></canvas></div>
     <div class="home-banner">
       <div class="welcome">24TH & 25TH JULY</div>
       <div class="title">YUVAKARSHAN</div>
