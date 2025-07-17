@@ -142,7 +142,7 @@ function render(path) {
 
       if (isPortrait) {
           app.load('https://prod.spline.design/dvDgIP6WrikB45aj/scene.splinecode').then(() => {
-          document.getElementById('loader').classList.add('fade-out');
+          //document.getElementById('loader').classList.add('fade-out');
           const targetObject = app.findObjectByName('yuva');
           handlePortraitScroll(targetObject, window.scrollY || window.pageYOffset);
           window.addEventListener('scroll', () => {

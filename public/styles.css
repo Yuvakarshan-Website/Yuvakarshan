@@ -214,6 +214,7 @@ body {
   display: block;
   z-index: 5;
   pointer-events: none;
+  overflow: hidden;
 }
 
 #canvas3d.active {
@@ -567,6 +568,9 @@ body {
     margin-left: 0.01rem;
     font-size: 0.7rem;
     letter-spacing: 0.2rem;
+  }
+
+  #canvas3d {
   }
 
   #canvas3d.active {
