@@ -12,6 +12,7 @@ import LotteryResults from './pages/lotteryResults.js';
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@1.10.27/build/runtime.js';
 import NoticeBoard from './pages/noticeBoard.js';
+import DiveDeeper from './pages/divedeeper.js';
 
 let ClickPromptShown = false;
 
@@ -36,6 +37,7 @@ const routes = {
   '/team': Team,
   '/lotteryResults': LotteryResults,
   '/noticeBoard': NoticeBoard,
+  '/divedeeper': DiveDeeper,
   '/SudarshansSpin': eventDetails,
   '/RudrasRacquet': eventDetails,
   '/VaayuSmash': eventDetails,
