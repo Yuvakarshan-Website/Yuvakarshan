@@ -108,7 +108,7 @@ export const eventData = {
     <strong>Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 6–8 members</li>
-      <li><strong>Dress Code:</strong> School uniform (mandatory)</li>
+      <li><strong>Dress Code:</strong>Long T-shirts are allowed instead of school shirts. No short shirts or crop tops. No skirts are allowed.</li>
       <li><strong>Time Limit:</strong> 8 minutes + 2 minutes (including setup)</li>
       <li><strong>Round Format:</strong> Only 1 round will be held</li>
       <li><strong>Allowed Music:</strong> Only Western songs</li>
@@ -1846,7 +1846,7 @@ export const eventData = {
     segmentFrame: "https://cdn.jsdelivr.net/gh/Yuvakarshan-Website/yuva-files@main/KartikeyasCombat.png",
     subject: "Relay Race",
     description:`
-    <strong>Date:</strong> 16th July<br><br>
+    <strong>Date:</strong>UPDATED TO 25TH JULY<br><br>
     <strong>General Guidelines:</strong><br>
     <ul>
       <li><strong>Participants per School:</strong> 1 girls’ team and 1 boys’ team, with 4 participants per team (total: 8 participants)</li>

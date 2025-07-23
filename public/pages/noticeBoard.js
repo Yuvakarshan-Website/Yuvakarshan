@@ -29,6 +29,15 @@ export default function NoticeBoard() {
 
             <div class="notice">
                 <div class="accordion">
+                  <button class="accordion-button">Raaga Rock dress code and Vedic Race date change!<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 23rd July </span></button>
+                  <div class="accordion-content">
+                    <p>Kindly check the changes in the dress code of Raaga Rock and note that Vedic Race will be held on the 25th of July.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="notice">
+                <div class="accordion">
                   <button class="accordion-button">Mecha Yaan - Minor change in format.<span style='color: rgba(182, 182, 182, 0.68); font-size: clamp(1rem, 1.2vw, 1.2rem);'> on 16th July </span></button>
                   <div class="accordion-content">
                     <p>Please refer to the updated details for <a href="/MechaYaan" data-link style="color: #ffd700;">MechaYaan</a>, Minor changes in the format of rounds has been made.</p>
