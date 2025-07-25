@@ -7,7 +7,7 @@ export default function Home() {
     <div class="homeBg"></div>
     <div id="canvasContainer"><canvas id="canvas3d"></canvas></div>
     <div class="home-banner">
-      <div class="welcome">24TH & 25TH JULY</div>
+      <div class="welcome">SIGNING OFF.</div>
       <div class="title">YUVAKARSHAN</div>
       <div class="subtitle">2K25</div>
       <div class="tagline">Rise Like a Phoenix, Reign Like a God</div>
