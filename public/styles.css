@@ -1319,7 +1319,8 @@ body {
   background-position: center center;
 
   animation: bg-spin 3s linear infinite;
-  
+  cursor: pointer;  
+  text-decoration: none;
 }
 
 @keyframes bg-spin {

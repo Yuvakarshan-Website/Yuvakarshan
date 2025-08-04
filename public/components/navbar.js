@@ -20,7 +20,7 @@ export default function Navbar() {
         <li><a href="/" class="nav-link" data-link>Home</a></li>
         <li><a href="/generalGuidelines" class="nav-link" data-link>Guidelines</a></li>
         <li><a href="/eventsDay1" class="nav-link" data-link>Events</a></li>
-        <li><a href="/noticeBoard" class="nav-link" data-link>Notices</a></li>
+        <li><a href="https://drive.google.com/drive/u/1/folders/1CMm8py-Y1xZeiACU8cwbHdnSzPRPYLML" class="nav-link">Gallery</a></li>
         <li><a href="/team" class="nav-link" data-link>Team</a></li>
       </ul>
     <div class="nav-right">

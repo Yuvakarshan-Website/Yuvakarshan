@@ -4,7 +4,7 @@ export default function Gallery() {
 
   container.innerHTML = `
     <div class="galleryBg">
-        <div class="galleryMessage">STAY TUNED!</div>
+        <a href="https://drive.google.com/drive/u/1/folders/1CMm8py-Y1xZeiACU8cwbHdnSzPRPYLML" class="galleryMessage">Drive Link 👆</a>
     </div>
   `;
 
